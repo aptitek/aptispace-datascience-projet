@@ -420,8 +420,7 @@ Ce document dynamique a été compilé en Quarto ([Team
 
 # Bibliographie
 
-<div id="refs" class="references csl-bib-body hanging-indent"
-entry-spacing="0">
+<div id="refs" class="references csl-bib-body hanging-indent">
 
 <div id="ref-pandas2020" class="csl-entry">
 
@@ -433,7 +432,7 @@ Pandas, NumPy, and IPython*. O’Reilly Media.
 <div id="ref-quarto2024" class="csl-entry">
 
 Team, Quarto Development. 2024. “Quarto Dynamic Publishing System:
-Collaborative Scientific and Technical Publishing.” 2024.
+Collaborative Scientific and Technical Publishing.”
 <https://quarto.org/>.
 
 </div>
