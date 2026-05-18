@@ -5,6 +5,10 @@ sys.path.append('/home/aptitek/Documents/Aptispace/datascience/lab/projet')
 # %pip install -r ../requirements.txt
 
 
+# Installation automatique des dépendances requises dans le noyau Jupyter actuel
+# %pip install -r ../requirements.txt
+
+
 import os
 import numpy as np
 import matplotlib.pyplot as plt
