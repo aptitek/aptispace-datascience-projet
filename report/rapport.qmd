@@ -31,9 +31,7 @@ bibliography: references.bib
 link-citations: true
 ---
 
-::: {.content-visible when-format="html,gfm"}
 [![CI Compilation Pipeline](https://github.com/aptitek/aptispace-datascience-projet/actions/workflows/ci.yml/badge.svg)](https://github.com/aptitek/aptispace-datascience-projet/actions/workflows/ci.yml)
-:::
 
 # Introduction et Contexte Métier {#sec-intro}
 
