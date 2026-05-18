@@ -31,9 +31,9 @@ bibliography: references.bib
 link-citations: true
 ---
 
-[![CI Compilation Pipeline](https://github.com/aptitek/aptispace-datascience-projet/actions/workflows/ci.yml/badge.svg)](https://github.com/aptitek/aptispace-datascience-projet/actions/workflows/ci.yml)
-
 # Introduction et Contexte Métier {#sec-intro}
+
+[![CI Compilation Pipeline](https://github.com/aptitek/aptispace-datascience-projet/actions/workflows/ci.yml/badge.svg)](https://github.com/aptitek/aptispace-datascience-projet/actions/workflows/ci.yml)
 
 *À rédiger par les étudiants : Présentez ici le contexte global du projet de transition écologique de la métropole, les enjeux sociétaux de la mobilité active, les questions scientifiques soulevées et la problématique métier que vous cherchez à résoudre.*
 

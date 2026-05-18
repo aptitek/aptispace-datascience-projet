@@ -49,6 +49,8 @@ Nom\], Étudiant(e) 3 : \[Insérer Prénom Nom\]
 
 # Introduction et Contexte Métier
 
+[![](https://github.com/aptitek/aptispace-datascience-projet/actions/workflows/ci.yml/badge.svg)](https://github.com/aptitek/aptispace-datascience-projet/actions/workflows/ci.yml)
+
 *À rédiger par les étudiants : Présentez ici le contexte global du
 projet de transition écologique de la métropole, les enjeux sociétaux de
 la mobilité active, les questions scientifiques soulevées et la
@@ -418,7 +420,8 @@ Ce document dynamique a été compilé en Quarto ([Team
 
 # Bibliographie
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0">
 
 <div id="ref-pandas2020" class="csl-entry">
 
@@ -430,7 +433,7 @@ Pandas, NumPy, and IPython*. O’Reilly Media.
 <div id="ref-quarto2024" class="csl-entry">
 
 Team, Quarto Development. 2024. “Quarto Dynamic Publishing System:
-Collaborative Scientific and Technical Publishing.”
+Collaborative Scientific and Technical Publishing.” 2024.
 <https://quarto.org/>.
 
 </div>

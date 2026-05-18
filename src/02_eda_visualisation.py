@@ -1,5 +1,5 @@
 import os, sys
-sys.path.append('/home/runner/work/aptispace-datascience-projet/aptispace-datascience-projet')
+sys.path.append('/home/aptitek/Documents/Aptispace/datascience/lab/projet')
 
 import os
 import sys

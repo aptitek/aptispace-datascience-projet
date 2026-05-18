@@ -1,7 +1,7 @@
 === STDOUT ===
 
 === STDERR ===
-  File "/home/runner/work/aptispace-datascience-projet/aptispace-datascience-projet/src/02_eda_visualisation.py", line 17
+  File "/home/aptitek/Documents/Aptispace/datascience/lab/projet/src/02_eda_visualisation.py", line 17
     %matplotlib inline
     ^
 SyntaxError: invalid syntax
