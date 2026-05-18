@@ -33,7 +33,8 @@ link-citations: true
 
 # Introduction et Contexte Métier {#sec-intro}
 
-[![CI Compilation Pipeline](https://github.com/aptitek/aptispace-datascience-projet/actions/workflows/ci.yml/badge.svg)](https://github.com/aptitek/aptispace-datascience-projet/actions/workflows/ci.yml)
+[![CI Compilation Pipeline](https://github.com/lilipix/data-science-project/actions/workflows/ci.yml/badge.svg)](https://github.com/lilipix/data-science-project/actions/workflows/ci.yml)
+
 
 *À rédiger par les étudiants : Présentez ici le contexte global de votre projet, la problématique métier que vous cherchez à résoudre, les questions scientifiques soulevées et les opportunités d'aide à la décision sur la base de vos données.*
 
