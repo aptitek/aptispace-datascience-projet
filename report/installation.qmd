@@ -107,7 +107,7 @@ Si vous préférez installer chaque outil individuellement, suivez les instructi
 
 # 🏃 Initialisation du Projet
 
-Une fois l'ensemble des outils installés, ouvrez votre terminal dans le répertoire `projet/` et suivez les étapes d'initialisation suivantes :
+Une fois l'ensemble des outils installés, ouvrez votre terminal dans le répertoire racine et suivez les étapes d'initialisation suivantes :
 
 ## 1. Créer l'environnement virtuel Python
 ```bash

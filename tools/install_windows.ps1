@@ -1,5 +1,12 @@
-# PowerShell Script for Automated Environment Setup on Windows using Chocolatey
+﻿# PowerShell Script for Automated Environment Setup on Windows using Chocolatey
 $ErrorActionPreference = "Stop"
+
+# Vérification des privilèges Administrateur
+$isAdmin = ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
+if (-not $isAdmin) {
+    Write-Error "⚠️ Ce script doit être exécuté en tant qu'Administrateur ! Veuillez ouvrir PowerShell en mode Administrateur et réessayer."
+    Exit
+}
 
 Write-Host "🚀 Démarrage de l'installation automatisée pour Windows..." -ForegroundColor Cyan
 
@@ -16,16 +23,28 @@ if (-not (Get-Command choco -ErrorAction SilentlyContinue)) {
 # Recharger les variables d'environnement dans la session actuelle
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 
+# S'assurer que le chemin de Chocolatey est bien présent dans la session actuelle
+$chocoPath = "$env:ALLUSERSPROFILE\chocolatey\bin"
+if (Test-Path $chocoPath) {
+    if ($env:Path -notlike "*chocolatey*") {
+        $env:Path += ";$chocoPath"
+    }
+}
+
 # 2. Installation des dépendances système
 Write-Host "📦 Installation des outils requis..." -ForegroundColor Cyan
 
 # Python 3.12 (ou version supérieure disponible)
 Write-Host "🐍 Installation de Python 3..." -ForegroundColor Yellow
-choco install python3 --version=3.12.2 -y --skip-automated-dependency-resolution
+choco install python3 --version 3.12.2 -y --skip-automated-dependency-resolution
 
 # Quarto CLI
 Write-Host "✍️ Installation de Quarto CLI..." -ForegroundColor Yellow
 choco install quarto -y
+
+# Git CLI
+Write-Host "✍️ Installation de Git..." -ForegroundColor Yellow
+choco install git -y
 
 # Typst (PDF Engine ultra-rapide)
 Write-Host "⚡ Installation de Typst..." -ForegroundColor Yellow

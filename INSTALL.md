@@ -133,7 +133,7 @@ instructions ci-dessous :
 # 🏃 Initialisation du Projet
 
 Une fois l’ensemble des outils installés, ouvrez votre terminal dans le
-répertoire `projet/` et suivez les étapes d’initialisation suivantes :
+répertoire racine et suivez les étapes d’initialisation suivantes :
 
 ## 1. Créer l’environnement virtuel Python
 

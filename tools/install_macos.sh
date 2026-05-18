@@ -26,6 +26,10 @@ echo "📦 Installation des outils système..."
 echo "🐍 Installation de Python 3.12..."
 brew install python@3.12
 
+# Git
+echo "🐍 Installation de Git..."
+brew install git
+
 # Quarto CLI
 echo "✍️ Installation de Quarto CLI..."
 brew install --cask quarto
