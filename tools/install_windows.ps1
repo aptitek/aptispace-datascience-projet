@@ -1,0 +1,39 @@
+# PowerShell Script for Automated Environment Setup on Windows using Chocolatey
+$ErrorActionPreference = "Stop"
+
+Write-Host "🚀 Démarrage de l'installation automatisée pour Windows..." -ForegroundColor Cyan
+
+# 1. Vérification et installation de Chocolatey
+if (-not (Get-Command choco -ErrorAction SilentlyContinue)) {
+    Write-Host "ℹ️ Chocolatey n'est pas détecté. Installation de Chocolatey en cours..." -ForegroundColor Yellow
+    Set-ExecutionPolicy Bypass -Scope Process -Force
+    [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
+    Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+} else {
+    Write-Host "✅ Chocolatey est déjà installé." -ForegroundColor Green
+}
+
+# Recharger les variables d'environnement dans la session actuelle
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+
+# 2. Installation des dépendances système
+Write-Host "📦 Installation des outils requis..." -ForegroundColor Cyan
+
+# Python 3.12 (ou version supérieure disponible)
+Write-Host "🐍 Installation de Python 3..." -ForegroundColor Yellow
+choco install python3 --version=3.12.2 -y --skip-automated-dependency-resolution
+
+# Quarto CLI
+Write-Host "✍️ Installation de Quarto CLI..." -ForegroundColor Yellow
+choco install quarto -y
+
+# Typst (PDF Engine ultra-rapide)
+Write-Host "⚡ Installation de Typst..." -ForegroundColor Yellow
+choco install typst -y
+
+# Go-Task (Taskfile)
+Write-Host "⚙️ Installation de Go-Task..." -ForegroundColor Yellow
+choco install go-task -y
+
+Write-Host "✅ Installation terminée avec succès !" -ForegroundColor Green
+Write-Host "⚠️ IMPORTANT : Veuillez fermer et rouvrir votre terminal pour appliquer les changements globaux de PATH." -ForegroundColor Yellow

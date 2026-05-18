@@ -42,3 +42,9 @@ tasks:
     cmds:
       - task: compile
       - quarto preview report/rapport.qmd
+
+  install-guide:
+    desc: Génère le guide d'installation sous tous les formats (HTML, PDF, Markdown) et met à jour INSTALL.md à la racine
+    cmds:
+      - quarto render report/installation.qmd
+      - cp report/INSTALL.md ./INSTALL.md
