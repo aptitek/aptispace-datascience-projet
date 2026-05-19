@@ -65,7 +65,20 @@ sujet de recherche est-il pertinent et stratégique ?* - *Pourquoi
 l’analyse quantitative de ce jeu de données est-elle indispensable pour
 répondre à votre problématique ?*
 
-\[Rédiger votre paragraphe de contexte ici\]
+Ce projet s’inscrit dans une problématique de Data Science appliquée au marché immobilier, un domaine où l’analyse de données joue un rôle clé dans la prise de décision des particuliers, agences et investisseurs.
+
+L’objectif général est de comprendre et prédire les prix des logements à partir de plusieurs sources de données :
+
+caractéristiques tabulaires (surface, localisation, nombre de pièces, etc.),
+données contextuelles issues de plateformes immobilières,
+et éventuellement données visuelles (images de logements).
+
+Dans un contexte de marché immobilier fortement hétérogène, les prix peuvent varier de manière importante en fonction de critères complexes et non linéaires. L’analyse quantitative permet donc de :
+
+objectiver les facteurs influençant les prix,
+détecter des patterns cachés dans les données,
+et construire des modèles prédictifs fiables.
+
 
 ## Objectif Analytique
 
@@ -77,7 +90,27 @@ de données multi-sources et l’intégration de différents types de données
 *Quels sont les livrables analytiques attendus pour répondre à votre
 problématique et guider les prises de décisions ?*
 
-\[Rédiger votre paragraphe d’objectifs ici\]
+L’objectif principal du projet est de construire un modèle prédictif de régression capable d’estimer le prix d’un bien immobilier.
+
+Plus précisément, nous cherchons à :
+
+prédire la variable cible : prix du logement
+analyser les variables explicatives (surface, localisation, équipements…)
+comparer plusieurs modèles de Machine Learning supervisé
+intégrer, si possible, une dimension Deep Learning (CNN) sur des images de logements afin d’enrichir les prédictions
+
+Le projet suit une approche multimodale, combinant :
+
+données tabulaires structurées,
+données non structurées (images),
+et modèles d’apprentissage automatique avancés.
+
+Les livrables attendus sont :
+
+un pipeline complet de Data Science,
+un modèle prédictif performant,
+un dashboard interactif d’aide à la décision.
+
 
 ------------------------------------------------------------------------
 
@@ -95,7 +128,18 @@ vos fichiers de données brutes. Indiquez la liste des anomalies
 physiques et typologiques détectées (formats de dates hétérogènes,
 outliers physiques, taux de valeurs manquantes, etc.).*
 
-\[Rédiger votre audit de données ici\]
+Les données brutes utilisées dans ce projet proviennent de sources immobilières ouvertes (type Kaggle / Airbnb / datasets immobiliers).
+
+Lors de l’audit initial, plusieurs problèmes ont été identifiés :
+
+valeurs manquantes dans certaines variables (surface, équipements)
+incohérences de format (prix en différentes devises ou formats texte)
+présence de valeurs aberrantes (outliers sur les prix extrêmes)
+variables catégorielles non normalisées (quartiers, types de biens)
+doublons dans certaines entrées issues de plateformes multiples
+
+Un diagnostic initial a permis de définir une stratégie de nettoyage adaptée afin de garantir la qualité des modèles futurs.
+
 
 ## Algorithme de Nettoyage
 
@@ -104,7 +148,23 @@ vos opérations de traitement (uniformisation des dates, masquage des
 outliers, imputation, etc.). Faites référence aux fonctions
 correspondantes de votre module `src/data_clean.py`.*
 
-\[Rédiger la justification méthodologique ici\]
+Le pipeline de nettoyage suit les étapes suivantes :
+
+Uniformisation des formats
+conversion des prix en format numérique
+standardisation des unités (m² pour les surfaces)
+Traitement des valeurs manquantes
+imputation par médiane pour les variables numériques
+imputation par mode pour les variables catégorielles
+Gestion des outliers
+suppression des valeurs extrêmes via méthode IQR
+ou transformation logarithmique du prix
+Encodage des variables catégorielles
+One-Hot Encoding pour les variables nominales
+Label Encoding pour certaines variables ordinales
+Normalisation des variables
+standardisation (StandardScaler) pour les modèles ML sensibles à l’échelle
+
 
 ## Travaux Pratiques de Wrangling
 
