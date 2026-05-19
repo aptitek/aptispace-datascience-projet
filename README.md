@@ -77,7 +77,7 @@ Dans un contexte de marché immobilier fortement hétérogène, les prix peuvent
 
 objectiver les facteurs influençant les prix,
 détecter des patterns cachés dans les données,
-et construire des modèles prédictifs fiables.
+et construire des modèles prédictifs fiables
 
 
 ## Objectif Analytique
