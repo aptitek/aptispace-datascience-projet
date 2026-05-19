@@ -10,7 +10,7 @@ print("🧹 Wrangling démarré")
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-raw_path = os.path.join(BASE_DIR, "data", "processed", "data_merged.csv")
+raw_path = os.path.join(BASE_DIR, "data", "processed", "raw_merged.csv")
 processed_path = os.path.join(BASE_DIR, "data", "processed", "cleaned_data_sample.csv")
 
 print("📂 Dataset source :", raw_path)
