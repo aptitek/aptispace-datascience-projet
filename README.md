@@ -80,6 +80,11 @@ détecter des patterns cachés dans les données,
 et construire des modèles prédictifs fiables
 
 
+## Dataset
+
+- House Prices – Advanced Regression (Kaggle)
+- https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
+
 ## Objectif Analytique
 
 *À rédiger par les étudiants — Pistes de réflexion :* - *Quelles sont
