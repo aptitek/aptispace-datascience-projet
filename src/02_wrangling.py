@@ -1,46 +1,86 @@
-import os, sys
-sys.path.append('/home/aptitek/Documents/Aptispace/datascience/lab/projet')
-
-# Installation automatique des dépendances requises dans le noyau Jupyter actuel
-# %pip install -r ../requirements.txt
-
+# 🧹 02_wrangling.py — Data Wrangling & Nettoyage
 
 import os
 import sys
 import pandas as pd
 import numpy as np
 
-# Ajout du dossier parent pour importer 'src'
-sys.path.append(os.path.abspath('..'))
-from src import data_clean as dc
+print("🧹 Wrangling démarré")
 
-print("Librairies prêtes pour le Wrangling !")
+# =====================================================
+# 🔥 CHEMIN PROJET ROBUSTE
+# =====================================================
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-raw_data_path = '../data/raw/raw_data_sample.csv'
-df_raw = dc.load_raw_data(raw_data_path)
+raw_path = os.path.join(BASE_DIR, "data", "processed", "data_merged.csv")
+processed_path = os.path.join(BASE_DIR, "data", "processed", "cleaned_data_sample.csv")
 
-# TODO: Effectuer un audit rapide avec .info(), .isnull().sum() et .duplicated().sum()
-df_raw.info()
+print("📂 Dataset source :", raw_path)
 
+if not os.path.exists(raw_path):
+    raise FileNotFoundError(f"❌ Fichier introuvable : {raw_path}")
 
-# TODO: Appeler votre fonction dc.clean_dates() sur la colonne correspondante
-df_clean = dc.clean_dates(df_raw, 'timestamp')
-df_clean.head()
+# =====================================================
+# 1. CHARGEMENT
+# =====================================================
 
+df = pd.read_csv(raw_path)
 
-# TODO: Utiliser dc.handle_outliers() avec les seuils minimum et maximum plausibles
-df_no_outliers = dc.handle_outliers(df_clean, ['value'], 0.0, 100.0)
-df_no_outliers.describe()
+print(f"✔ Dataset chargé : {df.shape}")
 
+# =====================================================
+# 2. AUDIT QUALITÉ
+# =====================================================
 
-# TODO: Appliquer dc.impute_missing_values() avec la méthode de votre choix
-df_final = dc.impute_missing_values(df_no_outliers, ['value'], 'interpolate')
-print("Anomalies restantes après imputation :", df_final.isnull().sum())
+print("\n📊 INFO DATASET")
+print(df.info())
 
+print("\n❌ VALEURS MANQUANTES")
+print(df.isnull().sum())
 
-processed_path = '../data/processed/cleaned_data_sample.csv'
-# TODO: Sauvegarder avec df.to_csv()
-df_final.to_csv(processed_path, index=False)
-print(f"💾 Données propres sauvegardées dans : {processed_path}")
+print("\n🔁 DOUBLONS")
+print(df.duplicated().sum())
 
+# =====================================================
+# 3. NETTOYAGE DES DATES (si colonne existe)
+# =====================================================
+
+if "timestamp" in df.columns:
+    df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce")
+    print("✔ Dates converties")
+
+# =====================================================
+# 4. OUTLIERS SUR VALUE
+# =====================================================
+
+if "value" in df.columns:
+    df["value"] = df["value"].apply(
+        lambda x: np.nan if (x < 0 or x > 100) else x
+    )
+    print("✔ Outliers traités (value)")
+
+# =====================================================
+# 5. IMPUTATION DES VALEURS MANQUANTES
+# =====================================================
+
+# zone_type
+if "zone_type" in df.columns:
+    df["zone_type"] = df["zone_type"].fillna("Unknown")
+
+# coef_multiplicateur
+if "coef_multiplicateur" in df.columns:
+    df["coef_multiplicateur"] = df["coef_multiplicateur"].fillna(df["coef_multiplicateur"].median())
+
+print("✔ Imputation améliorée terminée")
+
+# =====================================================
+# 6. SAUVEGARDE
+# =====================================================
+
+os.makedirs(os.path.dirname(processed_path), exist_ok=True)
+
+df.to_csv(processed_path, index=False)
+
+print(f"💾 Données nettoyées sauvegardées : {processed_path}")
+print("🚀 Wrangling terminé avec succès !")
