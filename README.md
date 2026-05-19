@@ -155,27 +155,27 @@ correspondantes de votre module `src/data_clean.py`.*
 
 Le pipeline de nettoyage suit les étapes suivantes :
 
-Uniformisation des formats: 
+### Uniformisation des formats: 
 
 conversion des prix en format numérique
 standardisation des unités (m² pour les surfaces)
 
-Traitement des valeurs manquantes :
+### Traitement des valeurs manquantes :
 
 imputation par médiane pour les variables numériques
 imputation par mode pour les variables catégorielles
 
-Gestion des outliers:
+### Gestion des outliers:
 
 suppression des valeurs extrêmes via méthode IQR
 ou transformation logarithmique du prix
 
-Encodage des variables catégorielles:
+### Encodage des variables catégorielles:
 
 One-Hot Encoding pour les variables nominales
 Label Encoding pour certaines variables ordinales
 
-Normalisation des variables:
+### Normalisation des variables:
 
 standardisation (StandardScaler) pour les modèles ML sensibles à l’échelle
 
