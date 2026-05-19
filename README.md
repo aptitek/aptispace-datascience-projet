@@ -1,6 +1,9 @@
 # Mon Projet Data Science
 Étudiant(e) 1 :celia merabet  
 Étudiant(e) 2 : Abderrahmane Karim RAKEM
+Étudiant(e) 3 : BOUYABRI Mohamed
+
+
 
 2026-05-18
 
