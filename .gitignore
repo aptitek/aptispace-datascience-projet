@@ -35,3 +35,8 @@ Thumbs.db
 *.html
 /.quarto/
 **/*.quarto_ipynb
+
+
+# Modèles entraînés (trop lourds pour Git)
+models/*.keras
+models/*.h5
