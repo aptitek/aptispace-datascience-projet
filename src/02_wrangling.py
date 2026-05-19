@@ -7,9 +7,6 @@ import numpy as np
 
 print("🧹 Wrangling démarré")
 
-# =====================================================
-# 🔥 CHEMIN PROJET ROBUSTE
-# =====================================================
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -51,31 +48,50 @@ if "timestamp" in df.columns:
     print("✔ Dates converties")
 
 # =====================================================
-# 4. OUTLIERS SUR VALUE
+# 4. OUTLIERS SUR TARGET (SalePrice)
 # =====================================================
 
-if "value" in df.columns:
-    df["value"] = df["value"].apply(
-        lambda x: np.nan if (x < 0 or x > 100) else x
-    )
-    print("✔ Outliers traités (value)")
+if "SalePrice" in df.columns:
+    q1 = df["SalePrice"].quantile(0.01)
+    q99 = df["SalePrice"].quantile(0.99)
+
+    df.loc[
+        (df["SalePrice"] < q1) | (df["SalePrice"] > q99),
+        "SalePrice"
+    ] = np.nan
+
+    print("✔ Outliers traités sur SalePrice (1% trimming)")
 
 # =====================================================
 # 5. IMPUTATION DES VALEURS MANQUANTES
 # =====================================================
 
-# zone_type
-if "zone_type" in df.columns:
-    df["zone_type"] = df["zone_type"].fillna("Unknown")
+# categorical fill
+cat_cols = df.select_dtypes(include="object").columns
+for col in cat_cols:
+    df[col] = df[col].fillna("Unknown")
 
-# coef_multiplicateur
-if "coef_multiplicateur" in df.columns:
-    df["coef_multiplicateur"] = df["coef_multiplicateur"].fillna(df["coef_multiplicateur"].median())
+# numeric fill
+num_cols = df.select_dtypes(include=[np.number]).columns
+for col in num_cols:
+    df[col] = df[col].fillna(df[col].median())
 
 print("✔ Imputation améliorée terminée")
 
 # =====================================================
-# 6. SAUVEGARDE
+# 6. FEATURE ENGINEERING SIMPLE (BON BONUS PROJET)
+# =====================================================
+
+if "YrSold" in df.columns and "YearBuilt" in df.columns:
+    df["HouseAge"] = df["YrSold"] - df["YearBuilt"]
+
+if "SalePrice" in df.columns:
+    df["LogSalePrice"] = np.log1p(df["SalePrice"])
+
+print("✔ Feature engineering ajouté")
+
+# =====================================================
+# 7. SAUVEGARDE
 # =====================================================
 
 os.makedirs(os.path.dirname(processed_path), exist_ok=True)
@@ -84,3 +100,5 @@ df.to_csv(processed_path, index=False)
 
 print(f"💾 Données nettoyées sauvegardées : {processed_path}")
 print("🚀 Wrangling terminé avec succès !")
+
+

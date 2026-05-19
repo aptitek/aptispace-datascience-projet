@@ -1,58 +1,92 @@
 
-
 import os
 import sys
 import pandas as pd
+import numpy as np
+
 
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 sys.path.append(os.path.abspath('..'))
-
 from src import data_clean as dc
 
-print("🧠 Modélisation démarrée")
+print("🚀 Modélisation démarrée")
 
-# Chargement
-df = pd.read_csv('../data/processed/cleaned_data_sample.csv')
+# =====================================================
+# 1. CHARGEMENT DATA
+# =====================================================
 
-# Conversion
-df['YrSold'] = pd.to_datetime(df['YrSold'], format='%Y')
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+data_path = os.path.join(BASE_DIR, "data", "processed", "cleaned_data_sample.csv")
 
-# Feature engineering
-df_feat = dc.feature_engineering(df, 'YrSold')
+df = pd.read_csv(data_path)
+print("✔ Dataset chargé :", df.shape)
 
-# Features / target
-features = [
-    'GrLivArea',
-    'TotalBsmtSF',
-    'GarageArea',
-    'OverallQual'
-]
+# =====================================================
+# 2. FEATURE ENGINEERING
+# =====================================================
 
-target = 'SalePrice'
+df['timestamp'] = pd.to_datetime(df['timestamp'], errors='coerce')
+df_feat = dc.feature_engineering(df, 'timestamp')
 
-# Train / test split
-X_train = df_feat[features].iloc[:-200]
-y_train = df_feat[target].iloc[:-200]
+# fallback si dataset house prices (pas timestamp réel)
+if 'hour' not in df_feat.columns:
+    df_feat['hour'] = 12
+if 'dayofweek' not in df_feat.columns:
+    df_feat['dayofweek'] = 1
 
-X_test = df_feat[features].iloc[-200:]
-y_test = df_feat[target].iloc[-200:]
+# =====================================================
+# 3. FEATURES / TARGET
+# =====================================================
 
-# Modèle
-rf_model = RandomForestRegressor(
+target = "SalePrice" if "SalePrice" in df_feat.columns else "value"
+
+features = [c for c in ["hour", "dayofweek"] if c in df_feat.columns]
+
+X = df_feat[features]
+y = df_feat[target]
+
+# split chronologique simple
+split = int(len(df_feat) * 0.8)
+X_train, X_test = X.iloc[:split], X.iloc[split:]
+y_train, y_test = y.iloc[:split], y.iloc[split:]
+
+# =====================================================
+# 4. RANDOM FOREST
+# =====================================================
+
+rf = RandomForestRegressor(
     n_estimators=100,
     random_state=42
 )
 
-rf_model.fit(X_train, y_train)
+rf.fit(X_train, y_train)
+y_pred = rf.predict(X_test)
 
-# Prédictions
-y_pred = rf_model.predict(X_test)
+# =====================================================
+# 5. METRICS
+# =====================================================
 
-# Score
 mae = mean_absolute_error(y_test, y_pred)
+rmse = np.sqrt(mean_squared_error(y_test, y_pred))
+r2 = r2_score(y_test, y_pred)
 
-print(f"MAE : {mae:.2f}")
+print("\n📊 METRICS")
+print("MAE :", mae)
+print("RMSE:", rmse)
+print("R2  :", r2)
 
-print("✅ Modélisation terminée")
+# =====================================================
+# 6. FEATURE IMPORTANCE
+# =====================================================
+
+importance = pd.DataFrame({
+    "feature": X.columns,
+    "importance": rf.feature_importances_
+}).sort_values(by="importance", ascending=False)
+
+print("\n🔥 Feature Importance")
+print(importance)
+
+print("🚀 Modélisation terminée")
