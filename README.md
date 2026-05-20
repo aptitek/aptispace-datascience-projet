@@ -447,8 +447,7 @@ projet.
 
 # Bibliographie
 
-<div id="refs" class="references csl-bib-body hanging-indent"
-entry-spacing="0">
+<div id="refs" class="references csl-bib-body hanging-indent">
 
 <div id="ref-pandas2020" class="csl-entry">
 
