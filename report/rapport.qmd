@@ -32,16 +32,17 @@ link-citations: true
 
 # Introduction et Contexte Métier {#sec-intro}
 
-*À rédiger par les étudiants : Présentez ici le contexte global de votre projet, la problématique métier que vous cherchez à résoudre, les questions scientifiques soulevées et les opportunités d'aide à la décision sur la base de vos données.*
+Ce projet s’inscrit dans une démarche d’analyse de données appliquée au marché des ordinateurs portables. Le jeu de données utilisé contient différentes caractéristiques techniques et commerciales de laptops, telles que la marque, le type de machine, la taille de l’écran, le processeur, la mémoire vive, le stockage, le système d’exploitation, le poids et le prix.
+
+L’objectif principal est d’étudier ces données afin de comprendre les facteurs qui influencent le prix d’un ordinateur portable. Pour cela, le projet suivra plusieurs étapes : le nettoyage des données, l’analyse exploratoire, la visualisation, puis éventuellement la mise en place d’un modèle prédictif permettant d’estimer le prix d’un ordinateur à partir de ses caractéristiques.
 
 ## Contexte du Projet
-*À rédiger par les étudiants — Pistes de réflexion :*
 
-- *Quels sont les objectifs globaux et le domaine d'étude de votre projet ?*
-- *En quoi ce sujet de recherche est-il pertinent et stratégique ?*
-- *Pourquoi l'analyse quantitative de ce jeu de données est-elle indispensable pour répondre à votre problématique ?*
+Le marché des ordinateurs portables est très concurrentiel et propose une grande variété de produits. Les prix peuvent varier fortement selon les composants, la marque ou encore l’usage visé : bureautique, gaming, professionnel, ultraportable, etc. Pour un consommateur, il n’est pas toujours simple de comprendre quels éléments justifient réellement un prix plus élevé.
 
-[Rédiger votre paragraphe de contexte ici]
+Dans ce contexte, l’analyse quantitative du jeu de données permet d’identifier les caractéristiques qui ont le plus d’impact sur le prix. Elle peut aider à mieux comparer les produits, à comprendre les tendances du marché et à faciliter la prise de décision. Par exemple, on peut chercher à savoir si la quantité de RAM, la présence d’un SSD, la gamme du processeur ou la résolution de l’écran influencent fortement le prix.
+
+Ce projet soulève donc une problématique métier concrète : comment exploiter les caractéristiques techniques d’un ordinateur portable pour comprendre et prédire son prix ? Cette analyse peut être utile à la fois pour les consommateurs, les revendeurs ou les entreprises souhaitant positionner leurs produits de manière plus pertinente.
 
 ## Objectif Analytique
 *À rédiger par les étudiants — Pistes de réflexion :*
