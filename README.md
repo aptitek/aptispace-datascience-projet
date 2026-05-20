@@ -257,7 +257,25 @@ La matrice de corrélation révèle quatre variables numériques particulièreme
 
 ## Schéma Global du Pipeline de Données
 
-Le pipeline complet intègre à la fois la branche analytique tabulaire (Machine Learning) et la branche d'analyse visuelle ou de signaux complexes (Deep Learning CNN).
+Le pipeline complet intègre à la fois la branche analytique tabulaire (Machine Learning) et la branche d'analyse visuelle ou de signaux complexes (Deep Learning CNN) : 
+
+``` mermaid
+graph TD
+    A[Données Brutes Multi-Sources CSV/API] -->|Formatage & Alignement| B(data_clean.clean_dates)
+    C[Données Externes Complémentaires] -->|Imputation & Interpolation| D(data_clean.impute_missing_values)
+    B & D -->|Gestion Outliers| E[Jeu de données Propre & Fusionné]
+    E -->|Extraction Temporelle/Caractéristiques| F[Feature Engineering]
+    F -->|Splits Temporels ou Stratifiés| G[Modèle Machine Learning Tabulaire]
+    H[Flux Multimédias Réels Images/Signaux] -->|Prétraitement d'images/signaux| I[Réseau Convolutif CNN TensorFlow]
+    G -->|Prédictions de la Problématique Métier| J[Livrables & Aide à la Décision]
+    I -->|Détection de Motifs Complexes| J
+    
+    style E fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
+    style J fill:#f0fdf4,stroke:#16a34a,stroke-width:2px
+    style G fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style I fill:#fef3c7,stroke:#d97706,stroke-width:2px
+```
+
 
 ## Modélisation Tabulaire (Machine Learning)
 
