@@ -55,22 +55,42 @@ Demeuni, Étudiant(e) 3 : Aurélie Demure
 
 # Introduction et Contexte Métier
 
-*À rédiger par les étudiants : Présentez ici le contexte global de votre
-projet, la problématique métier que vous cherchez à résoudre, les
-questions scientifiques soulevées et les opportunités d’aide à la
-décision sur la base de vos données.*
+Ce projet s’inscrit dans une démarche d’analyse de données appliquée au
+marché des ordinateurs portables. Le jeu de données utilisé contient
+différentes caractéristiques techniques et commerciales de laptops,
+telles que la marque, le type de machine, la taille de l’écran, le
+processeur, la mémoire vive, le stockage, le système d’exploitation, le
+poids et le prix.
+
+L’objectif principal est d’étudier ces données afin de comprendre les
+facteurs qui influencent le prix d’un ordinateur portable. Pour cela, le
+projet suivra plusieurs étapes : le nettoyage des données, l’analyse
+exploratoire, la visualisation, puis éventuellement la mise en place
+d’un modèle prédictif permettant d’estimer le prix d’un ordinateur à
+partir de ses caractéristiques.
 
 ## Contexte du Projet
 
-*À rédiger par les étudiants — Pistes de réflexion :*
+Le marché des ordinateurs portables est très concurrentiel et propose
+une grande variété de produits. Les prix peuvent varier fortement selon
+les composants, la marque ou encore l’usage visé : bureautique, gaming,
+professionnel, ultraportable, etc. Pour un consommateur, il n’est pas
+toujours simple de comprendre quels éléments justifient réellement un
+prix plus élevé.
 
-- *Quels sont les objectifs globaux et le domaine d’étude de votre
-  projet ?*
-- *En quoi ce sujet de recherche est-il pertinent et stratégique ?*
-- *Pourquoi l’analyse quantitative de ce jeu de données est-elle
-  indispensable pour répondre à votre problématique ?*
+Dans ce contexte, l’analyse quantitative du jeu de données permet
+d’identifier les caractéristiques qui ont le plus d’impact sur le prix.
+Elle peut aider à mieux comparer les produits, à comprendre les
+tendances du marché et à faciliter la prise de décision. Par exemple, on
+peut chercher à savoir si la quantité de RAM, la présence d’un SSD, la
+gamme du processeur ou la résolution de l’écran influencent fortement le
+prix.
 
-\[Rédiger votre paragraphe de contexte ici\]
+Ce projet soulève donc une problématique métier concrète : comment
+exploiter les caractéristiques techniques d’un ordinateur portable pour
+comprendre et prédire son prix ? Cette analyse peut être utile à la fois
+pour les consommateurs, les revendeurs ou les entreprises souhaitant
+positionner leurs produits de manière plus pertinente.
 
 ## Objectif Analytique
 
@@ -339,7 +359,7 @@ pour valoriser vos conclusions.
 impacts stratégiques (par exemple, gains financiers, réduction de coûts,
 amélioration de la sécurité, etc.).
 
-<div id="plotly-22832f08-72ec-4fd6-8f94-e28319c1edfb"
+<div id="plotly-21d25383-d98c-4a96-8973-7b94410be571"
 style="width:100%; height:400px; background: white; border-radius: 8px;">
 
 </div>
@@ -347,7 +367,7 @@ style="width:100%; height:400px; background: white; border-radius: 8px;">
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function() {
     if (typeof Plotly !== 'undefined') {
-      Plotly.newPlot('plotly-22832f08-72ec-4fd6-8f94-e28319c1edfb', [{"type": "scatter", "x": [1, 2, 3], "y": [10, 15, 13], "mode": "lines+markers", "name": "Donn\u00e9es de Test"}], {"title": "Mon Graphique Plotly de Test"}, {"responsive": true});
+      Plotly.newPlot('plotly-21d25383-d98c-4a96-8973-7b94410be571', [{"type": "scatter", "x": [1, 2, 3], "y": [10, 15, 13], "mode": "lines+markers", "name": "Donn\u00e9es de Test"}], {"title": "Mon Graphique Plotly de Test"}, {"responsive": true});
     } else {
       console.error("Plotly library is not loaded.");
     }
@@ -360,7 +380,7 @@ style="width:100%; height:400px; background: white; border-radius: 8px;">
 exemple en utilisant Plotly ou des éléments OJS dans le document final)
 pour permettre aux décideurs d’interagir dynamiquement avec vos données.
 
-<div id="plotly-b710acc6-d2c3-49c1-8448-5c00fad65e93"
+<div id="plotly-16d927b3-73fe-4d45-a3e0-7a0c1567991d"
 style="width:100%; height:400px; background: white; border-radius: 8px;">
 
 </div>
@@ -368,7 +388,7 @@ style="width:100%; height:400px; background: white; border-radius: 8px;">
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function() {
     if (typeof Plotly !== 'undefined') {
-      Plotly.newPlot('plotly-b710acc6-d2c3-49c1-8448-5c00fad65e93', [{"type": "scatter", "x": [1, 2, 3], "y": [10, 15, 13], "mode": "lines+markers", "name": "Donn\u00e9es de Test"}], {"title": "Mon Graphique Plotly de Test"}, {"responsive": true});
+      Plotly.newPlot('plotly-16d927b3-73fe-4d45-a3e0-7a0c1567991d', [{"type": "scatter", "x": [1, 2, 3], "y": [10, 15, 13], "mode": "lines+markers", "name": "Donn\u00e9es de Test"}], {"title": "Mon Graphique Plotly de Test"}, {"responsive": true});
     } else {
       console.error("Plotly library is not loaded.");
     }
