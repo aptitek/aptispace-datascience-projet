@@ -8,44 +8,30 @@
 - [Introduction et Contexte Métier](#sec-intro)
   - [Contexte du Projet](#contexte-du-projet)
   - [Objectif Analytique](#objectif-analytique)
-- [Acquisition et Préparation des Données (Data
-  Wrangling)](#sec-wrangling)
+- [Acquisition et Préparation des Données (Data Wrangling)](#sec-wrangling)
   - [Audit de Qualité](#audit-de-qualité)
   - [Algorithme de Nettoyage](#algorithme-de-nettoyage)
   - [Travaux Pratiques de Wrangling](#travaux-pratiques-de-wrangling)
-- [🧹 Jalon 1 : Data Wrangling & Nettoyage (Squelette
-  Étudiant)](#broom-jalon-1--data-wrangling--nettoyage-squelette-étudiant)
+- [🧹 Jalon 1 : Data Wrangling & Nettoyage (Squelette Étudiant)](#broom-jalon-1--data-wrangling--nettoyage-squelette-étudiant)
 - [Analyse Exploratoire des Données (EDA)](#sec-eda)
   - [Statistiques Descriptives](#statistiques-descriptives)
-  - [Ingénierie de Variables (Feature
-    Engineering)](#ingénierie-de-variables-feature-engineering)
-  - [Travaux Pratiques d’Exploration Visuelle
-    (EDA)](#travaux-pratiques-dexploration-visuelle-eda)
-- [📊 Jalon 1 : Analyse Exploratoire des Données (EDA) & Visualisation
-  (Squelette
-  Étudiant)](#bar_chart-jalon-1--analyse-exploratoire-des-données-eda--visualisation-squelette-étudiant)
+  - [Ingénierie de Variables (Feature Engineering)](#ingénierie-de-variables-feature-engineering)
+  - [Travaux Pratiques d'Exploration Visuelle (EDA)](#travaux-pratiques-dexploration-visuelle-eda)
+- [📊 Jalon 1 : Analyse Exploratoire des Données (EDA) & Visualisation (Squelette Étudiant)](#bar_chart-jalon-1--analyse-exploratoire-des-données-eda--visualisation-squelette-étudiant)
 - [Visualisation Multidimensionnelle (Insights)](#sec-viz)
-  - [Profils et Distributions
-    Caractéristiques](#profils-et-distributions-caractéristiques)
+  - [Profils et Distributions Caractéristiques](#profils-et-distributions-caractéristiques)
   - [Corrélations Globales](#corrélations-globales)
 - [Modélisation et Apprentissage](#sec-modelling)
-  - [Schéma Global du Pipeline de
-    Données](#schéma-global-du-pipeline-de-données)
-  - [Modélisation Tabulaire (Machine
-    Learning)](#modélisation-tabulaire-machine-learning)
-- [🧠 Jalon 2 : Modélisation Prédictive & Apprentissage (Squelette
-  Étudiant)](#brain-jalon-2--modélisation-prédictive--apprentissage-squelette-étudiant)
-  - [Modélisation Vision / Deep Learning (Analyse d’Images ou
-    Signaux)](#modélisation-vision--deep-learning-analyse-dimages-ou-signaux)
-- [📷 Jalon 2 : Brique de Vision par Ordinateur (CNN & TensorFlow)
-  (Squelette
-  Étudiant)](#camera-jalon-2--brique-de-vision-par-ordinateur-cnn--tensorflow-squelette-étudiant)
+  - [Schéma Global du Pipeline de Données](#schéma-global-du-pipeline-de-données)
+  - [Modélisation Tabulaire (Machine Learning)](#modélisation-tabulaire-machine-learning)
+- [🧠 Jalon 2 : Modélisation Prédictive & Apprentissage (Squelette Étudiant)](#brain-jalon-2--modélisation-prédictive--apprentissage-squelette-étudiant)
+  - [Modélisation Vision / Deep Learning (Analyse d'Images ou Signaux)](#modélisation-vision--deep-learning-analyse-dimages-ou-signaux)
+- [📷 Jalon 2 : Brique de Vision par Ordinateur (CNN & TensorFlow) (Squelette Étudiant)](#camera-jalon-2--brique-de-vision-par-ordinateur-cnn--tensorflow-squelette-étudiant)
 - [Évaluation Métrique et Validation](#sec-evaluation)
   - [Stratégie de Validation](#stratégie-de-validation)
   - [Résultats et Interprétation](#résultats-et-interprétation)
 - [Data Storytelling et Communication](#sec-storytelling)
-  - [Recommandations Stratégiques /
-    Métier](#recommandations-stratégiques--métier)
+  - [Recommandations Stratégiques / Métier](#recommandations-stratégiques--métier)
   - [Limites et Perspectives](#limites-et-perspectives)
 - [Bibliographie](#bibliographie)
 
@@ -53,33 +39,25 @@
 
 [![](https://github.com/aptitek/aptispace-datascience-projet/actions/workflows/ci.yml/badge.svg)](https://github.com/aptitek/aptispace-datascience-projet/actions/workflows/ci.yml)
 
-*À rédiger par les étudiants : Présentez ici le contexte global de votre
-projet, la problématique métier que vous cherchez à résoudre, les
-questions scientifiques soulevées et les opportunités d’aide à la
-décision sur la base de vos données.*
+*À rédiger par les étudiants : Présentez ici le contexte global de votre projet, la problématique métier que vous cherchez à résoudre, les questions scientifiques soulevées et les opportunités d'aide à la décision sur la base de vos données.*
 
 ## Contexte du Projet
 
-*À rédiger par les étudiants — Pistes de réflexion :* - *Quels sont les
-objectifs globaux et le domaine d’étude de votre projet ?* - *En quoi ce
-sujet de recherche est-il pertinent et stratégique ?* - *Pourquoi
-l’analyse quantitative de ce jeu de données est-elle indispensable pour
-répondre à votre problématique ?*
+*À rédiger par les étudiants — Pistes de réflexion :* - *Quels sont les objectifs globaux et le domaine d'étude de votre projet ?* - *En quoi ce sujet de recherche est-il pertinent et stratégique ?* - *Pourquoi l'analyse quantitative de ce jeu de données est-elle indispensable pour répondre à votre problématique ?*
 
-Ce projet s’inscrit dans une problématique de Data Science appliquée au marché immobilier, un domaine où l’analyse de données joue un rôle clé dans la prise de décision des particuliers, agences et investisseurs.
+Ce projet s'inscrit dans une problématique de Data Science appliquée au marché immobilier, un domaine où l'analyse de données joue un rôle clé dans la prise de décision des particuliers, agences et investisseurs.
 
-L’objectif général est de comprendre et prédire les prix des logements à partir de plusieurs sources de données :
+L'objectif général est de comprendre et prédire les prix des logements à partir de plusieurs sources de données :
 
 caractéristiques tabulaires (surface, localisation, nombre de pièces, etc.),
 données contextuelles issues de plateformes immobilières,
 et éventuellement données visuelles (images de logements).
 
-Dans un contexte de marché immobilier fortement hétérogène, les prix peuvent varier de manière importante en fonction de critères complexes et non linéaires. L’analyse quantitative permet donc de :
+Dans un contexte de marché immobilier fortement hétérogène, les prix peuvent varier de manière importante en fonction de critères complexes et non linéaires. L'analyse quantitative permet donc de :
 
 objectiver les facteurs influençant les prix,
 détecter des patterns cachés dans les données,
 et construire des modèles prédictifs fiables
-
 
 ## Dataset
 
@@ -88,55 +66,42 @@ et construire des modèles prédictifs fiables
 
 ## Objectif Analytique
 
-*À rédiger par les étudiants — Pistes de réflexion :* - *Quelles sont
-les variables cibles principales et la tâche globale de modélisation
-(classification, régression, clustering, etc.) ?* - *Comment le couplage
-de données multi-sources et l’intégration de différents types de données
-(tabulaires, images, signaux, etc.) enrichissent-ils l’analyse ?* -
-*Quels sont les livrables analytiques attendus pour répondre à votre
-problématique et guider les prises de décisions ?*
+*À rédiger par les étudiants — Pistes de réflexion :* - *Quelles sont les variables cibles principales et la tâche globale de modélisation (classification, régression, clustering, etc.) ?* - *Comment le couplage de données multi-sources et l'intégration de différents types de données (tabulaires, images, signaux, etc.) enrichissent-ils l'analyse ?* - *Quels sont les livrables analytiques attendus pour répondre à votre problématique et guider les prises de décisions ?*
 
-L’objectif principal du projet est de construire un modèle prédictif de régression capable d’estimer le prix d’un bien immobilier.
+L'objectif principal du projet est de construire un modèle prédictif de régression capable d'estimer le prix d'un bien immobilier.
 
 Plus précisément, nous cherchons à :
 
 prédire la variable cible : prix du logement
 analyser les variables explicatives (surface, localisation, équipements…)
 comparer plusieurs modèles de Machine Learning supervisé
-intégrer, si possible, une dimension Deep Learning (CNN) sur des images de logements afin d’enrichir les prédictions
+intégrer, si possible, une dimension Deep Learning (CNN) sur des images de logements afin d'enrichir les prédictions
 
 Le projet suit une approche multimodale, combinant :
 
 données tabulaires structurées,
 données non structurées (images),
-et modèles d’apprentissage automatique avancés.
+et modèles d'apprentissage automatique avancés.
 
 Les livrables attendus sont :
 
 un pipeline complet de Data Science,
 un modèle prédictif performant,
-un dashboard interactif d’aide à la décision.
-
+un dashboard interactif d'aide à la décision.
 
 ------------------------------------------------------------------------
 
 # Acquisition et Préparation des Données (Data Wrangling)
 
-Le succès de tout projet de Data Science repose sur la qualité de la
-préparation des données ([McKinney 2020](#ref-pandas2020)). Cette
-section documente l’audit de qualité et les étapes de nettoyage
-appliquées à vos jeux de données bruts.
+Le succès de tout projet de Data Science repose sur la qualité de la préparation des données ([McKinney 2020](#ref-pandas2020)). Cette section documente l'audit de qualité et les étapes de nettoyage appliquées à vos jeux de données bruts.
 
 ## Audit de Qualité
 
-*À rédiger par les étudiants : Présentez un audit critique complet de
-vos fichiers de données brutes. Indiquez la liste des anomalies
-physiques et typologiques détectées (formats de dates hétérogènes,
-outliers physiques, taux de valeurs manquantes, etc.).*
+*À rédiger par les étudiants : Présentez un audit critique complet de vos fichiers de données brutes. Indiquez la liste des anomalies physiques et typologiques détectées (formats de dates hétérogènes, outliers physiques, taux de valeurs manquantes, etc.).*
 
 Les données brutes utilisées dans ce projet proviennent de sources immobilières ouvertes (type Kaggle / Airbnb / datasets immobiliers).
 
-Lors de l’audit initial, plusieurs problèmes ont été identifiés :
+Lors de l'audit initial, plusieurs problèmes ont été identifiés :
 
 valeurs manquantes dans certaines variables (surface, équipements)
 incohérences de format (prix en différentes devises ou formats texte)
@@ -146,17 +111,13 @@ doublons dans certaines entrées issues de plateformes multiples
 
 Un diagnostic initial a permis de définir une stratégie de nettoyage adaptée afin de garantir la qualité des modèles futurs.
 
-
 ## Algorithme de Nettoyage
 
-*À rédiger par les étudiants : Justifiez et détaillez l’enchaînement de
-vos opérations de traitement (uniformisation des dates, masquage des
-outliers, imputation, etc.). Faites référence aux fonctions
-correspondantes de votre module `src/data_clean.py`.*
+*À rédiger par les étudiants : Justifiez et détaillez l'enchaînement de vos opérations de traitement (uniformisation des dates, masquage des outliers, imputation, etc.). Faites référence aux fonctions correspondantes de votre module `src/data_clean.py`.*
 
 Le pipeline de nettoyage suit les étapes suivantes :
 
-### Uniformisation des formats: 
+### Uniformisation des formats:
 
 conversion des prix en format numérique
 standardisation des unités (m² pour les surfaces)
@@ -178,151 +139,110 @@ Label Encoding pour certaines variables ordinales
 
 ### Normalisation des variables:
 
-standardisation (StandardScaler) pour les modèles ML sensibles à l’échelle
-
+standardisation (StandardScaler) pour les modèles ML sensibles à l'échelle
 
 ## Travaux Pratiques de Wrangling
 
 # 🧹 Jalon 1 : Data Wrangling & Nettoyage (Squelette Étudiant)
 
-Ce notebook correspond à la première étape du **Jalon 1**. L’objectif
-est d’importer le jeu de données brut (`data/raw/raw_data_sample.csv`),
-d’effectuer un audit de sa qualité (données manquantes, anomalies
-physiques, formats de dates hétérogènes) et de le nettoyer à l’aide de
-votre package personnalisé `src.data_clean`.
+Ce notebook correspond à la première étape du **Jalon 1**. L'objectif est d'importer le jeu de données brut (`data/raw/raw_data_sample.csv`), d'effectuer un audit de sa qualité (données manquantes, anomalies physiques, formats de dates hétérogènes) et de le nettoyer à l'aide de votre package personnalisé `src.data_clean`.
 
 ### 1. Importation des packages et chargement des données
 
 ### 2. Audit initial des données
 
-**À faire par l’étudiant :** Explorez le dataset brut pour évaluer sa
-structure : - Quelles sont les dimensions du dataset ? - Quels sont les
-types de données par colonne ? - Reste-t-il des valeurs nulles ? Quel
-est le taux de valeurs manquantes par variable ? - Y a-t-il des doublons
-?
+**À faire par l'étudiant :** Explorez le dataset brut pour évaluer sa structure : - Quelles sont les dimensions du dataset ? - Quels sont les types de données par colonne ? - Reste-t-il des valeurs nulles ? Quel est le taux de valeurs manquantes par variable ? - Y a-t-il des doublons ?
 
 ### 3. Nettoyage et uniformisation des Dates
 
-**À faire par l’étudiant :** Appliquez la fonction `clean_dates` de
-votre module `src.data_clean` pour convertir la colonne `timestamp` en
-type Datetime uniforme.
+**À faire par l'étudiant :** Appliquez la fonction `clean_dates` de votre module `src.data_clean` pour convertir la colonne `timestamp` en type Datetime uniforme.
 
 ### 4. Identification et Traitement des Outliers (Anomalies physiques)
 
-**À faire par l’étudiant :** Analysez les valeurs de la colonne `value`
-et appliquez votre fonction `handle_outliers` pour filtrer les valeurs
-physiques aberrantes (inférieures à 0 ou supérieures à 100).
+**À faire par l'étudiant :** Analysez les valeurs de la colonne `value` et appliquez votre fonction `handle_outliers` pour filtrer les valeurs physiques aberrantes (inférieures à 0 ou supérieures à 100).
 
 ### 5. Imputation des valeurs manquantes
 
-**À faire par l’étudiant :** Appliquez la fonction
-`impute_missing_values` pour remplir les NaNs issus du chargement
-initial ou du nettoyage des anomalies.
+**À faire par l'étudiant :** Appliquez la fonction `impute_missing_values` pour remplir les NaNs issus du chargement initial ou du nettoyage des anomalies.
 
 ### 6. Sauvegarde des données propres
 
-Enregistrez votre DataFrame nettoyé dans
-`data/processed/cleaned_data_sample.csv`.
+Enregistrez votre DataFrame nettoyé dans `data/processed/cleaned_data_sample.csv`.
 
 ------------------------------------------------------------------------
 
 # Analyse Exploratoire des Données (EDA)
 
-Dans cette section, nous analysons les relations statistiques
-fondamentales qui régissent votre domaine d’étude au sein du jeu de
-données.
+Dans cette section, nous analysons les relations statistiques fondamentales qui régissent votre domaine d'étude au sein du jeu de données.
 
 ## Statistiques Descriptives
 
-*À rédiger par les étudiants : Présentez une vue d’ensemble descriptive
-rapide de vos variables nettoyées.*
+*À rédiger par les étudiants : Présentez une vue d'ensemble descriptive rapide de vos variables nettoyées.*
 
-\[Rédiger les statistiques descriptives ici\]
+Le dataset House Prices contient 1 460 biens immobiliers avec 81 variables initiales, enrichies à 85 après feature engineering. Les principales caractéristiques de la variable cible SalePrice sont les suivantes :
+
+- Prix moyen : 178 094 $
+- Prix médian : 163 000 $
+- Écart-type : 78 956 $
+- Prix minimum : 34 900 $ / Prix maximum : 450 000 $ (après traitement des outliers)
+
+La distribution des prix est asymétrique vers la droite, ce qui justifie l'application d'une transformation logarithmique (LogSalePrice) pour normaliser la distribution avant modélisation. Les variables les plus corrélées avec SalePrice sont OverallQual (r = 0.79), GrLivArea (r = 0.71) et TotalBsmtSF (r = 0.61).
 
 ## Ingénierie de Variables (Feature Engineering)
 
-*À rédiger par les étudiants : Expliquez l’intérêt mathématique et
-l’impact sur les modèles prédictifs d’extraire des caractéristiques
-dérivées (ex: variables cycliques temporelles, ratios financiers, ratios
-physiques, etc.).*
+*À rédiger par les étudiants : Expliquez l'intérêt mathématique et l'impact sur les modèles prédictifs d'extraire des caractéristiques dérivées (ex: variables cycliques temporelles, ratios financiers, ratios physiques, etc.).*
 
-\[Rédiger votre explication de l’ingénierie de variables ici\]
+Deux variables dérivées ont été créées pour enrichir le dataset :
 
-## Travaux Pratiques d’Exploration Visuelle (EDA)
+HouseAge (âge du bien au moment de la vente) : calculée comme YrSold - YearBuilt. Cette variable capture la dépréciation naturelle du bien dans le temps, un facteur clé dans la valorisation immobilière.
+
+LogSalePrice (transformation logarithmique du prix) : la distribution brute des prix étant fortement asymétrique, la transformation logarithmique permet de la normaliser et d'améliorer la stabilité des modèles de régression sensibles à cette asymétrie.
+
+Par ailleurs, un coefficient de zone (coef_multiplicateur) a été créé à partir de la variable Neighborhood, en attribuant un coefficient multiplicateur selon la catégorie de zone (Standard = 1.0, Premium = 1.2, Luxury = 1.5).
+
+## Travaux Pratiques d'Exploration Visuelle (EDA)
 
 # 📊 Jalon 1 : Analyse Exploratoire des Données (EDA) & Visualisation (Squelette Étudiant)
 
-Ce notebook est dédié à la découverte de relations clés et à l’analyse
-visuelle de nos données. À partir du jeu de données propre généré
-précédemment, nous allons enrichir nos variables explicatives et appeler
-les fonctions de notre module de visualisation `src.utils_viz` pour
-générer des graphiques professionnels.
+Ce notebook est dédié à la découverte de relations clés et à l'analyse visuelle de nos données. À partir du jeu de données propre généré précédemment, nous allons enrichir nos variables explicatives et appeler les fonctions de notre module de visualisation `src.utils_viz` pour générer des graphiques professionnels.
 
 ### 1. Importation des packages et configuration du style
 
 ### 2. Ingénierie de variables temporelles
 
-**À faire par l’étudiant :** Appliquez la fonction `feature_engineering`
-de `src.data_clean` pour enrichir votre DataFrame en caractéristiques de
-temps classiques (heures, jours de la semaine).
+**À faire par l'étudiant :** Appliquez la fonction `feature_engineering` de `src.data_clean` pour enrichir votre DataFrame en caractéristiques de temps classiques (heures, jours de la semaine).
 
 ### 3. Visualisations Professionnelles
 
-#### A. Profils d’évolution et tendances
+#### A. Profils d'évolution et tendances
 
-**À faire par l’étudiant :** Appliquez la fonction `plot_generic_trends`
-de votre module `src.utils_viz` pour tracer l’évolution de la valeur par
-rapport au temps.
+**À faire par l'étudiant :** Appliquez la fonction `plot_generic_trends` de votre module `src.utils_viz` pour tracer l'évolution de la valeur par rapport au temps.
 
 #### B. Matrice de corrélation multi-variables
 
-**À faire par l’étudiant :** Appliquez la fonction
-`plot_correlation_matrix` de votre module `src.utils_viz` pour calculer
-et afficher graphiquement la carte thermique des corrélations sur les
-colonnes `['value', 'hour', 'dayofweek']`.
+**À faire par l'étudiant :** Appliquez la fonction `plot_correlation_matrix` de votre module `src.utils_viz` pour calculer et afficher graphiquement la carte thermique des corrélations sur les colonnes `['value', 'hour', 'dayofweek']`.
 
 #### C. Nuage de points bivarié
 
-**À faire par l’étudiant :** Générez un nuage de points de la relation
-heure vs valeur en colorant les points selon la variable `dayofweek`, en
-utilisant votre fonction `plot_bivariate_scatter`.
+**À faire par l'étudiant :** Générez un nuage de points de la relation heure vs valeur en colorant les points selon la variable `dayofweek`, en utilisant votre fonction `plot_bivariate_scatter`.
 
 ### 4. Synthèse des observations clés
 
-Sur la base de vos figures, listez les **insights majeurs** observés sur
-le comportement de vos variables.
+Sur la base de vos figures, listez les **insights majeurs** observés sur le comportement de vos variables.
 
 ------------------------------------------------------------------------
 
 # Visualisation Multidimensionnelle (Insights)
 
-Nous présentons ici les résultats visuels clés permettant de dégager des
-insights exploitables pour les décideurs, en s’appuyant sur notre module
-`src/utils_viz.py`.
+Nous présentons ici les résultats visuels clés permettant de dégager des insights exploitables pour les décideurs, en s'appuyant sur notre module `src/utils_viz.py`.
 
-*À rédiger par les étudiants : Présentez et commentez en détail vos 3 à
-5 insights majeurs découverts lors de l’exploration descriptive
-visuelle. Intégrez et justifiez les figures clés générées.*
+*À rédiger par les étudiants : Présentez et commentez en détail vos 3 à 5 insights majeurs découverts lors de l'exploration descriptive visuelle. Intégrez et justifiez les figures clés générées.*
 
 ## Profils et Distributions Caractéristiques
-
-``` python
-#| label: fig-distribution-density
-#| fig-cap: "Distribution ou profils caractéristiques de vos variables clés."
-#| echo: false
-# TODO: Utiliser vos fonctions personnalisées de votre module pour tracer la figure
-```
 
 \[Commenter la figure et décrire vos observations ici\]
 
 ## Corrélations Globales
-
-``` python
-#| label: fig-correlation
-#| fig-cap: "Matrice de corrélation de Spearman ou de Pearson entre variables."
-#| echo: false
-# TODO: Utiliser uv.plot_correlation_matrix() de votre module pour tracer la figure
-```
 
 \[Commenter la figure et décrire vos observations ici\]
 
@@ -332,26 +252,7 @@ visuelle. Intégrez et justifiez les figures clés générées.*
 
 ## Schéma Global du Pipeline de Données
 
-Le pipeline complet intègre à la fois la branche analytique tabulaire
-(Machine Learning) et la branche d’analyse visuelle ou de signaux
-complexes (Deep Learning CNN) :
-
-``` mermaid
-graph TD
-    A[Données Brutes Multi-Sources CSV/API] -->|Formatage & Alignement| B(data_clean.clean_dates)
-    C[Données Externes Complémentaires] -->|Imputation & Interpolation| D(data_clean.impute_missing_values)
-    B & D -->|Gestion Outliers| E[Jeu de données Propre & Fusionné]
-    E -->|Extraction Temporelle/Caractéristiques| F[Feature Engineering]
-    F -->|Splits Temporels ou Stratifiés| G[Modèle Machine Learning Tabulaire]
-    H[Flux Multimédias Réels Images/Signaux] -->|Prétraitement d'images/signaux| I[Réseau Convolutif CNN TensorFlow]
-    G -->|Prédictions de la Problématique Métier| J[Livrables & Aide à la Décision]
-    I -->|Détection de Motifs Complexes| J
-    
-    style E fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
-    style J fill:#f0fdf4,stroke:#16a34a,stroke-width:2px
-    style G fill:#fef3c7,stroke:#d97706,stroke-width:2px
-    style I fill:#fef3c7,stroke:#d97706,stroke-width:2px
-```
+Le pipeline complet intègre à la fois la branche analytique tabulaire (Machine Learning) et la branche d'analyse visuelle ou de signaux complexes (Deep Learning CNN) :
 
 ## Modélisation Tabulaire (Machine Learning)
 
@@ -405,42 +306,29 @@ L'insight principal est que la qualité globale de construction pèse trois fois
 
 # 🧠 Jalon 2 : Modélisation Prédictive & Apprentissage (Squelette Étudiant)
 
-Dans ce notebook du **Jalon 2**, l’objectif est d’implémenter un
-pipeline complet d’apprentissage supervisé pour prédire une variable
-cible (`value`) à l’aide de Scikit-Learn.
+Dans ce notebook du **Jalon 2**, l'objectif est d'implémenter un pipeline complet d'apprentissage supervisé pour prédire une variable cible (`value`) à l'aide de Scikit-Learn.
 
-Vous devrez mettre en œuvre une stratégie de découpage train/test
-chronologique pour respecter la causalité temporelle.
+Vous devrez mettre en œuvre une stratégie de découpage train/test chronologique pour respecter la causalité temporelle.
 
-### 1. Préparation de l’environnement
+### 1. Préparation de l'environnement
 
 ### 2. Définition des variables et split chronologique
 
-**À faire par l’étudiant :** - Identifiez vos colonnes prédictives
-(`features`) et la colonne cible (`value`). - Séparez chronologiquement
-vos données en ensembles d’entraînement (`Train`) et de test (`Test`).
-N’utilisez pas de split aléatoire !
+**À faire par l'étudiant :** - Identifiez vos colonnes prédictives (`features`) et la colonne cible (`value`). - Séparez chronologiquement vos données en ensembles d'entraînement (`Train`) et de test (`Test`). N'utilisez pas de split aléatoire !
 
 ### 3. Entraînement du modèle de Forêt Aléatoire
 
-**À faire par l’étudiant :** - Instanciez et entraînez un modèle
-`RandomForestRegressor`. - Générez les prédictions `y_pred` sur
-l’ensemble de test.
+**À faire par l'étudiant :** - Instanciez et entraînez un modèle `RandomForestRegressor`. - Générez les prédictions `y_pred` sur l'ensemble de test.
 
 ### 4. Évaluation métrique
 
-**À faire par l’étudiant :** Calculez et affichez les scores
-d’évaluation requis : - **MAE** (Mean Absolute Error) - **RMSE** (Root
-Mean Squared Error) - **R²** (Coefficient de détermination)
+**À faire par l'étudiant :** Calculez et affichez les scores d'évaluation requis : - **MAE** (Mean Absolute Error) - **RMSE** (Root Mean Squared Error) - **R²** (Coefficient de détermination)
 
 ### 5. Importance des variables explicatives
 
-**À faire par l’étudiant :** Extrayez et affichez l’importance relative
-de chaque caractéristique prédictive.
+**À faire par l'étudiant :** Extrayez et affichez l'importance relative de chaque caractéristique prédictive.
 
-## Modélisation Vision / Deep Learning (Analyse d’Images ou Signaux)
-
-
+## Modélisation Vision / Deep Learning (Analyse d'Images ou Signaux)
 
 Pour respecter la dimension multimodale du projet et enrichir nos prédictions tabulaires, nous avons intégré une brique de Deep Learning basée sur un Réseau de Neurones Convolutif (CNN) développé avec TensorFlow et Keras.
 
@@ -450,7 +338,8 @@ L'objectif est de classifier automatiquement les biens immobiliers en trois cat�
 
 Le dataset retenu est House Prices and Images SoCal, disponible sur Kaggle. Il comprend 15 474 biens immobiliers californiens, chacun associé à une photographie réelle et à ses caractéristiques tabulaires (prix, surface, nombre de pièces, etc.).
 
-Pour
+Pour des contraintes de temps de calcul (entraînement sur CPU), un échantillon de 1 000 images a été utilisé, redimensionnées à 128 x 128 pixels et normalisées entre 0 et 1.
+
 ### Création des catégories de prix
 
 Les seuils de classification ont été définis à partir des quantiles à 33% et 66% de la distribution des prix :
@@ -500,35 +389,25 @@ Cette brique CNN reste néanmoins un complément précieux au modèle tabulaire 
 
 # 📷 Jalon 2 : Brique de Vision par Ordinateur (CNN & TensorFlow) (Squelette Étudiant)
 
-Ce notebook est dédié à la brique d’analyse d’images du **Jalon 2**.
-L’objectif est de concevoir un Réseau de Neurones Convolutif (CNN) sous
-TensorFlow/Keras pour classifier des motifs géométriques simples (Classe
-0: Cercle vs Classe 1: Multiples Rectangles).
+Ce notebook est dédié à la brique d'analyse d'images du **Jalon 2**. L'objectif est de concevoir un Réseau de Neurones Convolutif (CNN) sous TensorFlow/Keras pour classifier des motifs géométriques simples (Classe 0: Cercle vs Classe 1: Multiples Rectangles).
 
-### 1. Préparation de l’environnement
+### 1. Préparation de l'environnement
 
-### 2. Génération du jeu d’images synthétiques
+### 2. Génération du jeu d'images synthétiques
 
-Pour travailler de manière autonome sans importer de lourdes bases
-d’images externes, cette fonction utilitaire génère des images simulées
-en $64 \times 64$ pixels de formes simples (Cercle vs Rectangles).
+Pour travailler de manière autonome sans importer de lourdes bases d'images externes, cette fonction utilitaire génère des images simulées en 64 x 64 pixels de formes simples (Cercle vs Rectangles).
 
-### 3. Split d’évaluation (Entraînement / Validation)
+### 3. Split d'évaluation (Entraînement / Validation)
 
-**À faire par l’étudiant :** Divisez vos données d’images `X_images` et
-`y_labels` en $80\%$ pour l’entraînement et $20\%$ pour la validation.
+**À faire par l'étudiant :** Divisez vos données d'images `X_images` et `y_labels` en 80% pour l'entraînement et 20% pour la validation.
 
-### 4. Conception de l’architecture du CNN
+### 4. Conception de l'architecture du CNN
 
-**À faire par l’étudiant :** Instanciez un réseau convolutif séquentiel
-Keras comprenant des couches `Conv2D`, `MaxPooling2D`, `Flatten`,
-`Dense` et un `Dropout` pour classifier nos deux formes géométriques.
+**À faire par l'étudiant :** Instanciez un réseau convolutif séquentiel Keras comprenant des couches `Conv2D`, `MaxPooling2D`, `Flatten`, `Dense` et un `Dropout` pour classifier nos deux formes géométriques.
 
 ### 5. Compilation et Entraînement
 
-**À faire par l’étudiant :** - Compilez le modèle avec l’optimiseur
-`'adam'` et la fonction de perte binaire. - Entraînez votre CNN sur
-environ 5 époques.
+**À faire par l'étudiant :** - Compilez le modèle avec l'optimiseur `'adam'` et la fonction de perte binaire. - Entraînez votre CNN sur environ 5 époques.
 
 ------------------------------------------------------------------------
 
@@ -536,24 +415,27 @@ environ 5 époques.
 
 ## Stratégie de Validation
 
-*À rédiger par les étudiants : Expliquez pourquoi le découpage
-d’évaluation choisi (ex: validation temporelle, stratifiée ou par
-groupe) est adapté à la structure de vos données pour éviter les fuites
-de données.*
+Le découpage d'évaluation retenu est un split aléatoire stratifié 80/20 (train/test) avec un random_state fixé à 42 pour garantir la reproductibilité des résultats. Ce choix est adapté à la structure de nos données pour deux raisons principales.
 
-\[Rédiger la section de validation ici\]
+Premièrement, le dataset House Prices ne présente pas de structure temporelle stricte nécessitant un split chronologique : les transactions immobilières sont réparties sur plusieurs années sans dépendance séquentielle forte entre les observations.
+
+Deuxièmement, la stratification par rapport à la variable cible n'est pas applicable directement en régression, mais le split aléatoire garantit une distribution similaire des prix entre train et test, évitant ainsi les fuites de données.
+
+Pour le modèle CNN, un split identique 80/20 a été appliqué sur les 1 000 images, avec stratification par catégorie de prix (économique, moyenne, luxe) pour garantir une représentation équilibrée des trois classes dans chaque ensemble.
 
 ## Résultats et Interprétation
 
-*À rédiger par les étudiants : Complétez le tableau d’évaluation
-ci-dessous en reportant vos résultats de modélisation.*
+*À rédiger par les étudiants : Complétez le tableau d'évaluation ci-dessous en reportant vos résultats de modélisation.*
 
-| Modèle | Métrique 1 (ex: MAE / Précision) | Métrique 2 (ex: RMSE / F1-Score) | R² / Score (%) |
-|----|----|----|----|
-| Baseline (ex: Naïve / Moyenne) | \[À compléter\] | \[À compléter\] | \[À compléter\] |
-| **Modèle Choisi** | **\[À compléter\]** | **\[À compléter\]** | **\[À compléter\]** |
+| Modèle | Métrique 1 (MAE / Précision) | Métrique 2 (RMSE / F1-Score) | R² / Score (%) |
+|---|---|---|---|
+| Baseline (prédiction par la moyenne) | 57 543 $ | 78 956 $ | 0.00 |
+| **Random Forest Regressor** | **20 700 $** | **35 058 $** | **73.34%** |
+| **CNN Classification (3 classes)** | **Précision : 55%** | **F1-Score : 0.52** | **Accuracy : 52.5%** |
 
-\[Interpréter et comparer les métriques d’erreur calculées ici\]
+Le Random Forest Regressor surpasse largement la baseline en réduisant l'erreur absolue moyenne de 57 543 $ à 20 700 $, soit une réduction de 64%. Le coefficient de détermination R² de 0.73 indique que le modèle explique 73% de la variance des prix, ce qui constitue un résultat solide pour une première itération avec seulement 6 features.
+
+Le CNN de classification atteint 52.5% d'accuracy sur 3 classes, soit 58% au-dessus du hasard pur (33%). Cette performance confirme que les caractéristiques visuelles des biens immobiliers contiennent des informations discriminantes, même si les features tabulaires restent dominantes pour la prédiction précise des prix.
 
 ------------------------------------------------------------------------
 
@@ -561,44 +443,34 @@ ci-dessous en reportant vos résultats de modélisation.*
 
 ## Recommandations Stratégiques / Métier
 
-*À rédiger par les étudiants : Formulez des recommandations
-stratégiques, opérationnelles et innovantes basées sur vos découvertes
-analytiques et prédictives pour guider les décideurs.*
+Sur la base des résultats analytiques et prédictifs obtenus, plusieurs recommandations peuvent guider les décideurs du secteur immobilier.
 
-\[Rédiger vos recommandations ici\]
+La qualité de construction est le levier principal du prix. Avec 57% d'importance dans le modèle RandomForest, OverallQual est de loin le facteur le plus déterminant. Pour un investisseur ou un vendeur, améliorer la qualité perçue du bien (rénovations, matériaux haut de gamme) est le moyen le plus efficace d'augmenter sa valeur de vente.
+
+La surface habitable reste un facteur clé mais secondaire. GrLivArea contribue à 19% de l'importance du modèle. L'agrandissement d'un bien peut significativement augmenter sa valeur, mais uniquement si la qualité de construction est maintenue.
+
+L'âge du bien doit être pris en compte dans l'estimation. HouseAge contribue à 7% du modèle. Les biens anciens bénéficient d'une décote naturelle que le modèle capture bien, ce qui est cohérent avec la réalité du marché immobilier.
+
+Le dashboard interactif développé (src/08_dashboard.py) permet à tout décideur non technique de simuler instantanément l'impact de chaque caractéristique sur le prix de vente, facilitant ainsi la prise de décision en temps réel.
 
 ## Limites et Perspectives
 
-*À rédiger par les étudiants : Identifiez honnêtement les biais ou
-limites de votre approche et proposez des pistes d’amélioration futures
-(ex: intégration de données externes réelles, modélisation plus
-poussée).*
+Notre approche, bien que fonctionnelle, présente plusieurs limites identifiées de manière transparente.
 
-\[Rédiger les limites et perspectives ici\]
+Concernant le modèle tabulaire, le coefficient de zone (coef_multiplicateur) n'apporte qu'une contribution marginale de moins de 1%. Cette feature est trop grossière pour capturer la variabilité géographique réelle. Une amélioration consisterait à intégrer les coordonnées GPS des biens ou des données de prix au niveau du quartier (code postal, arrondissement).
 
-Ce document dynamique a été compilé en Quarto ([Team
-2024](#ref-quarto2024)).
+Concernant le CNN, l'overfitting observé (86% d'accuracy en entraînement vs 52% en test) révèle un manque de données. Avec seulement 1 000 images, le modèle ne généralise pas suffisamment. Le recours au transfer learning (MobileNetV2, ResNet50) permettrait d'atteindre des performances nettement supérieures sans nécessiter plus de données.
+
+Concernant le dataset, il s'agit de données immobilières californiennes datant de 2006-2010. Les modèles entraînés sur ces données ne sont pas directement transposables au marché immobilier actuel ou à d'autres régions géographiques sans re-entraînement.
+
+Enfin, la combinaison des prédictions tabulaires et visuelles en un modèle hybride (ensemble learning) constitue une piste d'amélioration prometteuse pour des travaux futurs.
+
+Ce document dynamique a été compilé en Quarto ([Team 2024](#ref-quarto2024)).
 
 ------------------------------------------------------------------------
 
 # Bibliographie
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+McKinney, Wes. 2020. *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython*. O'Reilly Media.
 
-<div id="ref-pandas2020" class="csl-entry">
-
-McKinney, Wes. 2020. *Python for Data Analysis: Data Wrangling with
-Pandas, NumPy, and IPython*. O’Reilly Media.
-
-</div>
-
-<div id="ref-quarto2024" class="csl-entry">
-
-Team, Quarto Development. 2024. “Quarto Dynamic Publishing System:
-Collaborative Scientific and Technical Publishing.”
-<https://quarto.org/>.
-
-</div>
-
-</div>
- des contraintes de temps de calcul (entraînement sur CPU), un échantillon de 1 000 images a été utilisé, redimensionnées à 128 x 128 pixels et normalisées entre 0 et 1.
+Team, Quarto Development. 2024. "Quarto Dynamic Publishing System: Collaborative Scientific and Technical Publishing." https://quarto.org/.
