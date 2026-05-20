@@ -359,7 +359,51 @@ graph TD
 d’apprentissage (supervisé ou non supervisé) et décrivez l’importance
 des variables explicatives.*
 
-\[Détailler votre modélisation ici\]
+Pour la prédiction du prix de vente des biens immobiliers, nous avons retenu un Random Forest Regressor comme modèle principal.
+
+Ce choix s'appuie sur plusieurs critères :
+
+robustesse face aux outliers, particulièrement adaptée à la forte dispersion des prix immobiliers
+capacité à capturer des relations non-linéaires entre les variables explicatives et le prix
+interprétabilité directe via l'importance relative de chaque variable
+
+### Features sélectionnées
+
+Six variables numériques ont été retenues à l'issue de l'analyse exploratoire, en fonction de leur corrélation avec SalePrice :
+
+GrLivArea : surface habitable
+OverallQual : qualité globale du bien
+HouseAge : âge de la maison au moment de la vente
+GarageCars : capacité du garage
+TotalBsmtSF : surface du sous-sol
+coef_multiplicateur : coefficient de zone (Standard / Premium / Luxury)
+
+### Protocole d'apprentissage
+
+Le découpage train/test est effectué selon une répartition 80/20 avec un random_state fixé à 42 pour garantir la reproductibilité. Le modèle est entraîné avec 200 arbres et une profondeur maximale de 15 niveaux, afin de limiter le surapprentissage.
+
+Les métriques d'évaluation retenues sont la MAE, la RMSE et le R².
+
+### Résultats obtenus
+
+MAE : 20 700 $
+RMSE : 35 058 $
+R² : 0.7334
+
+Le modèle explique environ 73% de la variabilité des prix, ce qui constitue un résultat solide pour une première itération. L'erreur moyenne absolue reste raisonnable au regard de la plage de prix observée.
+
+### Importance des variables
+
+L'analyse de la feature importance révèle un classement net :
+
+OverallQual : 57%
+GrLivArea : 19%
+TotalBsmtSF : 13%
+HouseAge : 7%
+GarageCars : 3%
+coef_multiplicateur : moins de 1%
+
+L'insight principal est que la qualité globale de construction pèse trois fois plus que la surface habitable. Dans l'immobilier californien, le standing perçu du bien prime donc sur la simple métrique de m². Le coefficient de zone n'apporte qu'une contribution marginale, ce qui suggère que sa granularité (3 classes seulement) est insuffisante pour capturer la variabilité géographique réelle.
 
 ### Travaux Pratiques de Modélisation Tabulaire
 
@@ -407,7 +451,60 @@ l’architecture de votre réseau de neurones convolutif (CNN) conçu sous
 TensorFlow/Keras (conv, pooling, dense, dropout, activation) et
 commentez les courbes d’apprentissage obtenues.*
 
-\[Détailler votre architecture CNN et analyse ici\]
+Pour respecter la dimension multimodale du projet et enrichir nos prédictions tabulaires, nous avons intégré une brique de Deep Learning basée sur un Réseau de Neurones Convolutif (CNN) développé avec TensorFlow et Keras.
+
+L'objectif est de classifier automatiquement les biens immobiliers en trois catégories de prix (économique, moyenne, luxe) à partir de leurs photographies, en s'appuyant uniquement sur les caractéristiques visuelles extraites par le CNN.
+
+### Dataset utilisé
+
+Le dataset retenu est House Prices and Images SoCal, disponible sur Kaggle. Il comprend 15 474 biens immobiliers californiens, chacun associé à une photographie réelle et à ses caractéristiques tabulaires (prix, surface, nombre de pièces, etc.).
+
+Pour des contraintes de temps de calcul (entraînement sur CPU), un échantillon de 1 000 images a été utilisé, redimensionnées à 128 x 128 pixels et normalisées entre 0 et 1.
+
+### Création des catégories de prix
+
+Les seuils de classification ont été définis à partir des quantiles à 33% et 66% de la distribution des prix :
+
+catégorie économique : moins de 280 000 $
+catégorie moyenne : entre 280 000 $ et 550 000 $
+catégorie luxe : plus de 550 000 $
+
+La répartition est volontairement équilibrée afin que le CNN apprenne à différencier les trois classes sans biais de fréquence.
+
+### Architecture du CNN
+
+L'architecture retenue suit le standard d'un CNN séquentiel pour la classification d'images :
+
+trois blocs convolutifs successifs avec 32, 64 et 128 filtres, chacun suivi d'une couche de MaxPooling pour réduire progressivement la dimension spatiale
+une couche Flatten pour transformer la carte de features en vecteur
+une couche Dropout de 30% pour limiter le surapprentissage
+une couche Dense de 128 neurones avec activation ReLU
+une couche de sortie Dense à 3 neurones avec activation softmax (une probabilité par catégorie)
+
+Le modèle compte au total environ 3,3 millions de paramètres entraînables.
+
+### Entraînement
+
+Le modèle est compilé avec l'optimiseur Adam et la fonction de perte sparse_categorical_crossentropy, adaptée à la classification multiclasses. L'entraînement est réalisé sur 10 époques avec un batch size de 32, en réservant 20% des données pour la validation.
+
+### Résultats
+
+Accuracy sur le test set : 52,5%
+Accuracy sur 3 classes vs hasard pur (33%) : +58% au-dessus du hasard
+Précision sur la classe luxe : 67%
+
+Le CNN identifie particulièrement bien les biens de luxe (67% de précision), ce qui démontre que l'aspect visuel capture efficacement le standing du bien. Cela confirme que les maisons de luxe possèdent des caractéristiques visuelles distinctives (architecture, jardin, qualité de finition) bien apprises par le modèle.
+
+### Limites et perspectives
+
+L'overfitting observé entre l'accuracy d'entraînement (86%) et de test (52%) indique que le modèle souffre d'un volume de données insuffisant pour généraliser pleinement. Plusieurs pistes d'amélioration sont possibles :
+
+augmentation du volume d'images utilisées (au-delà des 1 000 actuelles)
+recours au transfer learning à partir d'un modèle pré-entraîné comme MobileNetV2 ou ResNet50
+data augmentation pour artificiellement enrichir le dataset
+filtrage préalable des images non pertinentes (cartes, photos floues)
+
+Cette brique CNN reste néanmoins un complément précieux au modèle tabulaire et démontre la faisabilité d'une approche multimodale pour la prédiction immobilière.
 
 ### Travaux Pratiques de Vision par Ordinateur (CNN)
 

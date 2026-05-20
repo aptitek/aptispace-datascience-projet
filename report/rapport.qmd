@@ -2,9 +2,9 @@
 title: "Mon Projet Data Science"
 subtitle: "Projet Fil Rouge Data Science - Sujet Libre"
 author:
-  - "Étudiant(e) 1 : [Insérer Prénom Nom]"
-  - "Étudiant(e) 2 : [Insérer Prénom Nom]"
-  - "Étudiant(e) 3 : [Insérer Prénom Nom]"
+  - Étudiant(e) 1 :celia merabet
+  - Étudiant(e) 2 : Abderrahmane Karim RAKEM
+  - Étudiant(e) 3 : BOUYABRI Mohamed
 date: today
 format:
   html:
