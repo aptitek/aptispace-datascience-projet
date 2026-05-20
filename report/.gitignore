@@ -16,3 +16,6 @@ notebooks/*.qmd
 !sujet.qmd
 !references.bib
 !assets/
+
+/.quarto/
+**/*.quarto_ipynb

@@ -5,7 +5,6 @@ author:
   - "Étudiant(e) 1 : [Insérer Prénom Nom]"
   - "Étudiant(e) 2 : [Insérer Prénom Nom]"
   - "Étudiant(e) 3 : [Insérer Prénom Nom]"
-  # Remplacer par vos noms et votre numéro de groupe
 date: today
 format:
   html:
@@ -20,7 +19,7 @@ format:
     toc: true
     number-sections: true
   gfm:
-    output-file: "README.md"
+    output-file: "rapport.md"
     toc: true
     toc-depth: 2
 execute:
@@ -33,12 +32,11 @@ link-citations: true
 
 # Introduction et Contexte Métier {#sec-intro}
 
-[![CI Compilation Pipeline](https://github.com/aptitek/aptispace-datascience-projet/actions/workflows/ci.yml/badge.svg)](https://github.com/aptitek/aptispace-datascience-projet/actions/workflows/ci.yml)
-
 *À rédiger par les étudiants : Présentez ici le contexte global de votre projet, la problématique métier que vous cherchez à résoudre, les questions scientifiques soulevées et les opportunités d'aide à la décision sur la base de vos données.*
 
 ## Contexte du Projet
 *À rédiger par les étudiants — Pistes de réflexion :*
+
 - *Quels sont les objectifs globaux et le domaine d'étude de votre projet ?*
 - *En quoi ce sujet de recherche est-il pertinent et stratégique ?*
 - *Pourquoi l'analyse quantitative de ce jeu de données est-elle indispensable pour répondre à votre problématique ?*
@@ -47,6 +45,7 @@ link-citations: true
 
 ## Objectif Analytique
 *À rédiger par les étudiants — Pistes de réflexion :*
+
 - *Quelles sont les variables cibles principales et la tâche globale de modélisation (classification, régression, clustering, etc.) ?*
 - *Comment le couplage de données multi-sources et l'intégration de différents types de données (tabulaires, images, signaux, etc.) enrichissent-ils l'analyse ?*
 - *Quels sont les livrables analytiques attendus pour répondre à votre problématique et guider les prises de décisions ?*
@@ -59,37 +58,11 @@ link-citations: true
 
 Le succès de tout projet de Data Science repose sur la qualité de la préparation des données [@pandas2020]. Cette section documente l'audit de qualité et les étapes de nettoyage appliquées à vos jeux de données bruts.
 
-## Audit de Qualité
-*À rédiger par les étudiants : Présentez un audit critique complet de vos fichiers de données brutes. Indiquez la liste des anomalies physiques et typologiques détectées (formats de dates hétérogènes, outliers physiques, taux de valeurs manquantes, etc.).*
+## Chapitre 1 : Acquisition Multi-Sources
+{{< include ../build/notebooks/01_acquisition.qmd >}}
 
-[Rédiger votre audit de données ici]
-
-## Algorithme de Nettoyage
-*À rédiger par les étudiants : Justifiez et détaillez l'enchaînement de vos opérations de traitement (uniformisation des dates, masquage des outliers, imputation, etc.). Faites référence aux fonctions correspondantes de votre module `src/data_clean.py`.*
-
-[Rédiger la justification méthodologique ici]
-
-## Travaux Pratiques de Wrangling
-{{< include notebooks/01_data_wrangling.qmd >}}
-
----
-
-# Analyse Exploratoire des Données (EDA) {#sec-eda}
-
-Dans cette section, nous analysons les relations statistiques fondamentales qui régissent votre domaine d'étude au sein du jeu de données.
-
-## Statistiques Descriptives
-*À rédiger par les étudiants : Présentez une vue d'ensemble descriptive rapide de vos variables nettoyées.*
-
-[Rédiger les statistiques descriptives ici]
-
-## Ingénierie de Variables (Feature Engineering)
-*À rédiger par les étudiants : Expliquez l'intérêt mathématique et l'impact sur les modèles prédictifs d'extraire des caractéristiques dérivées (ex: variables cycliques temporelles, ratios financiers, ratios physiques, etc.).*
-
-[Rédiger votre explication de l'ingénierie de variables ici]
-
-## Travaux Pratiques d'Exploration Visuelle (EDA)
-{{< include notebooks/02_eda_visualisation.qmd >}}
+## Chapitre 2 : Nettoyage et Préparation (Wrangling)
+{{< include ../build/notebooks/02_wrangling.qmd >}}
 
 ---
 
@@ -97,31 +70,22 @@ Dans cette section, nous analysons les relations statistiques fondamentales qui 
 
 Nous présentons ici les résultats visuels clés permettant de dégager des insights exploitables pour les décideurs, en s'appuyant sur notre module `src/utils_viz.py`.
 
-*À rédiger par les étudiants : Présentez et commentez en détail vos 3 à 5 insights majeurs découverts lors de l'exploration descriptive visuelle. Intégrez et justifiez les figures clés générées.*
+## Chapitre 3 : Travaux Pratiques d'Exploration Visuelle
+{{< include ../build/notebooks/03_visualisation.qmd >}}
 
-## Profils et Distributions Caractéristiques
-```python
-#| label: fig-distribution-density
-#| fig-cap: "Distribution ou profils caractéristiques de vos variables clés."
-#| echo: false
-# TODO: Utiliser vos fonctions personnalisées de votre module pour tracer la figure
-```
-[Commenter la figure et décrire vos observations ici]
+---
 
-## Corrélations Globales
-```python
-#| label: fig-correlation
-#| fig-cap: "Matrice de corrélation de Spearman ou de Pearson entre variables."
-#| echo: false
-# TODO: Utiliser uv.plot_correlation_matrix() de votre module pour tracer la figure
-```
-[Commenter la figure et décrire vos observations ici]
+# Analyse Exploratoire des Données (EDA) {#sec-eda}
+
+Dans cette section, nous analysons les relations statistiques fondamentales qui régissent votre domaine d'étude au sein du jeu de données.
+
+## Chapitre 4 : Travaux Pratiques d'Exploration (EDA)
+{{< include ../build/notebooks/04_eda.qmd >}}
 
 ---
 
 # Modélisation et Apprentissage {#sec-modelling}
 
-## Schéma Global du Pipeline de Données
 Le pipeline complet intègre à la fois la branche analytique tabulaire (Machine Learning) et la branche d'analyse visuelle ou de signaux complexes (Deep Learning CNN) :
 
 ```mermaid
@@ -141,56 +105,103 @@ graph TD
     style I fill:#fef3c7,stroke:#d97706,stroke-width:2px
 ```
 
-## Modélisation Tabulaire (Machine Learning)
-*À rédiger par les étudiants : Expliquez le choix de vos algorithmes d'apprentissage (supervisé ou non supervisé) et décrivez l'importance des variables explicatives.*
-
-[Détailler votre modélisation ici]
-
-### Travaux Pratiques de Modélisation Tabulaire
-{{< include notebooks/03_modelisation_pred.qmd >}}
-
-## Modélisation Vision / Deep Learning (Analyse d'Images ou Signaux)
-*À rédiger par les étudiants : Expliquez l'intérêt de la brique de Deep Learning (images, signaux ou traitement de données structurées complexes) pour classifier ou enrichir vos prédictions. Détaillez l'architecture de votre réseau de neurones convolutif (CNN) conçu sous TensorFlow/Keras (conv, pooling, dense, dropout, activation) et commentez les courbes d'apprentissage obtenues.*
-
-[Détailler votre architecture CNN et analyse ici]
-
-### Travaux Pratiques de Vision par Ordinateur (CNN)
-{{< include notebooks/04_vision_cnn_tf.qmd >}}
+## Chapitre 5 : Travaux Pratiques de Modélisation (ML & DL)
+{{< include ../build/notebooks/05_modelisation.qmd >}}
 
 ---
 
 # Évaluation Métrique et Validation {#sec-evaluation}
 
-## Stratégie de Validation
-*À rédiger par les étudiants : Expliquez pourquoi le découpage d'évaluation choisi (ex: validation temporelle, stratifiée ou par groupe) est adapté à la structure de vos données pour éviter les fuites de données.*
-
-[Rédiger la section de validation ici]
-
-## Résultats et Interprétation
-*À rédiger par les étudiants : Complétez le tableau d'évaluation ci-dessous en reportant vos résultats de modélisation.*
-
-| Modèle | Métrique 1 (ex: MAE / Précision) | Métrique 2 (ex: RMSE / F1-Score) | R² / Score (%) |
-|--------|-----------------|------------------|-----------|
-| Baseline (ex: Naïve / Moyenne) | [À compléter] | [À compléter] | [À compléter] |
-| **Modèle Choisi** | **[À compléter]** | **[À compléter]** | **[À compléter]** |
-
-[Interpréter et comparer les métriques d'erreur calculées ici]
+## Chapitre 6 : Travaux Pratiques d'Évaluation & Robustesse
+{{< include ../build/notebooks/06_evaluation.qmd >}}
 
 ---
 
 # Data Storytelling et Communication {#sec-storytelling}
 
-## Recommandations Stratégiques / Métier
-*À rédiger par les étudiants : Formulez des recommandations stratégiques, opérationnelles et innovantes basées sur vos découvertes analytiques et prédictives pour guider les décideurs.*
+## Chapitre 7 : Travaux Pratiques de Storytelling
+{{< include ../build/notebooks/07_communication.qmd >}}
 
-[Rédiger vos recommandations ici]
+## Présentation des Résultats (Livrables Interactifs)
 
-## Limites et Perspectives
-*À rédiger par les étudiants : Identifiez honnêtement les biais ou limites de votre approche et proposez des pistes d'amélioration futures (ex: intégration de données externes réelles, modélisation plus poussée).*
+::: {.panel-tabset}
 
-[Rédiger les limites et perspectives ici]
+### 📺 Diaporama de Soutenance (RevealJS)
+Ci-dessous est intégré le squelette de votre diaporama de soutenance RevealJS. Utilisez-le pour présenter votre démarche aux décideurs de façon professionnelle.
 
-Ce document dynamique a été compilé en Quarto [@quarto2024].
+<iframe src="slides.html" width="100%" height="500px" style="border: 1px solid #e2e8f0; border-radius: 8px; background: white;"></iframe>
+
+### 📊 Exemple de Dashboard Dynamique (OJS / Plotly)
+Voici un exemple minimal de code montrant comment intégrer un graphique dynamique contrôlé par un composant d'interface utilisateur en Observable JS (OJS).
+
+```{ojs}
+//| echo: true
+// Boutons de sélection interactifs OJS
+viewof selectedCategory = Inputs.select(["Toutes", "A", "B", "C"], {value: "Toutes", label: "Filtrer par Catégorie :"})
+```
+
+```{ojs}
+//| echo: false
+// Données simulées réactives
+data = [
+  {timestamp: "2026-05-18T00:00:00Z", value: 10.5, category: "A"},
+  {timestamp: "2026-05-18T02:00:00Z", value: 12.1, category: "A"},
+  {timestamp: "2026-05-18T04:00:00Z", value: 14.7, category: "A"},
+  {timestamp: "2026-05-18T05:00:00Z", value: 15.2, category: "A"},
+  {timestamp: "2026-05-18T06:00:00Z", value: 16.0, category: "B"},
+  {timestamp: "2026-05-18T07:00:00Z", value: 18.3, category: "B"},
+  {timestamp: "2026-05-18T09:00:00Z", value: 21.5, category: "B"},
+  {timestamp: "2026-05-18T10:00:00Z", value: 22.0, category: "B"},
+  {timestamp: "2026-05-18T12:00:00Z", value: 25.4, category: "C"},
+  {timestamp: "2026-05-18T13:00:00Z", value: 26.1, category: "C"},
+  {timestamp: "2026-05-18T15:00:00Z", value: 28.9, category: "C"},
+  {timestamp: "2026-05-18T16:00:00Z", value: 30.2, category: "C"}
+]
+
+// Filtrage réactif de la donnée
+filteredData = selectedCategory === "Toutes" 
+  ? data 
+  : data.filter(d => d.category === selectedCategory)
+
+// Tracé interactif avec la librairie Plotly
+Plotly.newPlot('dynamic-chart', [{
+  x: filteredData.map(d => d.timestamp),
+  y: filteredData.map(d => d.value),
+  type: 'scatter',
+  mode: 'lines+markers',
+  marker: {color: '#1A73E8', size: 8},
+  line: {shape: 'spline', color: '#1A73E8', width: 3}
+}], {
+  title: 'Évolution Dynamique des Valeurs (Filtrée)',
+  margin: {t: 50, b: 50, l: 50, r: 50},
+  paper_bgcolor: 'rgba(0,0,0,0)',
+  plot_bgcolor: 'rgba(0,0,0,0)',
+  xaxis: {gridcolor: '#E5E7EB'},
+  yaxis: {gridcolor: '#E5E7EB'}
+})
+```
+
+<div id="dynamic-chart" style="width:100%; height:400px; background: white; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></div>
+
+:::
+
+---
+
+# Utilisation de l'Intelligence Artificielle {#sec-ai}
+
+Dans une démarche de transparence scientifique et académique, cette section détaille la manière dont les outils d'Intelligence Artificielle (IA) générative ont été intégrés tout au long de la réalisation de ce projet.
+
+## Cartographie de l'utilisation de l'IA
+
+| Outil d'IA | Cas d'usage (Pourquoi ?) | Méthode d'utilisation (Comment ?) | Rôle et Validation Humaine |
+| :--- | :--- | :--- | :--- |
+| **[Outil d'IA]** | *[À compléter par les étudiants]* | *[À compléter par les étudiants]* | *[À compléter par les étudiants]* |
+
+## Principes de Rigueur et Responsabilité
+
+1. **Responsabilité intellectuelle** : L'équipe assume l'entière responsabilité des analyses, des choix de modèles et des conclusions présentées dans ce rapport.
+2. **Lutte contre les hallucinations** : Chaque suggestion technique a fait l'objet d'une validation empirique.
+3. **Protection des données** : Aucun jeu de données confidentiel ou sensible n'a été soumis à des modèles tiers en ligne.
 
 ---
 

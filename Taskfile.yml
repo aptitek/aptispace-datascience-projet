@@ -15,27 +15,32 @@ tasks:
     desc: Compile d'abord les notebooks puis génère le rapport complet dans tous les formats déclarés
     cmds:
       - task: compile
+      - quarto render report/slides.qmd
       - quarto render report/rapport.qmd
-      - cp report/README.md ./README.md
+      - rm -rf report/slides_files/ report/rapport_files/ report/installation_files/
+      - cp build/report/rapport.pdf report/rapport.pdf
 
   html:
     desc: Compile les notebooks puis génère le rapport au format HTML uniquement
     cmds:
       - task: compile
       - quarto render report/rapport.qmd --to html
+      - rm -rf report/slides_files/ report/rapport_files/ report/installation_files/
 
   pdf:
     desc: Compile les notebooks puis génère le rapport au format PDF (via Typst) uniquement
     cmds:
       - task: compile
       - quarto render report/rapport.qmd --to typst
+      - rm -rf report/slides_files/ report/rapport_files/ report/installation_files/
+      - cp build/report/rapport.pdf report/rapport.pdf
 
   gfm:
-    desc: Compile les notebooks puis génère le rapport en GFM (Markdown) pour mettre à jour le README.md
+    desc: Compile les notebooks puis génère le rapport en GFM (Markdown) uniquement
     cmds:
       - task: compile
       - quarto render report/rapport.qmd --to gfm
-      - cp report/README.md ./README.md
+      - rm -rf report/slides_files/ report/rapport_files/ report/installation_files/
 
   preview:
     desc: Compile les notebooks puis démarre le serveur de prévisualisation dynamique Quarto
@@ -44,7 +49,23 @@ tasks:
       - quarto preview report/rapport.qmd
 
   install-guide:
-    desc: Génère le guide d'installation sous tous les formats (HTML, PDF, Markdown) et met à jour INSTALL.md à la racine
+    desc: Génère le guide d'installation sous tous les formats (HTML, PDF, Markdown)
     cmds:
       - quarto render report/installation.qmd
-      - cp report/INSTALL.md ./INSTALL.md
+      - rm -rf report/slides_files/ report/rapport_files/ report/installation_files/
+
+  clean:
+    desc: "Nettoie tous les fichiers temporaires de compilation, le dossier build et les ressources Quarto (conserve le PDF du rapport)"
+    cmds:
+      - rm -rf build/
+      - rm -f report/slides.html
+      - rm -rf report/slides_files/
+      - rm -f report/rapport.html
+      - rm -f report/rapport.md
+      - rm -rf report/rapport_files/
+      - rm -f report/installation.html
+      - rm -f report/installation.pdf
+      - rm -rf report/installation_files/
+      - rm -rf report/.quarto_libs/
+
+

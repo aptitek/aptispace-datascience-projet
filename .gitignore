@@ -5,14 +5,8 @@ __pycache__/
 
 # Notebooks Jupyter
 .ipynb_checkpoints/
-# Scripts Python extraits des notebooks
-src/01_data_wrangling.py
-src/02_eda_visualisation.py
-src/03_modelisation_pred.py
-src/04_vision_cnn_tf.py
-
-# Journaux d'exécution des notebooks
-logs/
+# Dossier de build contenant tous les fichiers générés (scripts, qmd compilés, logs)
+build/
 
 
 # Environnements Virtuels
@@ -39,3 +33,5 @@ Thumbs.db
 
 *.pdf
 *.html
+/.quarto/
+**/*.quarto_ipynb

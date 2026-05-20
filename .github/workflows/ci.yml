@@ -56,7 +56,9 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           
           # Ajout forcé des fichiers compilés / générés par les tâches
-          git add -f README.md INSTALL.md src/0*_*.py logs/*.log report/notebooks/*.qmd report/rapport.html report/rapport.pdf report/rapport.qmd
+          for file in README.md INSTALL.md src/0*_*.py logs/*.log report/notebooks/*.qmd report/rapport.html report/rapport.pdf report/rapport.qmd; do
+            [ -e "$file" ] && git add -f "$file"
+          done
           
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Auto: Update compiled outputs (README, INSTALL, scripts, includes and logs) [skip ci]"

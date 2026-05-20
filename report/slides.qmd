@@ -1,0 +1,98 @@
+---
+title: "🎓 Soutenance de Projet Data Science"
+subtitle: "Présentation des résultats - Sujet Libre"
+author: "Groupe d'étudiants [Insérer Noms]"
+date: today
+format:
+  revealjs:
+    theme: solarized
+    transition: slide
+    slide-number: true
+    preview-links: auto
+    chalkboard: true
+    code-fold: show
+---
+
+# 🎯 Chapitres 1 & 2 : Acquisition & Wrangling
+
+## Sources de données & Nettoyage
+
+### Objectifs d'Acquisition
+
+- *[À compléter par les étudiants]* : Décrivez vos sources brutes (fichiers locaux, APIs, web scraping).
+
+### Algorithmes de Nettoyage appliqués
+
+- Traitement des valeurs manquantes (imputation/interpolation).
+- Gestion des anomalies physiques (outliers).
+- Standardisation des dates et encodage.
+
+> [!TIP]
+> Justifiez en quoi ces étapes garantissent la robustesse de vos modèles futurs.
+
+---
+
+# 📊 Chapitres 3 & 4 : EDA & Visualisation
+
+## Exploration Visuelle & Insights Majeurs
+
+### Statistiques Descriptives
+
+- Aperçu des indicateurs clés et structures.
+
+### Feature Engineering
+
+- Extraction des variables cycliques et dérivées (ex: `hour`, `dayofweek`).
+
+::: {.fragment}
+### Insights Visuels clés
+
+- **Graphique interactif / statique** : Présentez ici le graphique le plus marquant (ex: corrélations ou tendances fortes).
+:::
+
+---
+
+# 🧠 Chapitre 5 : Modélisation
+
+## Stratégie d'Apprentissage & Architectures
+
+::: {.panel-tabset}
+### Machine Learning Tabulaire
+
+- Algorithme choisi : `RandomForestRegressor`, `XGBoost`, etc.
+- Justification du choix par rapport au problème métier.
+
+### Deep Learning (Vision / Signaux)
+
+- Réseau de neurones convolutif (**CNN**) sous **TensorFlow**.
+- Architecture des couches : *Conv2D*, *MaxPooling2D*, *Flatten*, *Dense*, *Dropout*.
+:::
+
+---
+
+# 🧪 Chapitre 6 : Évaluation
+
+## Métriques & Robustesse des Prédictions
+
+| Modèle | MAE | RMSE | $R^2$ (%) |
+| :--- | :---: | :---: | :---: |
+| Baseline (Ex: Naïve) | *[À compléter]* | *[À compléter]* | *[À compléter]* |
+| **Forêt Aléatoire (RF)** | **[À compléter]** | **[À compléter]** | **[À compléter]** |
+| **Réseau Convolutif (CNN)**| **[À compléter]** | **[À compléter]** | **[À compléter]** |
+
+> [!IMPORTANT]
+> Expliquez votre protocole de validation (ex : split chronologique ou Cross-Validation) pour prévenir tout risque d'overfitting.
+
+---
+
+# 📢 Chapitre 7 : Communication
+
+## Storytelling & Recommandations Stratégiques
+
+### Recommandations Métier clés
+
+- *[À compléter]* : Traduisez vos métriques de performance en préconisations opérationnelles ou gains métier directs.
+
+### Limites & Perspectives
+
+- Biais des données, limites de l'architecture, et voies d'amélioration futures.

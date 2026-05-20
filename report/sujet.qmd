@@ -16,11 +16,11 @@ L'objectif est de concevoir un pipeline de Data Science complet de bout en bout,
 * Sélection, justification et récupération de votre jeu de données principal et de données secondaires complémentaires (multi-sources).
 * Nettoyage rigoureux des données brutes : détection et traitement des valeurs manquantes, uniformisation des formats (ex: formats de dates, types numériques), détection des outliers et encodage des caractéristiques qualitatives.
 
-2. **Analyse Exploratoire (EDA) & Visualisation (Chapitres 3 & 4) :**
-* Statistiques descriptives globales et analyse statistique approfondie des corrélations et relations de causalité.
-* Création de graphiques multidimensionnels percutants pour mettre en évidence les insights majeurs de vos données.
+2. **Visualisation & Analyse Exploratoire (EDA) (Chapitres 3 & 4) :**
+* Création de graphiques multidimensionnels percutants pour mettre en évidence les insights majeurs de vos données (Matplotlib, Seaborn, Plotly).
+* Statistiques descriptives univariées/bivariées et analyse statistique approfondie des corrélations et anomalies.
 
-**🛑 LIVRABLE JALON 1 :** Un premier rapport justifiant vos choix de préparation de la donnée et présentant un résumé visuel des 3 à 5 insights majeurs découverts lors de l'EDA.
+**🛑 LIVRABLE JALON 1 :** Un premier rapport justifiant vos choix de préparation de la donnée et présentant un résumé visuel des 3 à 5 insights majeurs découverts.
 
 ---
 
@@ -37,7 +37,7 @@ L'objectif est de concevoir un pipeline de Data Science complet de bout en bout,
 5. **Data Storytelling & Communication (Chapitre 7) :**
 * Restitution interactive des résultats de vos modèles sous forme de dashboard (Dash, Plotly ou OJS) et discussion transparente des limites de votre étude.
 
-**🛑 LIVRABLE JALON 2 :** Le dossier global finalisé, intégrant les retours du Jalon 1 et la nouvelle partie prédictive.
+**🛑 LIVRABLE JALON 2 :** Le dossier dossier finalisé, intégrant les retours du Jalon 1 et la nouvelle partie prédictive.
 
 ---
 
@@ -80,10 +80,13 @@ Explorez l'arborescence ci-dessous et téléchargez l'archive complète pour dé
 - [Taskfile.yml](lab/projet/Taskfile.yml) (Fichier d'automatisation des tâches)
 - [requirements.txt](lab/projet/requirements.txt) (Dépendances Python du projet)
 - notebooks/ (Les notebooks guidés des jalons)
-    - [01_data_wrangling.ipynb](lab/projet/notebooks/01_data_wrangling.ipynb)
-    - [02_eda_visualisation.ipynb](lab/projet/notebooks/02_eda_visualisation.ipynb)
-    - [03_modelisation_pred.ipynb](lab/projet/notebooks/03_modelisation_pred.ipynb)
-    - [04_vision_cnn_tf.ipynb](lab/projet/notebooks/04_vision_cnn_tf.ipynb)
+    - [01_acquisition.ipynb](lab/projet/notebooks/01_acquisition.ipynb)
+    - [02_wrangling.ipynb](lab/projet/notebooks/02_wrangling.ipynb)
+    - [03_visualisation.ipynb](lab/projet/notebooks/03_visualisation.ipynb)
+    - [04_eda.ipynb](lab/projet/notebooks/04_eda.ipynb)
+    - [05_modelisation.ipynb](lab/projet/notebooks/05_modelisation.ipynb)
+    - [06_evaluation.ipynb](lab/projet/notebooks/06_evaluation.ipynb)
+    - [07_communication.ipynb](lab/projet/notebooks/07_communication.ipynb)
 - src/ (Les modules Python réutilisables du pipeline)
     - [data_clean.py](lab/projet/src/data_clean.py) (Fonctions de nettoyage et d'imputation)
     - [utils_viz.py](lab/projet/src/utils_viz.py) (Fonctions de tracés de graphiques)
@@ -95,6 +98,7 @@ Explorez l'arborescence ci-dessous et téléchargez l'archive complète pour dé
 
 ### ⚙️ Automatisation avec Taskfile
 Le projet inclut un outil de productivité nommé `go-task` (ou `task`). À la racine du projet, vous pouvez ouvrir votre terminal et utiliser les commandes suivantes pour simplifier votre flux de travail :
+
 - `task compile` : Extrait et compile vos notebooks et prépare les documents Quarto de jalon.
 - `task render` : Compile l'ensemble de votre rapport final en HTML, PDF (via Typst) et Markdown (README.md).
 - `task preview` : Lance un serveur local Quarto de prévisualisation en temps réel pour rédiger confortablement.
