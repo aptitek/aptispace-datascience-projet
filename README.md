@@ -355,10 +355,6 @@ graph TD
 
 ## Modélisation Tabulaire (Machine Learning)
 
-*À rédiger par les étudiants : Expliquez le choix de vos algorithmes
-d’apprentissage (supervisé ou non supervisé) et décrivez l’importance
-des variables explicatives.*
-
 Pour la prédiction du prix de vente des biens immobiliers, nous avons retenu un Random Forest Regressor comme modèle principal.
 
 Ce choix s'appuie sur plusieurs critères :
@@ -444,12 +440,7 @@ de chaque caractéristique prédictive.
 
 ## Modélisation Vision / Deep Learning (Analyse d’Images ou Signaux)
 
-*À rédiger par les étudiants : Expliquez l’intérêt de la brique de Deep
-Learning (images, signaux ou traitement de données structurées
-complexes) pour classifier ou enrichir vos prédictions. Détaillez
-l’architecture de votre réseau de neurones convolutif (CNN) conçu sous
-TensorFlow/Keras (conv, pooling, dense, dropout, activation) et
-commentez les courbes d’apprentissage obtenues.*
+
 
 Pour respecter la dimension multimodale du projet et enrichir nos prédictions tabulaires, nous avons intégré une brique de Deep Learning basée sur un Réseau de Neurones Convolutif (CNN) développé avec TensorFlow et Keras.
 
