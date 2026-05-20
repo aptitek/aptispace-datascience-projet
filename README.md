@@ -393,21 +393,36 @@ une branche image (Deep Learning CNN) pour l’analyse visuelle des biens immobi
 Cette approche multimodale permet de capturer à la fois les facteurs quantitatifs et qualitatifs influençant la valeur d’un bien.
 
 
-``` mermaid
+
+```mermaid
 graph TD
-    A[Données Brutes Multi-Sources CSV/API] -->|Formatage & Alignement| B(data_clean.clean_dates)
-    C[Données Externes Complémentaires] -->|Imputation & Interpolation| D(data_clean.impute_missing_values)
-    B & D -->|Gestion Outliers| E[Jeu de données Propre & Fusionné]
-    E -->|Extraction Temporelle/Caractéristiques| F[Feature Engineering]
-    F -->|Splits Temporels ou Stratifiés| G[Modèle Machine Learning Tabulaire]
-    H[Flux Multimédias Réels Images/Signaux] -->|Prétraitement d'images/signaux| I[Réseau Convolutif CNN TensorFlow]
-    G -->|Prédictions de la Problématique Métier| J[Livrables & Aide à la Décision]
-    I -->|Détection de Motifs Complexes| J
-    
+
+    A[Données Brutes Multi-Sources CSV / API] -->|Nettoyage dates| B[clean_dates()]
+    C[Données Externes Complémentaires] -->|Imputation| D[impute_missing_values()]
+
+    B --> E[Dataset Nettoyé]
+    D --> E
+
+    E --> F[Feature Engineering]
+    F --> G[Dataset final structuré]
+
+    G --> H[Train/Test Split]
+
+    H --> I[Modèle ML Tabulaire<br/>RandomForest / XGBoost]
+    H --> J[Prétraitement Images]
+
+    J --> K[CNN TensorFlow / Keras]
+
+    I --> L[Prédictions Prix Immobilier]
+    K --> L
+
+    L --> M[Aide à la Décision / Dashboard / Reporting]
+
     style E fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
-    style J fill:#f0fdf4,stroke:#16a34a,stroke-width:2px
     style G fill:#fef3c7,stroke:#d97706,stroke-width:2px
-    style I fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style I fill:#fde68a,stroke:#b45309,stroke-width:2px
+    style K fill:#fde68a,stroke:#b45309,stroke-width:2px
+    style M fill:#dcfce7,stroke:#16a34a,stroke-width:2px
 ```
 
 ## Modélisation Tabulaire (Machine Learning)
