@@ -10,6 +10,7 @@ tasks:
     desc: "Compile les notebooks (.ipynb) en 3 fichiers : .qmd (Quarto), .py (Script), .log (Journal d'exécution)"
     cmds:
       - python3 tools/compile_notebooks.py
+      - python3 tools/compile_ojs_in_markdown.py build/report/rapport.md
 
   render:
     desc: Compile d'abord les notebooks puis génère le rapport complet dans tous les formats déclarés
@@ -17,6 +18,7 @@ tasks:
       - task: compile
       - quarto render report/slides.qmd
       - quarto render report/rapport.qmd
+      - python3 tools/compile_ojs_in_markdown.py build/report/rapport.md
       - rm -rf report/slides_files/ report/rapport_files/ report/installation_files/
       - cp build/report/rapport.pdf report/rapport.pdf
       - cp build/report/rapport.md ./README.md
@@ -41,6 +43,7 @@ tasks:
     cmds:
       - task: compile
       - quarto render report/rapport.qmd --to gfm
+      - python3 tools/compile_ojs_in_markdown.py build/report/rapport.md
       - rm -rf report/slides_files/ report/rapport_files/ report/installation_files/
       - cp build/report/rapport.md ./README.md
 

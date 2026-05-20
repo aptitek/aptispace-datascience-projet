@@ -339,11 +339,41 @@ pour valoriser vos conclusions.
 impacts stratégiques (par exemple, gains financiers, réduction de coûts,
 amélioration de la sécurité, etc.).
 
+<div id="plotly-22832f08-72ec-4fd6-8f94-e28319c1edfb"
+style="width:100%; height:400px; background: white; border-radius: 8px;">
+
+</div>
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+    if (typeof Plotly !== 'undefined') {
+      Plotly.newPlot('plotly-22832f08-72ec-4fd6-8f94-e28319c1edfb', [{"type": "scatter", "x": [1, 2, 3], "y": [10, 15, 13], "mode": "lines+markers", "name": "Donn\u00e9es de Test"}], {"title": "Mon Graphique Plotly de Test"}, {"responsive": true});
+    } else {
+      console.error("Plotly library is not loaded.");
+    }
+  });
+</script>
+
 ### 3. Visualisation Interactive (Plotly)
 
 **À COMPLÉTER PAR L’ÉTUDIANT :** Générez un graphique interactif (par
 exemple en utilisant Plotly ou des éléments OJS dans le document final)
 pour permettre aux décideurs d’interagir dynamiquement avec vos données.
+
+<div id="plotly-b710acc6-d2c3-49c1-8448-5c00fad65e93"
+style="width:100%; height:400px; background: white; border-radius: 8px;">
+
+</div>
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+    if (typeof Plotly !== 'undefined') {
+      Plotly.newPlot('plotly-b710acc6-d2c3-49c1-8448-5c00fad65e93', [{"type": "scatter", "x": [1, 2, 3], "y": [10, 15, 13], "mode": "lines+markers", "name": "Donn\u00e9es de Test"}], {"title": "Mon Graphique Plotly de Test"}, {"responsive": true});
+    } else {
+      console.error("Plotly library is not loaded.");
+    }
+  });
+</script>
 
 ## Présentation des Résultats (Livrables Interactifs)
 
@@ -365,16 +395,22 @@ Voici un exemple minimal de code montrant comment intégrer un graphique
 dynamique contrôlé par un composant d’interface utilisateur en
 Observable JS (OJS).
 
-``` {ojs}
-//| echo: true
-// Boutons de sélection interactifs OJS
-viewof selectedCategory = Inputs.select(["Toutes", "A", "B", "C"], {value: "Toutes", label: "Filtrer par Catégorie :"})
-```
+<div style="background: #f8fafc; padding: 1.5rem; border-radius: 8px; border: 1px solid #e2e8f0; margin-bottom: 1.5rem;">
+  <div style="margin-bottom: 1rem; font-family: sans-serif;">
+    <label for="selectedCategory-select" style="font-weight: 600; margin-right: 0.5rem; color: #1e293b;">Filtrer par Catégorie :</label>
+    <select id="selectedCategory-select" style="padding: 0.5rem; border-radius: 4px; border: 1px solid #cbd5e1; background: white; color: #1e293b;">
+      <option value="Toutes" selected>Toutes</option>
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+    </select>
+  </div>
+  
+</div>
 
-``` {ojs}
-//| echo: false
-// Données simulées réactives
-data = [
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+    const data = [
   {timestamp: "2026-05-18T00:00:00Z", value: 10.5, category: "A"},
   {timestamp: "2026-05-18T02:00:00Z", value: 12.1, category: "A"},
   {timestamp: "2026-05-18T04:00:00Z", value: 14.7, category: "A"},
@@ -387,35 +423,51 @@ data = [
   {timestamp: "2026-05-18T13:00:00Z", value: 26.1, category: "C"},
   {timestamp: "2026-05-18T15:00:00Z", value: 28.9, category: "C"},
   {timestamp: "2026-05-18T16:00:00Z", value: 30.2, category: "C"}
-]
+];
 
-// Filtrage réactif de la donnée
-filteredData = selectedCategory === "Toutes" 
-  ? data 
-  : data.filter(d => d.category === selectedCategory)
+    function updatePlot(category) {
+      if (typeof Plotly === 'undefined') {
+        console.error("Plotly is not loaded");
+        return;
+      }
+      // Boutons de sélection interactifs OJS
+      // Données simulées réactives
+      // Filtrage réactif de la donnée
+      const filteredData = category === "Toutes" 
+        ? data 
+        : data.filter(d => d.category === category)
+      // Tracé interactif avec la librairie Plotly
+      Plotly.newPlot('dynamic-chart', [{
+        x: filteredData.map(d => d.timestamp),
+        y: filteredData.map(d => d.value),
+        type: 'scatter',
+        mode: 'lines+markers',
+        marker: {color: '#1A73E8', size: 8},
+        line: {shape: 'spline', color: '#1A73E8', width: 3}
+      }], {
+        title: 'Évolution Dynamique des Valeurs (Filtrée)',
+        margin: {t: 50, b: 50, l: 50, r: 50},
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        xaxis: {gridcolor: '#E5E7EB'},
+        yaxis: {gridcolor: '#E5E7EB'}
+      })
+    }
 
-// Tracé interactif avec la librairie Plotly
-Plotly.newPlot('dynamic-chart', [{
-  x: filteredData.map(d => d.timestamp),
-  y: filteredData.map(d => d.value),
-  type: 'scatter',
-  mode: 'lines+markers',
-  marker: {color: '#1A73E8', size: 8},
-  line: {shape: 'spline', color: '#1A73E8', width: 3}
-}], {
-  title: 'Évolution Dynamique des Valeurs (Filtrée)',
-  margin: {t: 50, b: 50, l: 50, r: 50},
-  paper_bgcolor: 'rgba(0,0,0,0)',
-  plot_bgcolor: 'rgba(0,0,0,0)',
-  xaxis: {gridcolor: '#E5E7EB'},
-  yaxis: {gridcolor: '#E5E7EB'}
-})
-```
+    const select = document.getElementById("selectedCategory-select");
+    if (select) {
+      select.addEventListener("change", function(e) {
+        updatePlot(e.target.value);
+      });
+      updatePlot(select.value);
+    }
+  });
+</script>
 
-<div id="dynamic-chart"
-style="width:100%; height:400px; background: white; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
 
-</div>
+
+
+
 
 </div>
 
@@ -458,3 +510,24 @@ Pandas, NumPy, and IPython*. O’Reilly Media.
 </div>
 
 </div>
+
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W119
+</script>
+
+<div id="exercise-loading-indicator"
+class="exercise-loading-indicator d-none d-flex align-items-center gap-2">
+
+<div id="exercise-loading-status" class="d-flex gap-2">
+
+</div>
+
+<div class="spinner-grow spinner-grow-sm">
+
+</div>
+
+</div>
+
+<script type="vfs-file">
+W10=
+</script>
