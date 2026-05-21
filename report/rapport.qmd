@@ -41,9 +41,11 @@ link-citations: true
 - *En quoi ce sujet de recherche est-il pertinent et stratégique ?*
 - *Pourquoi l'analyse quantitative de ce jeu de données est-elle indispensable pour répondre à votre problématique ?*
 
-[Ce projet s'inscrit dans une problématique de Data Science appliquée au marché immobilier californien. À partir du dataset House Prices (Kaggle, 1 460 biens, 81 variables), nous analysons les facteurs qui influencent le prix de vente d'un bien immobilier et construisons un pipeline complet de Data Science combinant Machine Learning tabulaire et Deep Learning sur images.
+[Ce projet s'inscrit dans une problématique de Data Science appliquée au marché immobilier, un domaine où l'analyse de données joue un rôle clé dans la prise de décision des particuliers, agences et investisseurs.
 
-L'analyse quantitative de ce jeu de données est indispensable car le marché immobilier est fortement hétérogène : les prix varient de manière complexe et non-linéaire selon des dizaines de critères (qualité de construction, surface, localisation, âge du bien). Seule une approche algorithmique permet de modéliser ces interactions et d'objectiver les facteurs déterminants du prix.]
+L'objectif général est de comprendre et prédire les prix des logements à partir de plusieurs sources de données : caractéristiques tabulaires (surface, localisation, nombre de pièces, etc.), données contextuelles issues de plateformes immobilières, et données visuelles (images de logements).
+
+Dans un contexte de marché immobilier fortement hétérogène, les prix peuvent varier de manière importante en fonction de critères complexes et non linéaires. L'analyse quantitative permet donc d'objectiver les facteurs influençant les prix, de détecter des patterns cachés dans les données, et de construire des modèles prédictifs fiables.]
 
 ## Objectif Analytique
 *À rédiger par les étudiants — Pistes de réflexion :*
@@ -52,16 +54,11 @@ L'analyse quantitative de ce jeu de données est indispensable car le marché im
 - *Comment le couplage de données multi-sources et l'intégration de différents types de données (tabulaires, images, signaux, etc.) enrichissent-ils l'analyse ?*
 - *Quels sont les livrables analytiques attendus pour répondre à votre problématique et guider les prises de décisions ?*
 
-[La variable cible principale est **SalePrice** (prix de vente en dollars) — il s'agit d'une tâche de **régression supervisée**.
+[L'objectif principal du projet est de construire un modèle prédictif de régression capable d'estimer le prix d'un bien immobilier. Plus précisément, nous cherchons à prédire la variable cible SalePrice, analyser les variables explicatives (surface, localisation, équipements) et intégrer une dimension Deep Learning (CNN) sur des images de logements afin d'enrichir les prédictions.
 
-Le projet combine deux types de données complémentaires : des données tabulaires structurées (caractéristiques physiques du bien) et des données non structurées (photographies réelles des maisons), constituant une approche **multimodale**.
+Le projet suit une approche multimodale, combinant des données tabulaires structurées, des données non structurées (images), et des modèles d'apprentissage automatique avancés.
 
-Les livrables analytiques produits sont :
-
-- Un modèle **Random Forest Regressor** atteignant R²=0.73 (explique 73% de la variance des prix)
-- Un **CNN TensorFlow** classifiant les biens en 3 catégories de prix avec 52.5% d'accuracy
-- Un **dashboard interactif Plotly Dash** incluant un simulateur de prix en temps réel
-- Un **rapport complet Quarto** documentant l'ensemble de la démarche scientifique]
+Les livrables attendus sont un pipeline complet de Data Science, un modèle prédictif performant (RandomForest R²=0.73), un CNN TensorFlow (accuracy 52.5%) et un dashboard interactif d'aide à la décision.]
 
 ---
 
