@@ -38,7 +38,7 @@ for nb_file in notebook_files:
     
     # Injection des imports de chemin système au début du script pour s'exécuter proprement
     py_lines.append("import os, sys")
-    py_lines.append(f"sys.path.append('{base_dir}')\n")
+    py_lines.append(f"sys.path.append(r'{base_dir}')\n")
     
     for cell in nb_data.get('cells', []):
         cell_type = cell.get('cell_type')
@@ -96,9 +96,11 @@ for nb_file in notebook_files:
             [sys.executable, py_file_path],
             capture_output=True,
             text=True,
-            env={**os.environ, "MPLBACKEND": "agg"},
+            encoding='utf-8',
+            errors='replace',
+            env={**os.environ, "MPLBACKEND": "agg", "PYTHONIOENCODING": "utf-8"},
             cwd=notebooks_dir,
-            timeout=30  # Timeout pour éviter les boucles infinies de code étudiant
+            timeout=30
         )
         with open(log_file_path, 'w', encoding='utf-8') as f:
             f.write("=== STDOUT ===\n")
