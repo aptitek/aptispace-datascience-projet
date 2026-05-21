@@ -13342,12 +13342,17 @@ endobj
   /Title (Mon Projet Data Science)
   /Creator (Typst 0.14.2)
 <<<<<<< HEAD
+<<<<<<< HEAD
   /ModDate (D:20260520190909Z)
   /CreationDate (D:20260520190909Z)
 =======
   /ModDate (D:20260521001412Z)
   /CreationDate (D:20260521001412Z)
 >>>>>>> a4e42e5e9dfc2a23819d7918bcc217144b95d712
+=======
+  /ModDate (D:20260521133708Z)
+  /CreationDate (D:20260521133708Z)
+>>>>>>> 8446a79f85e3069ae5fc48ee49add4d11b5824c9
 >>
 endobj
 
@@ -13359,10 +13364,14 @@ endobj
 >>
 stream
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="xmp-writer"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:xmp="http://ns.adobe.com/xap/1.0/"  xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"  xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"  xmlns:pdf="http://ns.adobe.com/pdf/1.3/" ><dc:title><rdf:Alt><rdf:li xml:lang="x-default">Mon Projet Data Science</rdf:li></rdf:Alt></dc:title><xmp:CreatorTool>Typst 0.14.2</xmp:CreatorTool><dc:language><rdf:Bag><rdf:li>en-US</rdf:li></rdf:Bag></dc:language><xmp:ModifyDate>2026-05-20T19:09:09+00:00</xmp:ModifyDate><xmp:CreateDate>2026-05-20T19:09:09+00:00</xmp:CreateDate><xmpTPg:NPages>10</xmpTPg:NPages><dc:format>application/pdf</dc:format><xmpMM:InstanceID>qn5Hbhl8LyCDW++d26wgCw==</xmpMM:InstanceID><xmpMM:DocumentID>qn5Hbhl8LyCDW++d26wgCw==</xmpMM:DocumentID><xmpMM:RenditionClass>proof</xmpMM:RenditionClass><pdf:PDFVersion>1.7</pdf:PDFVersion></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end="r"?>
 =======
 <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="xmp-writer"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:xmp="http://ns.adobe.com/xap/1.0/"  xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"  xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"  xmlns:pdf="http://ns.adobe.com/pdf/1.3/" ><dc:title><rdf:Alt><rdf:li xml:lang="x-default">Mon Projet Data Science</rdf:li></rdf:Alt></dc:title><xmp:CreatorTool>Typst 0.14.2</xmp:CreatorTool><dc:language><rdf:Bag><rdf:li>en-US</rdf:li></rdf:Bag></dc:language><xmp:ModifyDate>2026-05-21T00:14:12+00:00</xmp:ModifyDate><xmp:CreateDate>2026-05-21T00:14:12+00:00</xmp:CreateDate><xmpTPg:NPages>13</xmpTPg:NPages><dc:format>application/pdf</dc:format><xmpMM:InstanceID>WKfJCqkcXjLelylzjJ2MTQ==</xmpMM:InstanceID><xmpMM:DocumentID>WKfJCqkcXjLelylzjJ2MTQ==</xmpMM:DocumentID><xmpMM:RenditionClass>proof</xmpMM:RenditionClass><pdf:PDFVersion>1.7</pdf:PDFVersion></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end="r"?>
 >>>>>>> a4e42e5e9dfc2a23819d7918bcc217144b95d712
+=======
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="xmp-writer"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:xmp="http://ns.adobe.com/xap/1.0/"  xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"  xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"  xmlns:pdf="http://ns.adobe.com/pdf/1.3/" ><dc:title><rdf:Alt><rdf:li xml:lang="x-default">Mon Projet Data Science</rdf:li></rdf:Alt></dc:title><xmp:CreatorTool>Typst 0.14.2</xmp:CreatorTool><dc:language><rdf:Bag><rdf:li>en-US</rdf:li></rdf:Bag></dc:language><xmp:ModifyDate>2026-05-21T13:37:08+00:00</xmp:ModifyDate><xmp:CreateDate>2026-05-21T13:37:08+00:00</xmp:CreateDate><xmpTPg:NPages>13</xmpTPg:NPages><dc:format>application/pdf</dc:format><xmpMM:InstanceID>6mKkDIyPuINFweu3TBguRg==</xmpMM:InstanceID><xmpMM:DocumentID>6mKkDIyPuINFweu3TBguRg==</xmpMM:DocumentID><xmpMM:RenditionClass>proof</xmpMM:RenditionClass><pdf:PDFVersion>1.7</pdf:PDFVersion></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end="r"?>
+>>>>>>> 8446a79f85e3069ae5fc48ee49add4d11b5824c9
 endstream
 endobj
 
@@ -14501,6 +14510,7 @@ xref
 trailer
 <<
 <<<<<<< HEAD
+<<<<<<< HEAD
   /Size 871
   /Root 870 0 R
   /Info 868 0 R
@@ -14511,6 +14521,12 @@ trailer
   /Info 1103 0 R
   /ID [(WKfJCqkcXjLelylzjJ2MTQ==) (WKfJCqkcXjLelylzjJ2MTQ==)]
 >>>>>>> a4e42e5e9dfc2a23819d7918bcc217144b95d712
+=======
+  /Size 1106
+  /Root 1105 0 R
+  /Info 1103 0 R
+  /ID [(6mKkDIyPuINFweu3TBguRg==) (6mKkDIyPuINFweu3TBguRg==)]
+>>>>>>> 8446a79f85e3069ae5fc48ee49add4d11b5824c9
 >>
 startxref
 329042
