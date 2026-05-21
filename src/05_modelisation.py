@@ -205,3 +205,14 @@ joblib.dump(rf, model_path)
 print(f"\n💾 Modèle sauvegardé : {model_path}")
 
 print("\n🚀 Modélisation terminée avec succès")
+
+# =====================================================
+# 7. SAUVEGARDE DU MODÈLE
+# =====================================================
+import joblib
+
+output_dir = os.path.join(BASE_DIR, "models")
+os.makedirs(output_dir, exist_ok=True)
+model_path = os.path.join(output_dir, "rf_house_prices.pkl")
+joblib.dump(rf, model_path)
+print(f"\n💾 Modèle sauvegardé : {model_path}")

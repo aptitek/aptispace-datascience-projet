@@ -41,7 +41,9 @@ link-citations: true
 - *En quoi ce sujet de recherche est-il pertinent et stratégique ?*
 - *Pourquoi l'analyse quantitative de ce jeu de données est-elle indispensable pour répondre à votre problématique ?*
 
-[Rédiger votre paragraphe de contexte ici]
+[Ce projet s'inscrit dans une problématique de Data Science appliquée au marché immobilier californien. À partir du dataset House Prices (Kaggle, 1 460 biens, 81 variables), nous analysons les facteurs qui influencent le prix de vente d'un bien immobilier et construisons un pipeline complet de Data Science combinant Machine Learning tabulaire et Deep Learning sur images.
+
+L'analyse quantitative de ce jeu de données est indispensable car le marché immobilier est fortement hétérogène : les prix varient de manière complexe et non-linéaire selon des dizaines de critères (qualité de construction, surface, localisation, âge du bien). Seule une approche algorithmique permet de modéliser ces interactions et d'objectiver les facteurs déterminants du prix.]
 
 ## Objectif Analytique
 *À rédiger par les étudiants — Pistes de réflexion :*
@@ -50,7 +52,16 @@ link-citations: true
 - *Comment le couplage de données multi-sources et l'intégration de différents types de données (tabulaires, images, signaux, etc.) enrichissent-ils l'analyse ?*
 - *Quels sont les livrables analytiques attendus pour répondre à votre problématique et guider les prises de décisions ?*
 
-[Rédiger votre paragraphe d'objectifs ici]
+[La variable cible principale est **SalePrice** (prix de vente en dollars) — il s'agit d'une tâche de **régression supervisée**.
+
+Le projet combine deux types de données complémentaires : des données tabulaires structurées (caractéristiques physiques du bien) et des données non structurées (photographies réelles des maisons), constituant une approche **multimodale**.
+
+Les livrables analytiques produits sont :
+
+- Un modèle **Random Forest Regressor** atteignant R²=0.73 (explique 73% de la variance des prix)
+- Un **CNN TensorFlow** classifiant les biens en 3 catégories de prix avec 52.5% d'accuracy
+- Un **dashboard interactif Plotly Dash** incluant un simulateur de prix en temps réel
+- Un **rapport complet Quarto** documentant l'ensemble de la démarche scientifique]
 
 ---
 
@@ -195,7 +206,7 @@ Dans une démarche de transparence scientifique et académique, cette section d�
 
 | Outil d'IA | Cas d'usage (Pourquoi ?) | Méthode d'utilisation (Comment ?) | Rôle et Validation Humaine |
 | :--- | :--- | :--- | :--- |
-| **[Outil d'IA]** | *[À compléter par les étudiants]* | *[À compléter par les étudiants]* | *[À compléter par les étudiants]* |
+| **Claude (Anthropic)** | Assistance au débogage du code et structuration du rapport | Outil de pair-programming utilisé pour débloquer des erreurs techniques et structurer les explications | Tous les choix techniques, algorithmes et analyses ont été décidés et validés par l'équipe ; le code a systématiquement été testé et compris avant intégration |
 
 ## Principes de Rigueur et Responsabilité
 
