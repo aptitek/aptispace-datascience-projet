@@ -1,0 +1,1272 @@
+Company,TypeName,Inches,Ram,OpSys,Weight,Price,Res_Width,Res_Height,Is_IPS,Cpu_Gamme,Cpu_Frequence_GHz,has_ssd,has_hdd,has_flash,has_hybrid,total_memory_gb,gpu_brand,has_intel_gpu,has_nvidia_gpu,has_amd_gpu,weight_kg
+Apple,Ultrabook,13.3,8,macOS,1.37kg,71378.6832,2560,1600,1,Intel Core i5,2.3,1,0,0,0,128.0,Intel,1,0,0,1.37
+Apple,Ultrabook,13.3,8,macOS,1.34kg,47895.5232,1440,900,0,Intel Core i5,1.8,0,0,1,0,128.0,Intel,1,0,0,1.34
+HP,Notebook,15.6,8,No OS,1.86kg,30636.0,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.86
+Apple,Ultrabook,15.4,16,macOS,1.83kg,135195.336,2880,1800,1,Intel Core i7,2.7,1,0,0,0,512.0,AMD,0,0,1,1.83
+Apple,Ultrabook,13.3,8,macOS,1.37kg,96095.808,2560,1600,1,Intel Core i5,3.1,1,0,0,0,256.0,Intel,1,0,0,1.37
+Acer,Notebook,15.6,4,Windows 10,2.1kg,21312.0,1366,768,0,AMD A9-Series 9420,3.0,0,1,0,0,500.0,AMD,0,0,1,2.1
+Apple,Ultrabook,15.4,16,Mac OS X,2.04kg,114017.6016,2880,1800,1,Intel Core i7,2.2,0,0,1,0,256.0,Intel,1,0,0,2.04
+Apple,Ultrabook,13.3,8,macOS,1.34kg,61735.536,1440,900,0,Intel Core i5,1.8,0,0,1,0,256.0,Intel,1,0,0,1.34
+Asus,Ultrabook,14,16,Windows 10,1.3kg,79653.6,1920,1080,0,Intel Core i7,1.8,1,0,0,0,512.0,Nvidia,0,1,0,1.3
+Acer,Ultrabook,14,8,Windows 10,1.6kg,41025.6,1920,1080,1,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.6
+HP,Notebook,15.6,4,No OS,1.86kg,20986.992,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,1.86
+HP,Notebook,15.6,4,No OS,1.86kg,18381.0672,1920,1080,0,Intel Core i3,2.0,0,1,0,0,500.0,Intel,1,0,0,1.86
+Apple,Ultrabook,15.4,16,macOS,1.83kg,130001.6016,2880,1800,1,Intel Core i7,2.8,1,0,0,0,256.0,AMD,0,0,1,1.83
+Dell,Notebook,15.6,4,Windows 10,2.2kg,26581.392,1920,1080,0,Intel Core i3,2.0,1,0,0,0,256.0,AMD,0,0,1,2.2
+Apple,Ultrabook,12,8,macOS,0.92kg,67260.672,2304,1440,1,Intel Core M,1.2,1,0,0,0,256.0,Intel,1,0,0,0.92
+Apple,Ultrabook,13.3,8,macOS,1.37kg,80908.344,2560,1600,1,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.37
+Dell,Notebook,15.6,8,Windows 10,2.2kg,39693.6,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,AMD,0,0,1,2.2
+Apple,Ultrabook,15.4,16,macOS,1.83kg,152274.24,2880,1800,1,Intel Core i7,2.9,1,0,0,0,512.0,AMD,0,0,1,1.83
+Lenovo,Notebook,15.6,8,No OS,2.2kg,26586.72,1920,1080,0,Intel Core i3,2.4,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+Dell,Ultrabook,13.3,8,Windows 10,1.22kg,52161.12,1920,1080,1,Intel Core i5,1.6,1,0,0,0,128.0,Intel,1,0,0,1.22
+Lenovo,Gaming,15.6,8,Windows 10,2.5kg,53226.72,1920,1080,1,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,2.5
+HP,Notebook,15.6,4,No OS,1.86kg,13746.24,1366,768,0,AMD E-Series E2-9000e,1.5,0,1,0,0,500.0,AMD,0,0,1,1.86
+Dell,2 in 1 Convertible,13.3,8,Windows 10,1.62kg,43636.32,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.62
+HP,Ultrabook,15.6,8,Windows 10,1.91kg,35111.52,1920,1080,0,Intel Core i7,1.8,1,0,0,0,256.0,Intel,1,0,0,1.91
+Dell,Notebook,15.6,4,Windows 10,2.3kg,22305.1392,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,2.3
+Apple,Ultrabook,13.3,8,Mac OS X,1.35kg,58554.72,1440,900,0,Intel Core i5,1.6,0,0,1,0,128.0,Intel,1,0,0,1.35
+Dell,Notebook,15.6,8,Windows 10,2.2kg,42624.0,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,AMD,0,0,1,2.2
+Dell,Ultrabook,15.6,8,Windows 10,1.88kg,69157.44,1920,1080,0,Intel Core i7,1.9,1,0,0,0,512.0,Intel,1,0,0,1.88
+HP,Notebook,17.3,8,Windows 10,2.5kg,47738.88,1920,1080,0,Intel Core i5,1.6,0,1,0,0,1024.0,Nvidia,0,1,0,2.5
+Chuwi,Notebook,15.6,4,Windows 10,1.89kg,13053.0672,1920,1080,0,Intel Atom x5-Z8300,1.44,0,0,1,0,64.0,Intel,1,0,0,1.89
+Asus,Notebook,14,2,Windows 10,1.65kg,10602.72,1366,768,0,AMD E-Series E2-6110,1.5,0,0,1,0,32.0,AMD,0,0,1,1.65
+HP,Notebook,17.3,4,Windows 10,2.71kg,23389.92,1920,1080,0,AMD A6-Series 9220,2.5,0,1,0,0,500.0,AMD,0,0,1,2.71
+Dell,Ultrabook,13.3,16,Windows 10,1.2kg,99580.32,3200,1800,0,Intel Core i7,1.8,1,0,0,0,512.0,Intel,1,0,0,1.2
+Apple,Ultrabook,13.3,8,Mac OS X,1.35kg,53173.44,1440,900,0,Intel Core i5,1.6,0,0,1,0,256.0,Intel,1,0,0,1.35
+Lenovo,Notebook,14,4,Windows 10,1.44kg,13266.72,1366,768,0,Intel Celeron Dual,1.1,0,0,1,0,64.0,Intel,1,0,0,1.44
+Acer,Notebook,15.6,4,Linux,2.1kg,19553.76,1366,768,0,Intel Core i3,2.7,0,1,0,0,1024.0,Intel,1,0,0,2.1
+Dell,Notebook,17.3,8,Windows 10,2.8kg,52161.12,1920,1080,1,Intel Core i5,1.6,1,1,0,0,1152.0,AMD,0,0,1,2.8
+HP,Notebook,15.6,4,Windows 10,1.86kg,26037.4032,1366,768,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,1.86
+HP,Notebook,15.6,8,Windows 10,2.1kg,46833.12,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Nvidia,0,1,0,2.1
+Asus,Notebook,15.6,4,Linux,2kg,20725.92,1920,1080,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,2.0
+Dell,Gaming,15.6,16,Windows 10,2.65kg,79866.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.65
+Asus,Notebook,15.6,8,Linux,2.3kg,27864.9072,1366,768,0,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,2.3
+Acer,Notebook,15.6,4,Windows 10,2.2kg,36336.96,1920,1080,1,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,2.2
+Dell,2 in 1 Convertible,17.3,12,Windows 10,2.77kg,53226.72,1920,1080,0,Intel Core i5,1.6,0,1,0,0,1024.0,Nvidia,0,1,0,2.77
+Apple,Ultrabook,13.3,8,macOS,1.37kg,75604.32,2560,1600,1,Intel Core i5,2.0,1,0,0,0,256.0,Intel,1,0,0,1.37
+Asus,Gaming,17.3,8,Windows 10,3.2kg,69210.72,1920,1080,0,AMD Ryzen 1700,3.0,1,1,0,0,1280.0,AMD,0,0,1,3.2
+Dell,Notebook,15.6,4,Windows 10,2.3kg,34045.92,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,AMD,0,0,1,2.3
+Asus,Notebook,17.3,4,Windows 10,2.8kg,24828.48,1366,768,0,Intel Pentium Quad,1.1,0,1,0,0,1024.0,Nvidia,0,1,0,2.8
+Acer,Notebook,15.6,8,Windows 10,2.2kg,44808.48,1920,1080,1,Intel Core i7,1.8,1,0,0,0,256.0,Nvidia,0,1,0,2.2
+HP,Notebook,15.6,4,Windows 10,1.86kg,21231.5472,1920,1080,0,AMD A6-Series 9220,2.5,1,0,0,0,256.0,AMD,0,0,1,1.86
+HP,Notebook,13.3,8,Windows 10,1.49kg,58767.84,1920,1080,0,Intel Core i7,1.8,1,0,0,0,512.0,Intel,1,0,0,1.49
+Acer,Notebook,15.6,4,Windows 10,2.4kg,20459.52,1366,768,0,Intel Core i3,2.4,0,1,0,0,1024.0,Intel,1,0,0,2.4
+Dell,Notebook,15.6,8,Windows 10,2.13kg,40908.384,1920,1080,0,Intel Core i7,1.8,1,0,0,0,256.0,AMD,0,0,1,2.13
+HP,Notebook,15.6,4,Windows 10,1.91kg,23389.92,1920,1080,0,Intel Core i3,2.0,1,0,0,0,128.0,Intel,1,0,0,1.91
+Asus,Notebook,15.6,4,Windows 10,2kg,31232.2032,1366,768,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.0
+MSI,Gaming,17.3,16,Windows 10,2.43kg,130482.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,2304.0,Nvidia,0,1,0,2.43
+Asus,Notebook,15.6,4,Linux,2kg,22111.2,1920,1080,0,Intel Core i3,2.0,1,0,0,0,256.0,Intel,1,0,0,2.0
+Dell,Notebook,17.3,16,Windows 10,2.8kg,69210.72,1920,1080,0,Intel Core i7,1.8,1,1,0,0,2304.0,AMD,0,0,1,2.8
+Dell,Ultrabook,14,8,Windows 10,1.7kg,46833.12,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.7
+Lenovo,Notebook,14,8,No OS,1.7kg,31914.72,1920,1080,1,Intel Core i3,2.7,1,0,0,0,256.0,Intel,1,0,0,1.7
+Asus,Notebook,14,8,Windows 10,1.4kg,50136.48,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.4
+HP,Notebook,15.6,8,Windows 10,1.86kg,36763.2,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.86
+Asus,Ultrabook,15.6,16,Windows 10,1.8kg,105654.24,1920,1080,0,Intel Core i7,2.8,1,0,0,0,512.0,Nvidia,0,1,0,1.8
+HP,Notebook,15.6,4,Windows 10,1.86kg,23373.4032,1366,768,0,Intel Core i3,2.0,0,1,0,0,500.0,AMD,0,0,1,1.86
+HP,Notebook,14,4,Windows 10,1.44kg,12201.12,1366,768,0,Intel Celeron Dual,1.6,1,0,0,0,32.0,Intel,1,0,0,1.44
+Lenovo,Notebook,15.6,4,Windows 10,1.9kg,29250.72,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,1.9
+Asus,Gaming,17.3,12,Linux,3kg,50562.72,1920,1080,0,Intel Core i7,2.8,0,1,0,0,1024.0,Nvidia,0,1,0,3.0
+Microsoft,Ultrabook,13.5,4,Windows 10 S,1.252kg,58021.92,2256,1504,0,Intel Core i5,2.5,1,0,0,0,128.0,Intel,1,0,0,1.252
+Dell,Ultrabook,13.3,64,Windows 10,1.4kg,50882.4,1920,1080,1,Intel Core i7,1.8,1,0,0,0,256.0,AMD,0,0,1,1.4
+Dell,Notebook,15.6,8,Windows 10,2.2kg,46353.6,1920,1080,0,Intel Core i7,1.8,1,0,0,0,256.0,AMD,0,0,1,2.2
+MSI,Gaming,17.3,8,Windows 10,2.7kg,58341.6,1920,1080,0,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,2.7
+Acer,Notebook,14,8,Windows 10,2.1kg,20725.92,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,2.1
+Asus,Gaming,15.6,8,Windows 10,2.2kg,50562.72,1920,1080,0,Intel Core i7,2.8,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+Lenovo,Notebook,15.6,8,No OS,2.2kg,27652.32,1920,1080,0,Intel Core i5,2.5,0,1,0,0,2048.0,Intel,1,0,0,2.2
+Dell,Notebook,15.6,8,Windows 10,2.02kg,45554.4,1920,1080,0,Intel Core i7,1.8,1,1,0,0,1152.0,Intel,1,0,0,2.02
+Acer,Notebook,15.6,4,Windows 10,2.2kg,28238.4,1920,1080,0,Intel Core i3,2.7,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+HP,Notebook,17.3,8,Windows 10,2.5kg,52054.56,1920,1080,0,Intel Core i5,1.6,1,1,0,0,1152.0,Nvidia,0,1,0,2.5
+Dell,Ultrabook,15.6,8,Windows 10,1.88kg,58403.4048,1920,1080,1,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.88
+Apple,Ultrabook,12,8,macOS,0.92kg,80452.8,2304,1440,1,Intel Core i5,1.3,1,0,0,0,512.0,Intel,1,0,0,0.92
+HP,Notebook,14,8,Windows 10,1.63kg,45820.8,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.63
+Lenovo,Notebook,15.6,4,Windows 10,2.2kg,21258.72,1920,1080,0,AMD A6-Series 9220,2.5,1,0,0,0,128.0,AMD,0,0,1,2.2
+Acer,Notebook,15.6,4,Windows 10,2.1kg,21045.6,1366,768,0,AMD A9-Series 9420,3.0,0,1,0,0,1024.0,AMD,0,0,1,2.1
+Dell,Gaming,15.6,16,Windows 10,2.65kg,71874.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.65
+HP,Ultrabook,15.6,8,Windows 10,1.83kg,37242.72,1920,1080,1,Intel Core i7,1.8,1,0,0,0,256.0,Nvidia,0,1,0,1.83
+HP,Notebook,15.6,8,Windows 10,1.96kg,31914.1872,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.96
+Asus,Gaming,15.6,16,Windows 10,2.2kg,77202.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.2
+Dell,Ultrabook,13.3,8,Windows 10,1.21kg,87858.72,1920,1080,1,Intel Core i7,1.8,1,0,0,0,256.0,Intel,1,0,0,1.21
+Asus,Gaming,15.6,8,Windows 10,2.45kg,37242.72,1920,1080,0,AMD FX 9830P,3.0,0,1,0,0,1024.0,AMD,0,0,1,2.45
+Acer,Notebook,15.6,2,Windows 10,2.2kg,36709.92,1920,1080,0,Intel Core i7,1.8,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+HP,Notebook,13.3,16,Windows 10,1.49kg,63776.16,1920,1080,0,Intel Core i7,1.8,1,0,0,0,512.0,Intel,1,0,0,1.49
+Dell,Gaming,15.6,8,Windows 10,2.65kg,63669.6,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.65
+Asus,Ultrabook,14,8,Windows 10,1.25kg,55890.72,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.25
+Acer,2 in 1 Convertible,13.3,8,Windows 10,1.5kg,45128.16,1920,1080,1,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.5
+Dell,Notebook,15.6,8,Linux,2.2kg,31962.672,1920,1080,0,Intel Core i7,2.7,0,1,0,0,1024.0,AMD,0,0,1,2.2
+Dell,Notebook,15.6,4,Linux,2.2kg,25840.8,1920,1080,0,Intel Core i3,2.0,1,0,0,0,256.0,AMD,0,0,1,2.2
+Asus,Notebook,15.6,6,Windows 10,2kg,30742.56,1920,1080,0,Intel Core i3,2.4,1,0,0,0,256.0,Nvidia,0,1,0,2.0
+HP,Gaming,15.6,12,Windows 10,2.62kg,66546.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.62
+HP,Notebook,15.6,8,Windows 10,1.91kg,38308.32,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,AMD,0,0,1,1.91
+HP,Notebook,15.6,4,Windows 10,2.1kg,18594.72,1920,1080,0,AMD E-Series E2-9000e,1.5,0,1,0,0,500.0,AMD,0,0,1,2.1
+Dell,Notebook,15.6,8,Linux,2.2kg,34472.16,1920,1080,0,Intel Core i5,1.6,0,1,0,0,1024.0,AMD,0,0,1,2.2
+HP,Ultrabook,13.3,8,Windows 10,1.38kg,59620.32,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Nvidia,0,1,0,1.38
+Microsoft,Ultrabook,13.5,8,Windows 10 S,1.252kg,71395.2,2256,1504,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.252
+HP,Notebook,14,6,Windows 10,1.58kg,35111.52,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,1.58
+Lenovo,Notebook,15.6,4,Windows 10,1.85kg,22105.872,1920,1080,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,1.85
+Asus,Ultrabook,14,8,Windows 10,1.3kg,63563.04,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Nvidia,0,1,0,1.3
+MSI,Gaming,15.6,16,Windows 10,2.2kg,69210.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.2
+Lenovo,Notebook,14,8,Windows 10,1.58kg,78854.4,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.58
+Asus,Ultrabook,15.6,16,Windows 10,1.5kg,67239.36,1920,1080,0,Intel Core i7,1.8,1,1,0,0,1280.0,Nvidia,0,1,0,1.5
+Dell,Ultrabook,13.3,8,Windows 10,1.23kg,73473.12,3200,1800,0,Intel Core i7,2.4,1,0,0,0,256.0,Intel,1,0,0,1.23
+Lenovo,2 in 1 Convertible,13.3,8,Windows 10,1.37kg,74538.72,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.37
+HP,Notebook,14,4,Windows 10,1.63kg,38468.16,1366,768,1,Intel Core i5,1.6,0,1,0,0,500.0,Intel,1,0,0,1.63
+Dell,Ultrabook,13.3,8,Windows 10,1.21kg,86793.12,1920,1080,1,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.21
+HP,Notebook,14,8,Windows 10,1.63kg,57755.52,1920,1080,0,Intel Core i7,1.8,1,0,0,0,512.0,Intel,1,0,0,1.63
+Dell,Notebook,15.6,8,Windows 10,2.16kg,60223.9824,1920,1080,1,Intel Core i7,1.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.16
+Asus,Notebook,17.3,4,Windows 10,2kg,30049.92,1920,1080,0,Intel Core i3,2.0,0,1,0,0,1024.0,Nvidia,0,1,0,2.0
+Asus,Notebook,15.6,8,Windows 10,1.7kg,59567.04,1920,1080,0,Intel Core i7,1.8,1,0,0,0,256.0,Nvidia,0,1,0,1.7
+Acer,Notebook,15.6,6,Windows 10,2.1kg,25521.12,1920,1080,1,Intel Core i3,2.4,0,1,0,0,1024.0,Intel,1,0,0,2.1
+MSI,Gaming,15.6,16,Windows 10,1.8kg,119427.12,1920,1080,0,Intel Core i7,2.8,1,1,0,0,2304.0,Nvidia,0,1,0,1.8
+Lenovo,Notebook,15.6,8,No OS,2.2kg,33513.12,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.2
+HP,Notebook,17.3,16,Windows 10,2.5kg,67718.88,1920,1080,0,Intel Core i7,1.8,1,0,0,0,512.0,Nvidia,0,1,0,2.5
+Acer,Notebook,15.6,4,Windows 10,2.1kg,24029.28,1366,768,0,AMD A9-Series 9420,3.0,1,0,0,0,256.0,AMD,0,0,1,2.1
+HP,Notebook,14,8,Windows 10,1.63kg,43263.36,1920,1080,0,Intel Core i5,1.6,0,1,0,0,1024.0,Intel,1,0,0,1.63
+Asus,Notebook,14,4,Windows 10 S,1.65kg,14811.3072,1366,768,0,AMD E-Series 6110,1.5,1,0,0,0,64.0,AMD,0,0,1,1.65
+Dell,Notebook,17.3,16,Windows 10,2.8kg,74378.88,1920,1080,0,Intel Core i7,1.8,1,1,0,0,2304.0,AMD,0,0,1,2.8
+HP,Notebook,17.3,8,Windows 10,2.5kg,49443.84,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,2.5
+Dell,Notebook,15.6,8,Windows 10,2.36kg,34045.3872,1366,768,0,Intel Core i5,2.5,0,1,0,0,1024.0,AMD,0,0,1,2.36
+Dell,Notebook,15.6,4,Windows 10,2.2kg,23922.72,1920,1080,0,Intel Core i3,2.0,0,1,0,0,1024.0,AMD,0,0,1,2.2
+Acer,Ultrabook,14,8,Windows 10,1.6kg,47099.52,1920,1080,1,Intel Core i7,1.8,1,0,0,0,256.0,Intel,1,0,0,1.6
+Acer,Notebook,15.6,4,Windows 10,7.2kg,30476.16,1920,1080,0,Intel Core i3,2.7,1,0,0,0,256.0,Nvidia,0,1,0,7.2
+HP,Notebook,15.6,8,Windows 10,2.05kg,31861.44,1366,768,0,Intel Core i7,2.7,0,1,0,0,1024.0,Intel,1,0,0,2.05
+HP,Notebook,14,8,Windows 10,1.63kg,52640.64,1920,1080,0,Intel Core i7,1.8,1,0,0,0,256.0,Intel,1,0,0,1.63
+Lenovo,Notebook,15.6,4,No OS,1.9kg,13445.7408,1366,768,0,Intel Celeron Dual,1.1,0,1,0,0,1024.0,Intel,1,0,0,1.9
+Asus,Gaming,17.3,8,Windows 10,3kg,49976.64,1920,1080,0,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,3.0
+Lenovo,Notebook,15.6,4,No OS,2.2kg,26586.72,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+HP,Notebook,13.3,4,Windows 10,1.32kg,37242.72,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.32
+Acer,Notebook,17.3,4,Windows 10,3kg,34898.4,1920,1080,1,Intel Core i3,2.7,0,1,0,0,1024.0,Nvidia,0,1,0,3.0
+Lenovo,Notebook,14,8,Windows 10,1.75kg,59461.5456,1920,1080,1,Intel Core i5,1.6,1,0,0,0,256.0,AMD,0,0,1,1.75
+Lenovo,Gaming,15.6,8,No OS,2.4kg,46300.32,1920,1080,1,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,2.4
+Toshiba,Notebook,15.6,4,Windows 10,2.1kg,32074.56,1366,768,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,2.1
+HP,Notebook,15.6,4,Windows 10,1.86kg,19660.32,1366,768,0,AMD A6-Series 9220,2.5,1,0,0,0,256.0,AMD,0,0,1,1.86
+Asus,Ultrabook,14,8,Windows 10,1.25kg,58554.72,1920,1080,0,Intel Core i7,1.8,1,0,0,0,256.0,Intel,1,0,0,1.25
+HP,Ultrabook,12.5,8,Windows 10,0.97kg,107305.92,3840,2160,1,Intel Core M,1.2,1,0,0,0,512.0,Intel,1,0,0,0.97
+Asus,Notebook,15.6,4,Windows 10,2kg,18328.32,1920,1080,0,Intel Celeron Dual,1.1,0,1,0,0,1024.0,Intel,1,0,0,2.0
+Acer,Notebook,15.6,4,Windows 10,2.1kg,23816.16,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,2.1
+Dell,Gaming,15.6,16,Windows 10,2.56kg,66560.5728,1920,1080,0,Intel Core i7,2.8,1,0,0,0,512.0,Nvidia,0,1,0,2.56
+Dell,Gaming,15.6,8,Windows 10,2.62kg,47898.72,1920,1080,0,Intel Core i7,2.8,0,0,0,1,1024.0,Nvidia,0,1,0,2.62
+Lenovo,Notebook,15.6,4,Windows 10,1.9kg,26533.44,1366,768,0,Intel Core i5,2.5,1,0,0,0,128.0,Intel,1,0,0,1.9
+MSI,Gaming,17.3,16,Windows 10,2.8kg,100699.2,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.8
+HP,Ultrabook,14,4,Windows 10,1.48kg,57648.96,1920,1080,0,Intel Core i5,2.7,1,0,0,0,256.0,Intel,1,0,0,1.48
+HP,Notebook,15.6,6,Windows 10,1.91kg,32980.32,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,AMD,0,0,1,1.91
+Lenovo,2 in 1 Convertible,14,4,Windows 10,1.74kg,33513.12,1920,1080,1,Intel Core i3,2.4,1,0,0,0,256.0,Intel,1,0,0,1.74
+Asus,2 in 1 Convertible,13.3,8,Windows 10,1.1kg,70063.2,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.1
+Dell,2 in 1 Convertible,15.6,8,Windows 10,1.56kg,55890.72,1920,1080,0,Intel Core i7,1.8,1,0,0,0,256.0,Intel,1,0,0,1.56
+Toshiba,Notebook,15.6,4,Windows 10,2.1kg,23816.16,1366,768,0,Intel Core i3,2.2,0,1,0,0,500.0,Intel,1,0,0,2.1
+Asus,Notebook,15.6,4,Windows 10,2.03kg,21471.84,1366,768,0,AMD A9-Series 9420,3.0,0,1,0,0,1024.0,AMD,0,0,1,2.03
+Acer,Notebook,17.3,4,Windows 10,3kg,42890.4,1920,1080,1,Intel Core i5,1.6,1,0,0,0,256.0,Nvidia,0,1,0,3.0
+Dell,Notebook,15.6,8,Windows 10,2.13kg,38787.84,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,AMD,0,0,1,2.13
+Lenovo,Gaming,15.6,16,Windows 10,2.5kg,57489.12,1920,1080,1,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,2.5
+Acer,Notebook,15.6,4,Windows 10,2.1kg,18541.44,1366,768,0,Intel Celeron Dual,1.1,0,1,0,0,1024.0,Intel,1,0,0,2.1
+MSI,Gaming,15.6,16,Windows 10,2.4kg,95850.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.4
+Acer,Notebook,15.6,4,Windows 10,2.1kg,19367.8128,1366,768,0,Intel Pentium Quad,1.1,0,1,0,0,1024.0,Intel,1,0,0,2.1
+Dell,Gaming,15.6,8,Windows 10,2.56kg,56502.9072,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.56
+Acer,Notebook,17.3,8,Windows 10,3kg,45501.12,1920,1080,1,Intel Core i5,1.6,1,0,0,0,256.0,Nvidia,0,1,0,3.0
+HP,Notebook,13.3,4,Windows 10,1.49kg,40173.12,1920,1080,1,Intel Core i5,1.6,0,1,0,0,500.0,Intel,1,0,0,1.49
+Huawei,Ultrabook,13,8,Windows 10,1.05kg,71874.72,2160,1440,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.05
+HP,Notebook,17.3,6,Windows 10,2.71kg,37242.72,1920,1080,1,Intel Core i5,2.5,0,1,0,0,2048.0,AMD,0,0,1,2.71
+Lenovo,Notebook,15.6,4,No OS,2.2kg,16463.52,1366,768,0,AMD A6-Series 9220,2.9,0,1,0,0,500.0,AMD,0,0,1,2.2
+Toshiba,Notebook,15.6,4,Windows 10,5.4kg,26053.92,1366,768,0,Intel Core i3,2.4,0,1,0,0,500.0,Intel,1,0,0,5.4
+HP,Notebook,17.3,8,Windows 10,2.5kg,49177.44,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Nvidia,0,1,0,2.5
+Dell,Notebook,15.6,8,Windows 10,2.3kg,24455.52,1366,768,0,Intel Core i3,2.4,0,1,0,0,1024.0,Intel,1,0,0,2.3
+Acer,Notebook,15.6,4,Windows 10,2.1kg,23922.72,1366,768,0,Intel Core i3,2.0,1,0,0,0,128.0,Intel,1,0,0,2.1
+MSI,Gaming,18.4,32,Windows 10,4.4kg,149130.72,1920,1080,0,Intel Core i7,2.9,1,1,0,0,1536.0,Nvidia,0,1,0,4.4
+Lenovo,Notebook,15.6,8,Windows 10,1.90kg,43316.64,1920,1080,0,Intel Core i5,2.5,1,1,0,0,1152.0,AMD,0,0,1,1.9
+HP,2 in 1 Convertible,13.3,8,Windows 10,1.29kg,79866.72,3840,2160,1,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.29
+Dell,Notebook,15.6,16,Linux,2.02kg,55890.72,1920,1080,0,Intel Core i7,1.8,1,1,0,0,2304.0,AMD,0,0,1,2.02
+Dell,Ultrabook,13.3,8,Windows 10,1.23kg,74538.72,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.23
+Lenovo,2 in 1 Convertible,13.9,16,Windows 10,1.4kg,98514.72,3840,2160,1,Intel Core i7,1.8,1,0,0,0,512.0,Intel,1,0,0,1.4
+Toshiba,Notebook,15.6,8,Windows 10,2.0kg,42251.04,1366,768,0,Intel Core i5,2.5,1,0,0,0,128.0,Intel,1,0,0,2.0
+Xiaomi,Notebook,15.6,8,No OS,1.95kg,63882.72,1920,1080,1,Intel Core i5,1.6,1,0,0,0,256.0,Nvidia,0,1,0,1.95
+Dell,Notebook,17.3,16,Windows 10,2.77kg,82530.72,1920,1080,0,Intel Core i7,1.8,1,0,0,0,512.0,Nvidia,0,1,0,2.77
+Dell,Notebook,15.6,16,Windows 10,2.06kg,127712.16,3840,2160,0,Intel Core i7,2.8,1,0,0,0,512.0,Nvidia,0,1,0,2.06
+Lenovo,Gaming,15.6,8,No OS,2.4kg,41505.12,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.4
+Acer,Ultrabook,13.3,8,Windows 10,1.12kg,52693.92,1920,1080,1,Intel Core i5,1.2,1,0,0,0,256.0,Intel,1,0,0,1.12
+Dell,Notebook,17.3,8,Windows 10,2.8kg,57808.8,1920,1080,0,Intel Core i7,1.8,1,1,0,0,1152.0,AMD,0,0,1,2.8
+Vero,Notebook,14,4,Windows 10,1.3kg,13852.8,1920,1080,1,Intel Celeron Dual,1.1,0,0,1,0,32.0,Intel,1,0,0,1.3
+Xiaomi,Ultrabook,13.3,8,No OS,1.3kg,53274.672,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,1.3
+Lenovo,Notebook,17.3,8,No OS,2.8kg,37189.44,1600,900,0,Intel Core i5,1.6,1,0,0,0,256.0,Nvidia,0,1,0,2.8
+Dell,2 in 1 Convertible,13.3,8,Windows 10,1.62kg,44701.92,1920,1080,1,Intel Core i7,1.8,0,1,0,0,1024.0,Intel,1,0,0,1.62
+HP,Notebook,17.3,8,Windows 10,2.5kg,48697.92,1920,1080,1,Intel Core i5,1.6,0,1,0,0,1024.0,Nvidia,0,1,0,2.5
+Razer,Gaming,17.3,32,Windows 10,3.49kg,324954.72,3840,2160,0,Intel Core i7,2.9,1,0,0,0,1024.0,Nvidia,0,1,0,3.49
+HP,Notebook,13.3,8,Windows 10,1.49kg,51095.52,1920,1080,0,Intel Core i5,1.6,1,0,0,0,512.0,Intel,1,0,0,1.49
+HP,Gaming,17.3,16,Windows 10,3.35kg,73473.12,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,3.35
+HP,Notebook,17.3,8,Windows 10,2.5kg,55677.6,1920,1080,0,Intel Core i7,1.8,1,0,0,0,256.0,Nvidia,0,1,0,2.5
+Dell,Gaming,15.6,16,Windows 10,2.65kg,98301.6,3840,2160,1,Intel Core i7,2.8,1,1,0,0,1536.0,Nvidia,0,1,0,2.65
+Lenovo,Notebook,15.6,4,Windows 10,2.1kg,26267.04,1366,768,0,Intel Core i5,2.3,1,0,0,0,128.0,Intel,1,0,0,2.1
+Acer,Notebook,15.6,8,Windows 10,2.23kg,39533.76,1920,1080,0,Intel Core i7,2.7,0,1,0,0,1024.0,Nvidia,0,1,0,2.23
+Lenovo,Gaming,15.6,16,Windows 10,3.2kg,93186.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1536.0,Nvidia,0,1,0,3.2
+Dell,Workstation,15.6,16,Windows 10,2.8kg,162770.4,3840,2160,0,Intel Xeon E3-1505M,3.0,1,1,0,0,1280.0,Nvidia,0,1,0,2.8
+Lenovo,Gaming,15.6,16,No OS,2.4kg,74485.44,1920,1080,0,Intel Core i7,2.8,1,0,0,0,512.0,Nvidia,0,1,0,2.4
+Dell,Notebook,15.6,6,Windows 10,2.3kg,23389.92,1366,768,0,Intel Core i3,2.4,0,1,0,0,1024.0,Intel,1,0,0,2.3
+Dell,Ultrabook,13.3,8,Windows 10,1.21kg,103842.72,3840,2160,1,Intel Core i7,1.8,1,0,0,0,256.0,Intel,1,0,0,1.21
+Acer,Notebook,15.6,8,Linux,2.4kg,41505.12,1920,1080,0,Intel Core i7,2.8,0,1,0,0,1024.0,Nvidia,0,1,0,2.4
+Asus,Gaming,17.3,16,Windows 10,2.9kg,74964.96,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.9
+HP,Notebook,15.6,4,No OS,2.1kg,18594.72,1920,1080,0,Intel Core i3,2.0,0,1,0,0,500.0,Intel,1,0,0,2.1
+Lenovo,Notebook,15.6,8,No OS,2.2kg,29250.72,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.2
+Huawei,Ultrabook,13,8,Windows 10,1.05kg,79866.72,2160,1440,1,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.05
+Dell,Ultrabook,13.3,8,Windows 10,1.4kg,49650.5664,1920,1080,1,Intel Core i7,1.8,1,0,0,0,256.0,AMD,0,0,1,1.4
+Lenovo,Notebook,17.3,8,No OS,2.8kg,31381.92,1600,900,0,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,2.8
+HP,Notebook,14,8,Windows 10,1.63kg,54931.68,1920,1080,0,Intel Core i7,1.8,1,0,0,0,256.0,Nvidia,0,1,0,1.63
+Dell,Ultrabook,14,8,Windows 10,1.6kg,61218.72,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.6
+Dell,2 in 1 Convertible,13.3,16,Windows 10,1.62kg,68145.12,1920,1080,0,Intel Core i7,1.8,1,0,0,0,512.0,Intel,1,0,0,1.62
+Dell,Notebook,15.6,8,Linux,2.2kg,36089.208,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,AMD,0,0,1,2.2
+Lenovo,2 in 1 Convertible,14,8,Windows 10,1.74kg,47898.72,1920,1080,1,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.74
+Toshiba,Ultrabook,13.3,8,Windows 10,1.2kg,72620.64,1920,1080,0,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.2
+HP,Notebook,15.6,8,Windows 10,2.1kg,42304.32,1920,1080,0,Intel Core i5,1.6,0,1,0,0,1024.0,Intel,1,0,0,2.1
+Dell,Gaming,17.3,16,Windows 10,4.42kg,130873.7952,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,4.42
+Acer,Notebook,15.6,8,Windows 10,2.2kg,44328.96,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Nvidia,0,1,0,2.2
+Dell,Notebook,15.6,16,Windows 10,2.3kg,45768.0528,1920,1080,0,Intel Core i7,2.7,0,1,0,0,1024.0,AMD,0,0,1,2.3
+Asus,Notebook,15.6,8,Windows 10,2kg,40972.32,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.0
+Asus,Notebook,17.3,8,Windows 10,2.69kg,47472.48,1920,1080,0,Intel Core i5,2.5,1,1,0,0,756.0,Nvidia,0,1,0,2.69
+HP,Notebook,15.6,8,Windows 10,1.9kg,67612.32,1920,1080,0,Intel Core i7,2.7,0,1,0,0,1024.0,AMD,0,0,1,1.9
+Asus,Notebook,15.6,4,Windows 10,2.37kg,21258.1872,1366,768,0,Intel Core i3,2.4,0,1,0,0,1024.0,Intel,1,0,0,2.37
+HP,Notebook,15.6,4,Windows 10,2.1kg,17582.4,1366,768,0,AMD E-Series 9000e,1.5,0,1,0,0,500.0,AMD,0,0,1,2.1
+Lenovo,Gaming,15.6,16,Windows 10,3.2kg,79866.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,3.2
+Dell,Notebook,14,8,Windows 10,1.6kg,45767.52,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.6
+Acer,2 in 1 Convertible,13.3,8,Windows 10,1.6kg,36709.92,1920,1080,1,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.6
+Dell,Notebook,15.6,16,Linux,2.36kg,47898.72,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,AMD,0,0,1,2.36
+Acer,Notebook,15.6,4,Linux,2.1kg,20779.2,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,2.1
+Asus,Notebook,15.6,4,Windows 10,2.2kg,30636.0,1920,1080,0,AMD A10-Series A10-9620P,2.5,1,1,0,0,1152.0,AMD,0,0,1,2.2
+Asus,Gaming,17.3,32,Windows 10,4.7kg,207259.2,1920,1080,0,Intel Core i7,2.9,1,1,0,0,1536.0,Nvidia,0,1,0,4.7
+Acer,Gaming,15.6,8,Windows 10,2.5kg,45074.88,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.5
+Lenovo,Notebook,15.6,8,Windows 10,7.2kg,31381.92,1366,768,0,Intel Core i3,2.0,1,0,0,0,128.0,Intel,1,0,0,7.2
+Asus,Notebook,17.3,8,Windows 10,2.1kg,61005.6,1920,1080,0,Intel Core i7,1.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.1
+Asus,Notebook,17.3,8,No OS,2.69kg,47365.92,1920,1080,0,Intel Core i7,2.7,1,1,0,0,1152.0,Nvidia,0,1,0,2.69
+Dell,Gaming,15.6,8,Windows 10,2.56kg,46833.12,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.56
+Lenovo,2 in 1 Convertible,13.9,8,Windows 10,1.38kg,57489.12,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.38
+Dell,Notebook,15.6,8,Windows 10,2.2kg,52480.8,1920,1080,0,Intel Core i7,1.8,1,1,0,0,2176.0,AMD,0,0,1,2.2
+HP,Notebook,15.6,8,Windows 10,2.04kg,29783.52,1366,768,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,2.04
+Asus,Gaming,17.3,16,Windows 10,3.6kg,159786.72,1920,1080,0,Intel Core i7,2.9,1,0,0,0,256.0,Nvidia,0,1,0,3.6
+HP,Notebook,13.3,4,Windows 10,1.49kg,35964.0,1920,1080,1,Intel Core i5,1.6,0,1,0,0,500.0,Intel,1,0,0,1.49
+Apple,Ultrabook,13.3,8,macOS,1.37kg,108691.2,2560,1600,1,Intel Core i5,3.1,1,0,0,0,512.0,Intel,1,0,0,1.37
+Dell,2 in 1 Convertible,15.6,8,Windows 10,2.08kg,43636.32,1920,1080,1,Intel Core i7,1.8,0,1,0,0,1024.0,Intel,1,0,0,2.08
+Asus,Gaming,17.3,16,Windows 10,4.3kg,95850.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,4.3
+Asus,Notebook,15.6,4,Windows 10,1.68kg,24988.32,1366,768,0,AMD A9-Series 9420,3.0,0,1,0,0,1024.0,AMD,0,0,1,1.68
+Lenovo,2 in 1 Convertible,13.9,8,Windows 10,1.37kg,98514.72,1920,1080,1,Intel Core i7,1.8,1,0,0,0,512.0,Intel,1,0,0,1.37
+Acer,Notebook,17.3,4,Windows 10,3kg,37402.56,1920,1080,1,Intel Core i3,2.7,1,0,0,0,256.0,Nvidia,0,1,0,3.0
+Dell,Ultrabook,13.3,8,Windows 10,1.41kg,50562.72,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.41
+HP,Notebook,15.6,8,Windows 10,1.91kg,23757.552,1366,768,0,AMD A6-Series A6-9220,2.5,1,0,0,0,128.0,AMD,0,0,1,1.91
+HP,Notebook,17.3,16,Windows 10,2.9kg,56423.52,1920,1080,1,Intel Core i7,1.8,0,1,0,0,1024.0,Nvidia,0,1,0,2.9
+MSI,Gaming,17.3,16,Windows 10,4.14kg,133146.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1536.0,Nvidia,0,1,0,4.14
+Lenovo,2 in 1 Convertible,15.6,8,Windows 10,2kg,90522.72,1920,1080,1,Intel Core i7,2.8,1,0,0,0,512.0,Nvidia,0,1,0,2.0
+Dell,Notebook,17.3,8,Windows 10,2.8kg,60845.76,1920,1080,0,Intel Core i7,1.8,1,1,0,0,1152.0,AMD,0,0,1,2.8
+Lenovo,Notebook,15.6,4,No OS,2.2kg,23656.32,1920,1080,0,Intel Core i3,2.0,1,0,0,0,256.0,Intel,1,0,0,2.2
+HP,Notebook,15.6,4,Windows 10,2.1kg,38468.16,1920,1080,1,Intel Core i5,1.6,0,1,0,0,500.0,Intel,1,0,0,2.1
+Dell,Notebook,15.6,4,Windows 10,2.18kg,35004.96,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,2.18
+Dell,Notebook,15.6,8,Windows 10,2.24kg,30103.2,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,AMD,0,0,1,2.24
+Dell,2 in 1 Convertible,15.6,8,Windows 10,2.67kg,42570.72,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,2.67
+Asus,2 in 1 Convertible,13.3,8,Windows 10,4.1kg,79866.72,1920,1080,0,Intel Core i7,1.8,1,0,0,0,1024.0,Intel,1,0,0,4.1
+HP,Notebook,17.3,8,Windows 10,2.5kg,54239.04,1920,1080,0,Intel Core i7,1.8,0,1,0,0,1024.0,Nvidia,0,1,0,2.5
+Lenovo,Notebook,15.6,8,Windows 10,2.05kg,46886.4,1920,1080,0,Intel Core i7,1.8,1,0,0,0,256.0,Intel,1,0,0,2.05
+Apple,Ultrabook,13.3,8,macOS,1.37kg,104370.192,2560,1600,1,Intel Core i5,2.9,1,0,0,0,512.0,Intel,1,0,0,1.37
+Asus,Gaming,17.3,16,Windows 10,3.2kg,82530.72,1920,1080,0,AMD Ryzen 1700,3.0,1,1,0,0,1280.0,AMD,0,0,1,3.2
+Dell,Notebook,15.6,8,Linux,2.14kg,39164.5296,1920,1080,0,Intel Core i7,1.8,1,0,0,0,256.0,AMD,0,0,1,2.14
+Lenovo,2 in 1 Convertible,14,16,Windows 10,1.36kg,133146.72,2560,1440,0,Intel Core i7,2.6,1,0,0,0,512.0,Intel,1,0,0,1.36
+Toshiba,Notebook,15.6,8,Windows 10,2.2kg,43263.36,1366,768,0,Intel Core i7,2.5,0,1,0,0,500.0,Nvidia,0,1,0,2.2
+Dell,Notebook,15.6,12,Windows 10,2.3kg,37992.3696,1366,768,0,Intel Core i7,2.7,0,1,0,0,1024.0,Intel,1,0,0,2.3
+Dell,Notebook,17.3,8,Linux,2.8kg,58554.72,1920,1080,0,Intel Core i7,1.8,1,1,0,0,1152.0,AMD,0,0,1,2.8
+Acer,Notebook,15.6,8,Windows 10,2.2kg,39693.6,1920,1080,1,Intel Core i7,1.8,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+Lenovo,Notebook,17.3,4,Windows 10,2.8kg,26053.92,1600,900,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,2.8
+Lenovo,Notebook,17.3,8,No OS,2.8kg,45234.72,1920,1080,0,Intel Core i7,1.8,0,1,0,0,2048.0,Nvidia,0,1,0,2.8
+Lenovo,Notebook,17.3,6,Windows 10,2.8kg,45767.52,1600,900,0,Intel Core i7,2.7,1,1,0,0,1152.0,Nvidia,0,1,0,2.8
+Dell,Notebook,15.6,4,Linux,2.25kg,22803.84,1920,1080,0,Intel Core i3,2.0,0,1,0,0,1024.0,AMD,0,0,1,2.25
+Lenovo,Gaming,15.6,8,Windows 10,2.5kg,44169.12,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.5
+Lenovo,Notebook,15.6,6,Windows 10,2.2kg,30849.12,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.2
+Acer,Notebook,15.6,8,Windows 10,3kg,50669.28,1920,1080,1,Intel Core i7,1.8,1,0,0,0,256.0,Nvidia,0,1,0,3.0
+Acer,Notebook,15.6,12,Windows 10,2.15kg,35111.52,1920,1080,1,Intel Core i7,2.7,0,1,0,0,1024.0,Intel,1,0,0,2.15
+Lenovo,Notebook,15.6,8,Windows 10,1.95kg,58448.16,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.95
+Asus,Ultrabook,15.6,8,Windows 10,1.7kg,52054.56,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,1.7
+Lenovo,Gaming,15.6,16,Windows 10,2.5kg,62817.12,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.5
+Lenovo,Notebook,15.6,8,No OS,2.2kg,35112.0528,1920,1080,0,Intel Core i7,2.7,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+Acer,Notebook,15.6,2,Chrome OS,2.19kg,10602.72,1366,768,0,Intel Celeron Dual,1.5,1,0,0,0,16.0,Intel,1,0,0,2.19
+Asus,Gaming,17.3,8,Windows 10,3kg,63243.36,1920,1080,0,Intel Core i7,2.8,0,1,0,0,1024.0,Nvidia,0,1,0,3.0
+HP,Notebook,17.3,8,Windows 10,2.54kg,26053.92,1600,900,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,2.54
+Dell,Notebook,15.6,8,Windows 10,2kg,97449.12,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,2.0
+Lenovo,Notebook,15.6,8,Windows 10,2.05kg,39373.92,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,2.05
+Lenovo,Gaming,15.6,8,Windows 10,3.2kg,69210.72,1920,1080,1,Intel Core i7,2.8,0,1,0,0,1024.0,Nvidia,0,1,0,3.2
+Acer,Notebook,15.6,8,Linux,2.5kg,52161.12,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,2.5
+Dell,Workstation,17.3,16,Windows 10,3.42kg,153705.3408,1920,1080,0,Intel Core i7,2.9,1,0,0,0,256.0,Nvidia,0,1,0,3.42
+Lenovo,Notebook,15.6,6,Windows 10,2.4kg,26586.72,1920,1080,0,AMD A10-Series 9600P,2.4,0,1,0,0,1024.0,AMD,0,0,1,2.4
+Asus,Ultrabook,15.6,16,Windows 10,1.63kg,78215.04,1920,1080,0,Intel Core i7,2.7,1,0,0,0,512.0,Nvidia,0,1,0,1.63
+Asus,Notebook,14,4,Windows 10,1.3kg,27119.52,1366,768,0,Intel Core i3,2.4,1,0,0,0,128.0,Intel,1,0,0,1.3
+Asus,Gaming,17.3,16,Windows 10,2.9kg,113060.16,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.9
+Lenovo,Notebook,17.3,6,Windows 10,5.8kg,34578.72,1600,900,0,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,5.8
+Lenovo,Notebook,15.6,8,No OS,2.2kg,29250.72,1366,768,0,Intel Core i5,2.5,0,1,0,0,2048.0,Nvidia,0,1,0,2.2
+Asus,Gaming,15.6,8,Windows 10,2.5kg,67399.2,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.5
+Lenovo,Notebook,15.6,4,No OS,2.2kg,19180.2672,1366,768,0,Intel Pentium Quad,1.1,0,1,0,0,1024.0,Intel,1,0,0,2.2
+HP,2 in 1 Convertible,13.3,16,Windows 10,1.28kg,105228.0,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Intel,1,0,0,1.28
+Toshiba,Notebook,15.6,8,Windows 10,2.2kg,55571.04,1920,1080,1,Intel Core i7,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.2
+Lenovo,Notebook,15.6,8,Windows 10,2.3kg,43636.32,1920,1080,0,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,2.3
+HP,Notebook,15.6,4,Windows 10,1.86kg,24988.32,1920,1080,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,1.86
+Lenovo,Notebook,13.3,8,Windows 10,1.1kg,53226.72,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.1
+Dell,Ultrabook,13.3,16,Windows 10,1.21kg,133146.72,3840,2160,1,Intel Core i7,1.8,1,0,0,0,1024.0,Intel,1,0,0,1.21
+MSI,Gaming,15.6,16,Windows 10,2.8kg,111834.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.8
+Acer,Notebook,15.6,8,Windows 10,2.23kg,24988.32,1920,1080,0,AMD A8-Series 7410,2.2,1,0,0,0,256.0,AMD,0,0,1,2.23
+Asus,2 in 1 Convertible,11.6,2,Windows 10,1.1kg,14652.0,1366,768,0,Intel Celeron Dual,1.1,0,0,1,0,32.0,Intel,1,0,0,1.1
+Dell,Notebook,15.6,8,Windows 10,2.33kg,44968.32,1920,1080,0,Intel Core i5,1.6,1,1,0,0,1152.0,AMD,0,0,1,2.33
+HP,2 in 1 Convertible,13.3,16,Windows 10,1.29kg,130482.72,3840,2160,1,Intel Core i7,1.8,1,0,0,0,1024.0,Intel,1,0,0,1.29
+Lenovo,Notebook,13.3,4,Chrome OS,1.45kg,24503.472,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,16.0,Intel,1,0,0,1.45
+HP,Notebook,14,8,Windows 10,1.95kg,52214.4,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.95
+Acer,Notebook,11.6,4,Windows 10,1.4kg,25840.8,1366,768,0,Intel Pentium Quad,1.6,0,0,1,0,128.0,Intel,1,0,0,1.4
+HP,Notebook,14,8,Windows 10,1.48kg,68837.76,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.48
+Lenovo,Notebook,17.3,4,Windows 10,2.79kg,31381.92,1600,900,0,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,2.79
+Asus,Notebook,14,8,Windows 10,2kg,58288.32,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,2.0
+HP,Notebook,15.6,8,Windows 10,2.1kg,48058.56,1366,768,1,Intel Core i7,1.8,0,1,0,0,1024.0,Intel,1,0,0,2.1
+Acer,Notebook,15.6,8,Windows 10,2.2kg,35111.52,1366,768,0,AMD A12-Series 9720P,2.7,1,0,0,0,256.0,AMD,0,0,1,2.2
+Lenovo,Notebook,14,4,Windows 10,1.44kg,15557.76,1366,768,0,Intel Celeron Dual,1.1,0,0,1,0,32.0,Intel,1,0,0,1.44
+Acer,Notebook,15.6,6,Windows 10,8.23kg,29250.72,1366,768,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,8.23
+Asus,Ultrabook,15.6,8,Windows 10,1.7kg,55938.672,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Nvidia,0,1,0,1.7
+HP,Ultrabook,12.5,8,Windows 10,1.26kg,71128.8,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.26
+Dell,Notebook,15.6,32,Windows 10,2.06kg,140605.92,3840,2160,0,Intel Core i7,2.8,1,0,0,0,1024.0,Nvidia,0,1,0,2.06
+MSI,Gaming,17.3,8,Windows 10,2.7kg,63882.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.7
+Toshiba,Notebook,15.6,8,Windows 10,2.0kg,50243.04,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.0
+Asus,Notebook,14,8,Windows 10,2kg,71075.52,1920,1080,0,Intel Core i7,2.7,1,1,0,0,1280.0,Intel,1,0,0,2.0
+Lenovo,Notebook,15.6,4,Windows 10,1.85kg,23922.72,1920,1080,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,1.85
+Asus,Gaming,15.6,8,Windows 10,2.5kg,53226.72,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,2.5
+HP,Notebook,14,8,Windows 10,1.48kg,67559.04,1920,1080,0,Intel Core i5,2.6,1,0,0,0,256.0,Intel,1,0,0,1.48
+HP,Notebook,15.6,8,Windows 10,1.84kg,60952.32,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.84
+Asus,Notebook,15.6,4,Linux,2kg,14651.4672,1366,768,0,Intel Celeron Dual,1.1,0,1,0,0,1024.0,Intel,1,0,0,2.0
+Dell,Notebook,15.6,8,Windows 10,2kg,60885.72,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Nvidia,0,1,0,2.0
+Dell,Notebook,15.6,4,Linux,2.2kg,14646.672,1366,768,0,Intel Celeron Dual,1.6,0,1,0,0,500.0,Intel,1,0,0,2.2
+Lenovo,Notebook,15.6,12,Windows 10,2.2kg,47898.72,1920,1080,0,AMD A12-Series 9720P,3.6,0,1,0,0,2048.0,AMD,0,0,1,2.2
+HP,Notebook,15.6,8,Windows 10,2.1kg,38148.48,1920,1080,1,Intel Core i3,2.4,0,1,0,0,1024.0,Nvidia,0,1,0,2.1
+Lenovo,2 in 1 Convertible,13.9,16,Windows 10,1.4kg,111834.72,3840,2160,1,Intel Core i7,1.8,1,0,0,0,512.0,Intel,1,0,0,1.4
+Dell,Ultrabook,13.3,8,Windows 10,1.2kg,84129.12,1920,1080,0,Intel Core i7,1.8,1,0,0,0,256.0,Intel,1,0,0,1.2
+Lenovo,Gaming,15.6,16,Windows 10,2.4kg,60153.12,1920,1080,1,Intel Core i7,2.8,1,1,0,0,2304.0,Nvidia,0,1,0,2.4
+HP,Notebook,14,2,Windows 10,1.44kg,14865.12,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,32.0,Intel,1,0,0,1.44
+Dell,Ultrabook,15.6,16,Windows 10,1.88kg,85672.1088,1920,1080,0,Intel Core i7,1.9,1,0,0,0,768.0,Intel,1,0,0,1.88
+Asus,2 in 1 Convertible,11.6,4,Windows 10,1.5kg,19980.0,1366,768,0,Intel Celeron Dual,1.1,0,0,1,0,32.0,Intel,1,0,0,1.5
+Dell,Ultrabook,15.6,8,Windows 10,0.0002kg,35324.64,1920,1080,0,Intel Core i5,1.6,0,1,0,0,1024.0,AMD,0,0,1,0.0002
+HP,Notebook,15.6,8,Windows 10,1.84kg,69477.12,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.84
+MSI,Gaming,17.3,8,Windows 10,2.7kg,75071.52,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.7
+HP,Workstation,15.6,8,Windows 10,2.6kg,92615.0256,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,2.6
+Toshiba,Notebook,15.6,16,Windows 10,2.4kg,74751.84,1920,1080,1,Intel Core i7,2.5,1,0,0,0,512.0,Nvidia,0,1,0,2.4
+Dell,Notebook,15.6,8,Windows 10,2.02kg,51729.552,1920,1080,0,Intel Core i7,1.8,1,1,0,0,2176.0,AMD,0,0,1,2.02
+Lenovo,Notebook,15.6,4,No OS,2.2kg,17155.6272,1366,768,0,Intel Celeron Dual,1.1,0,1,0,0,1024.0,Intel,1,0,0,2.2
+Dell,Gaming,15.6,8,Windows 10,2.65kg,53226.72,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,2.65
+Dell,Notebook,15.6,8,Windows 10,2.36kg,29696.6736,1366,768,0,Intel Core i5,2.5,0,1,0,0,2048.0,Intel,1,0,0,2.36
+Dell,Notebook,14,8,Windows 10,1.36kg,76030.56,1920,1080,0,Intel Core i5,2.6,1,0,0,0,256.0,Intel,1,0,0,1.36
+HP,Notebook,15.6,4,Windows 10,1.86kg,23389.92,1366,768,0,Intel Core i3,2.0,0,1,0,0,500.0,Intel,1,0,0,1.86
+Asus,Notebook,14,8,Windows 10,2kg,50349.6,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.0
+Lenovo,Notebook,17.3,6,Windows 10,2.8kg,38308.32,1600,900,0,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,2.8
+HP,Notebook,15.6,8,Windows 10,1.86kg,34045.92,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,1.86
+Lenovo,Notebook,15.6,8,No OS,2.2kg,26586.72,1366,768,0,Intel Core i3,2.0,1,0,0,0,256.0,Nvidia,0,1,0,2.2
+HP,Notebook,15.6,8,Windows 10,2.04kg,20725.92,1366,768,0,Intel Pentium Quad,1.6,0,1,0,0,2048.0,Intel,1,0,0,2.04
+Dell,Notebook,17.3,8,Windows 10,2.8kg,57808.8,1920,1080,0,Intel Core i5,1.6,1,1,0,0,1152.0,AMD,0,0,1,2.8
+Lenovo,Gaming,15.6,8,No OS,2.4kg,43103.52,1920,1080,1,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,2.4
+Dell,Notebook,15.6,8,Windows 10,2.33kg,47898.72,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,AMD,0,0,1,2.33
+HP,Ultrabook,14,8,Windows 10,1.36kg,93240.0,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.36
+Asus,2 in 1 Convertible,15.6,12,Windows 10,2.26kg,58554.72,1920,1080,0,Intel Core i7,2.7,1,1,0,0,2560.0,Nvidia,0,1,0,2.26
+Acer,Notebook,15.6,4,Windows 10,2.1kg,22697.28,1366,768,0,AMD A9-Series 9420,3.0,1,0,0,0,128.0,AMD,0,0,1,2.1
+Asus,Gaming,17.3,16,Windows 10,3.25kg,117162.72,1920,1080,1,AMD Ryzen 1700,3.0,1,1,0,0,1280.0,AMD,0,0,1,3.25
+Lenovo,Notebook,17.3,4,Windows 10,2.6kg,26053.92,1600,900,0,AMD A8-Series 7410,2.2,1,0,0,0,128.0,AMD,0,0,1,2.6
+Dell,2 in 1 Convertible,13.3,8,Windows 10,1.62kg,46300.8528,1920,1080,0,Intel Core i7,1.8,1,0,0,0,256.0,Intel,1,0,0,1.62
+HP,Notebook,15.6,4,Windows 10,1.91kg,26053.3872,1920,1080,0,AMD A9-Series 9420,3.0,1,0,0,0,256.0,AMD,0,0,1,1.91
+Lenovo,Netbook,11.6,4,Windows 10,1.59kg,29463.84,1366,768,1,Intel Celeron Quad,1.1,1,0,0,0,128.0,Intel,1,0,0,1.59
+Dell,Notebook,15.6,4,Windows 10,1.8kg,16463.52,1366,768,0,Intel Celeron Dual,1.6,0,1,0,0,500.0,Intel,1,0,0,1.8
+Asus,Notebook,14,4,Windows 10,1.5kg,15238.08,1366,768,0,Intel Celeron Dual,1.1,0,0,1,0,32.0,Intel,1,0,0,1.5
+Acer,Notebook,15.6,8,Linux,2.4kg,45074.88,1920,1080,0,Intel Core i7,2.8,0,1,0,0,1024.0,Nvidia,0,1,0,2.4
+HP,Gaming,17.3,8,Windows 10,3.35kg,63456.48,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,3.35
+Lenovo,Notebook,15.6,4,No OS,1.85kg,21498.48,1920,1080,0,Intel Core i3,2.0,1,0,0,0,128.0,Intel,1,0,0,1.85
+Asus,Gaming,15.6,8,Windows 10,2.3kg,88178.4,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.3
+Lenovo,Notebook,14,8,Windows 10,1.5kg,58554.72,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,1.5
+Asus,Ultrabook,13.3,16,Windows 10,1.1kg,93181.392,1920,1080,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.1
+Lenovo,Ultrabook,14,8,Windows 10,1.13kg,121584.96,2560,1440,1,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.13
+Lenovo,Notebook,13.3,4,Windows 10,1.5kg,29250.72,1920,1080,1,Intel Core i3,2.4,1,0,0,0,128.0,Intel,1,0,0,1.5
+Dell,Workstation,15.6,8,Windows 10,2.23kg,72940.32,1920,1080,0,Intel Core i5,2.6,0,1,0,0,500.0,AMD,0,0,1,2.23
+Dell,Workstation,15.6,8,Windows 10,2kg,113752.8,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Nvidia,0,1,0,2.0
+Lenovo,2 in 1 Convertible,14,16,Windows 10,1.42kg,133679.52,2560,1440,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.42
+Asus,Gaming,17.3,8,Windows 10,3kg,55357.92,1920,1080,0,Intel Core i7,2.8,0,1,0,0,1024.0,Nvidia,0,1,0,3.0
+Asus,Gaming,17.3,16,Windows 10,3kg,84768.48,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,3.0
+Acer,Notebook,15.6,12,Windows 10,2.2kg,36975.7872,1366,768,1,Intel Core i5,1.6,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+MSI,Gaming,17.3,8,Windows 10,2.7kg,71874.72,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,2.7
+Dell,Notebook,15.6,8,Linux,2.33kg,41498.1936,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,AMD,0,0,1,2.33
+HP,Ultrabook,15.6,4,Windows 10,1.91kg,26586.72,1920,1080,0,AMD A9-Series 9420,3.0,1,0,0,0,256.0,AMD,0,0,1,1.91
+Lenovo,Notebook,15.6,8,Windows 10,2.1kg,65510.9568,1920,1080,1,Intel Core i7,1.8,1,0,0,0,256.0,AMD,0,0,1,2.1
+Lenovo,Notebook,14,8,Windows 10,1.9kg,49976.64,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.9
+Dell,Workstation,15.6,8,Windows 10,1.78kg,144495.36,3840,2160,0,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,1.78
+Lenovo,Ultrabook,14,16,Windows 10,1.13kg,139860.0,2560,1440,1,Intel Core i7,2.7,1,0,0,0,1024.0,Intel,1,0,0,1.13
+Lenovo,Notebook,15.6,4,Windows 10,2.2kg,16303.68,1366,768,0,Intel Celeron Dual,1.1,0,1,0,0,1024.0,Intel,1,0,0,2.2
+Asus,Gaming,17.3,16,Windows 10,2.9kg,81465.12,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.9
+Lenovo,Notebook,25.6,8,Windows 10,2.1kg,60978.96,1920,1080,1,Intel Core i5,1.6,1,1,0,0,1280.0,AMD,0,0,1,2.1
+Acer,Notebook,15.6,8,Linux,2.5kg,46833.12,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,2.5
+MSI,Gaming,17.3,16,Windows 10,2.8kg,119826.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.8
+Asus,Ultrabook,14,8,Windows 10,1.10kg,99793.44,1920,1080,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.1
+Toshiba,Ultrabook,13.3,16,Windows 10,1.2kg,93080.16,1920,1080,0,Intel Core i7,2.5,1,0,0,0,512.0,Intel,1,0,0,1.2
+Dell,Ultrabook,14,8,Windows 10,1.36kg,89510.4,1920,1080,0,Intel Core i7,2.8,1,0,0,0,512.0,Intel,1,0,0,1.36
+Lenovo,Notebook,35.6,4,Windows 10,2.2kg,21791.52,1920,1080,0,Intel Core i3,2.0,0,1,0,0,500.0,Intel,1,0,0,2.2
+Lenovo,Notebook,11.6,2,Windows 10,1.15kg,16221.096,1366,768,0,Intel Celeron Dual,1.1,0,0,1,0,32.0,Intel,1,0,0,1.15
+Lenovo,Workstation,15.6,8,Windows 10,2.67kg,102564.0,1920,1080,0,Intel Core i7,2.8,1,0,0,0,512.0,Nvidia,0,1,0,2.67
+Lenovo,Ultrabook,14,8,Windows 10,1.7kg,103523.04,2560,1440,1,Intel Core i7,2.8,1,0,0,0,512.0,Nvidia,0,1,0,1.7
+HP,Notebook,15.6,4,Windows 10,2.1kg,24988.32,1920,1080,0,Intel Core i3,2.0,0,1,0,0,1024.0,AMD,0,0,1,2.1
+Acer,2 in 1 Convertible,13.3,8,Windows 10,1.6kg,42038.4528,1920,1080,1,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.6
+Asus,2 in 1 Convertible,13.3,8,Windows 10,1.27kg,49443.84,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.27
+Dell,Notebook,15.6,4,Linux,2.3kg,31909.392,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,AMD,0,0,1,2.3
+Dell,Notebook,13.3,4,Windows 10,1.65kg,36709.92,1366,768,0,Intel Core i3,2.0,1,0,0,0,128.0,Intel,1,0,0,1.65
+HP,Ultrabook,14,8,Windows 10,1.43kg,79920.0,1920,1080,0,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.43
+Dell,Notebook,15.6,8,Windows 10,2.14kg,28768.536,1366,768,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,2.14
+Lenovo,Ultrabook,14,8,Windows 10,1.75kg,64755.4464,1920,1080,1,Intel Core i7,1.8,1,0,0,0,256.0,AMD,0,0,1,1.75
+Lenovo,2 in 1 Convertible,15.6,16,Windows 10,2kg,101178.72,3840,2160,1,Intel Core i7,2.8,1,0,0,0,512.0,Nvidia,0,1,0,2.0
+Chuwi,Notebook,12.3,6,Windows 10,1.4kg,23922.72,2736,1824,1,Intel Celeron Quad,1.1,0,0,1,0,64.0,Intel,1,0,0,1.4
+HP,Notebook,15.6,8,Windows 10,2.31kg,76030.56,1920,1080,0,Intel Core i7,2.9,1,0,0,0,256.0,Intel,1,0,0,2.31
+Asus,Notebook,35.6,8,Linux,2.3kg,31808.16,1920,1080,0,Intel Core i3,2.4,0,1,0,0,1024.0,Nvidia,0,1,0,2.3
+Dell,Gaming,27.3,16,Windows 10,4.42kg,149130.72,2560,1440,1,Intel Core i7,2.9,1,1,0,0,1280.0,Nvidia,0,1,0,4.42
+Dell,Gaming,15.6,8,Windows 10,2.62kg,61751.52,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.62
+Dell,Notebook,15.6,8,Windows 10,2.02kg,60867.072,1920,1080,0,Intel Core i7,1.8,1,1,0,0,2304.0,AMD,0,0,1,2.02
+Dell,Ultrabook,14,8,Linux,1.6kg,58554.72,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Intel,1,0,0,1.6
+HP,Gaming,17.3,12,Windows 10,3.35kg,106506.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,3.35
+Mediacom,2 in 1 Convertible,11.6,4,Windows 10,1.16kg,15930.72,1920,1080,1,Intel Celeron Dual,1.1,1,0,0,0,32.0,Intel,1,0,0,1.16
+Samsung,Netbook,11.6,4,Chrome OS,1.15kg,14332.32,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,16.0,Intel,1,0,0,1.15
+Lenovo,Notebook,13.3,8,Windows 10,1.4kg,53812.8,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.4
+Lenovo,Notebook,14,4,Windows 10,1.7kg,31914.72,1920,1080,1,Intel Core i3,2.7,1,0,0,0,128.0,Intel,1,0,0,1.7
+Lenovo,Workstation,15.6,16,Windows 10,2.3kg,130269.6,3840,2160,1,Intel Core i7,2.8,1,0,0,0,512.0,Nvidia,0,1,0,2.3
+Lenovo,Notebook,15.6,16,Windows 10,2.5kg,130482.72,1920,1080,0,Intel Core i7,2.9,1,0,0,0,512.0,Nvidia,0,1,0,2.5
+Asus,Gaming,17.3,8,Windows 10,3.2kg,90309.6,1920,1080,0,AMD Ryzen 1600,3.2,1,1,0,0,1280.0,AMD,0,0,1,3.2
+HP,Notebook,15.6,4,Windows 10,2.1kg,18488.16,1366,768,0,Intel Celeron Dual,1.6,0,1,0,0,500.0,Intel,1,0,0,2.1
+Google,Ultrabook,12.3,16,Chrome OS,1.1kg,117162.72,2400,1600,0,Intel Core i7,1.3,1,0,0,0,512.0,Intel,1,0,0,1.1
+Lenovo,Ultrabook,24,24,Windows 10,1.32kg,126912.96,2560,1440,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.32
+Asus,Notebook,15.6,4,Linux,2kg,29783.52,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.0
+Lenovo,Notebook,17.3,8,Windows 10,2.8kg,27652.32,1600,900,0,AMD A6-Series 9220,2.5,0,1,0,0,1024.0,AMD,0,0,1,2.8
+Dell,Notebook,15.6,4,Windows 10,2.2kg,39906.72,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,AMD,0,0,1,2.2
+Lenovo,Ultrabook,12.5,8,Windows 10,1.36kg,76137.12,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.36
+Lenovo,Notebook,15.6,4,Windows 10,2.2kg,18594.72,1920,1080,0,Intel Pentium Quad,1.1,1,0,0,0,128.0,Intel,1,0,0,2.2
+HP,Gaming,15.6,8,Windows 10,2.2kg,58554.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.2
+Dell,Notebook,14,8,Windows 10,1.64kg,62817.12,1920,1080,0,Intel Core i5,2.8,1,0,0,0,256.0,Nvidia,0,1,0,1.64
+Acer,Notebook,15.6,4,Linux,2.4kg,23539.104,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,2.4
+Dell,Workstation,15.6,8,Windows 10,2.23kg,106187.04,1920,1080,0,Intel Xeon E3-1505M,3.0,0,1,1,0,1088.0,Nvidia,0,1,0,2.23
+MSI,Gaming,15.6,8,Windows 10,2.2kg,54757.9872,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.2
+Microsoft,Ultrabook,13.5,16,Windows 10 S,1.25kg,137941.92,2256,1504,0,Intel Core i7,2.5,1,0,0,0,512.0,Intel,1,0,0,1.25
+HP,Notebook,15.6,8,Windows 10,1.91kg,31381.92,1366,768,0,Intel Core i5,2.5,1,0,0,0,128.0,Intel,1,0,0,1.91
+Dell,Workstation,15.6,16,Windows 10,2.17kg,105228.0,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Nvidia,0,1,0,2.17
+HP,Workstation,15.6,8,Windows 10,2.31kg,81731.52,1920,1080,1,Intel Core i7,2.9,1,0,0,0,512.0,Intel,1,0,0,2.31
+Lenovo,Notebook,14,8,Windows 10,1.65kg,71661.6,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.65
+Dell,Notebook,15.6,8,Windows 10,2.36kg,52161.12,1920,1080,0,Intel Core i7,1.8,1,1,0,0,1152.0,AMD,0,0,1,2.36
+Dell,2 in 1 Convertible,11.6,4,Windows 10,1.47kg,25521.12,1366,768,0,Intel Pentium Quad,1.6,0,1,0,0,500.0,Intel,1,0,0,1.47
+Dell,Notebook,17.3,8,Windows 10,4.42kg,109010.88,1920,1080,1,Intel Core i7,2.7,0,1,0,0,1024.0,Nvidia,0,1,0,4.42
+Microsoft,Ultrabook,13.5,4,Windows 10 S,1.252kg,52693.92,2256,1504,0,Intel Core M,2.2,1,0,0,0,128.0,Intel,1,0,0,1.252
+Microsoft,Ultrabook,33.5,8,Windows 10 S,1.25kg,95850.72,2256,1504,0,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.25
+HP,Notebook,17.3,8,Windows 10,2.5kg,34093.872,1600,900,0,Intel Core i3,2.0,1,0,0,0,256.0,Intel,1,0,0,2.5
+Acer,Notebook,15.6,4,Windows 10,2.23kg,28984.32,1920,1080,0,Intel Core i3,2.0,0,1,0,0,1024.0,Nvidia,0,1,0,2.23
+Acer,Netbook,11.6,4,Windows 10,1.4kg,23176.8,1366,768,0,Intel Celeron Dual,1.6,1,0,0,0,128.0,Intel,1,0,0,1.4
+Asus,Notebook,15.6,8,Windows 10,2.37kg,39906.72,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,2.37
+Lenovo,Notebook,14,8,No OS,1.5kg,42570.72,1920,1080,1,Intel Core i7,2.7,1,0,0,0,512.0,AMD,0,0,1,1.5
+Lenovo,Notebook,15.6,8,Windows 10,2.67kg,111355.2,1920,1080,0,Intel Core i7,2.9,1,0,0,0,256.0,Nvidia,0,1,0,2.67
+Asus,Notebook,15.6,4,Windows 10,2kg,16197.12,1366,768,0,Intel Pentium Quad,1.1,0,1,0,0,500.0,Intel,1,0,0,2.0
+Acer,Notebook,15.6,4,Windows 10,2.2kg,24988.32,1366,768,0,Intel Core i3,2.0,0,1,0,0,500.0,Nvidia,0,1,0,2.2
+Dell,Notebook,15.6,8,Windows 10,2.02kg,40439.52,1920,1080,0,Intel Core i5,1.6,0,1,0,0,2048.0,AMD,0,0,1,2.02
+HP,Gaming,17.3,12,Windows 10,3.78kg,90522.72,1920,1080,1,Intel Core i7,2.8,0,1,0,0,1024.0,Nvidia,0,1,0,3.78
+Lenovo,Ultrabook,14,12,Windows 10,1.4kg,98994.24,2560,1440,1,Intel Core i7,2.6,1,0,0,0,256.0,Intel,1,0,0,1.4
+HP,2 in 1 Convertible,13.3,8,Windows 10,1.29kg,106506.72,3840,2160,1,Intel Core i7,1.8,1,0,0,0,512.0,Intel,1,0,0,1.29
+HP,Notebook,15.6,8,Windows 10,1.9kg,61485.12,1920,1080,0,Intel Core i5,2.5,0,1,0,0,500.0,AMD,0,0,1,1.9
+Google,Ultrabook,12.3,8,Chrome OS,1.1kg,67932.0,2400,1600,0,Intel Core i5,1.2,1,0,0,0,128.0,Intel,1,0,0,1.1
+Dell,Ultrabook,13.3,8,Windows 10,1.42kg,98133.768,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.42
+Asus,Notebook,15.6,12,Windows 10,2.06kg,69210.72,3840,2160,1,Intel Core i7,2.6,1,1,0,0,1152.0,Intel,1,0,0,2.06
+Dell,Notebook,14,8,Windows 10,1.79kg,39427.2,1366,768,0,Intel Core i3,2.3,1,0,0,0,128.0,Intel,1,0,0,1.79
+Lenovo,Notebook,14,8,Windows 10,1.7kg,72673.92,1920,1080,0,Intel Core i5,2.5,1,0,0,0,180.0,Intel,1,0,0,1.7
+Toshiba,Notebook,13.3,8,Windows 10,1.05kg,89084.16,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.05
+Dell,Notebook,15.6,8,Windows 10,2.16kg,67239.36,1920,1080,1,Intel Core i7,1.8,1,0,0,0,512.0,Nvidia,0,1,0,2.16
+Dell,Notebook,15.6,4,Windows 10,2.18kg,31254.048,1366,768,0,Intel Core i3,2.4,0,1,0,0,1024.0,Intel,1,0,0,2.18
+HP,Notebook,13.3,4,Windows 10,1.49kg,38681.28,1920,1080,1,Intel Core i5,1.6,1,0,0,0,128.0,Intel,1,0,0,1.49
+Chuwi,Notebook,15.6,4,Windows 10,1.89kg,13261.392,1920,1080,0,Intel Atom x5-Z8350,1.44,0,0,1,0,64.0,Intel,1,0,0,1.89
+Lenovo,Notebook,15.6,4,Windows 10,2.3kg,30103.2,1366,768,0,Intel Core i3,2.0,1,0,0,0,128.0,Intel,1,0,0,2.3
+Lenovo,Notebook,14,8,Windows 10,1.75kg,55890.72,1920,1080,1,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.75
+Dell,Workstation,15.6,16,Windows 10,2.17kg,124568.64,1920,1080,1,Intel Core i7,2.7,1,0,0,0,512.0,Nvidia,0,1,0,2.17
+Dell,Notebook,15.6,16,Windows 10,2.06kg,101178.72,1920,1080,0,Intel Core i7,2.8,1,0,0,0,512.0,Nvidia,0,1,0,2.06
+Lenovo,Ultrabook,12.5,16,Windows 10,1.36kg,95797.44,1920,1080,1,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.36
+Asus,Ultrabook,12.5,16,Windows 10,0.91kg,103896.0,1920,1080,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,0.91
+Lenovo,Notebook,15.6,8,Windows 10,2.3kg,53918.8272,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.3
+Toshiba,Ultrabook,13.3,32,Windows 10,1.05kg,149130.72,1920,1080,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.05
+Asus,Gaming,15.6,8,Windows 10,1.99kg,71928.0,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,1.99
+Acer,Notebook,15.6,8,Windows 10,2.2kg,30849.12,1366,768,0,AMD A10-Series 9620P,2.5,0,1,0,0,1024.0,AMD,0,0,1,2.2
+Asus,Gaming,17.3,24,Windows 10,4.33kg,67612.32,1920,1080,1,Intel Core i7,2.6,1,1,0,0,1280.0,Nvidia,0,1,0,4.33
+Lenovo,Ultrabook,12.5,8,Windows 10,1.3kg,58554.72,1366,768,1,Intel Core i5,2.3,1,0,0,0,180.0,Intel,1,0,0,1.3
+Lenovo,Notebook,15.6,8,Windows 10,2.17kg,47893.392,1920,1080,0,Intel Core i7,1.8,1,0,0,0,256.0,Intel,1,0,0,2.17
+HP,Notebook,14,8,Windows 10,1.48kg,93186.72,1920,1080,0,Intel Core i7,2.8,1,0,0,0,1024.0,Intel,1,0,0,1.48
+Lenovo,Notebook,13.3,8,Windows 10,1.4kg,50562.72,1920,1080,1,Intel Core i3,2.4,1,0,0,0,256.0,Intel,1,0,0,1.4
+Lenovo,Notebook,15.6,8,Windows 10,2.3kg,48538.08,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.3
+Asus,Netbook,11.6,4,Windows 10 S,1.2kg,18115.2,1366,768,0,Intel Celeron Dual,1.1,0,0,1,0,64.0,Intel,1,0,0,1.2
+HP,Notebook,15.6,8,Windows 10,1.91kg,32979.7872,1366,768,0,Intel Core i5,2.5,1,0,0,0,256.0,AMD,0,0,1,1.91
+Lenovo,2 in 1 Convertible,13.9,8,Windows 10,1.4kg,85194.72,1920,1080,1,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.4
+Lenovo,Notebook,14,4,Windows 10,2.1kg,15930.72,1366,768,0,Intel Celeron Dual,1.1,0,1,0,0,500.0,Intel,1,0,0,2.1
+Lenovo,Netbook,11.6,4,Chrome OS,1.25kg,14119.2,1366,768,0,Intel Celeron Dual,1.6,1,0,0,0,16.0,Intel,1,0,0,1.25
+Lenovo,Notebook,13.3,8,Windows 10,1.44kg,50562.72,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.44
+Asus,Notebook,15.6,8,Windows 10,2kg,65214.72,1920,1080,0,Intel Core i7,2.7,1,1,0,0,1280.0,Intel,1,0,0,2.0
+Acer,Notebook,15.6,4,Windows 10,2.2kg,32660.64,1920,1080,1,Intel Core i5,1.6,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+HP,Ultrabook,13.3,8,Windows 10,1.34kg,70489.44,1920,1080,1,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.34
+Lenovo,Gaming,15.6,8,No OS,2.4kg,61218.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.4
+Dell,Ultrabook,13.3,8,Windows 10,1.29kg,47898.72,1920,1080,1,Intel Core i5,2.5,1,0,0,0,128.0,Intel,1,0,0,1.29
+Acer,Notebook,15.6,4,Windows 10,2.2kg,34045.92,1920,1080,0,Intel Core i7,2.7,0,1,0,0,500.0,Nvidia,0,1,0,2.2
+Dell,Notebook,15.6,8,Windows 10,2.18kg,44542.08,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,2.18
+Dell,Notebook,15.6,16,Windows 10,2.2kg,64961.1072,1920,1080,0,Intel Core i7,1.8,1,1,0,0,2304.0,AMD,0,0,1,2.2
+Xiaomi,Notebook,15.6,16,No OS,1.95kg,74589.336,1920,1080,1,Intel Core i7,1.8,1,0,0,0,256.0,Nvidia,0,1,0,1.95
+Asus,Netbook,11.6,2,Windows 10,1.1kg,13053.6,1366,768,0,Intel Celeron Dual,1.1,0,0,1,0,32.0,Intel,1,0,0,1.1
+HP,Notebook,15.6,4,Windows 10,2.04kg,27783.9216,1366,768,0,Intel Core i5,1.6,0,1,0,0,1024.0,Intel,1,0,0,2.04
+Asus,Gaming,15.6,24,Windows 10,2.24kg,158135.04,1920,1080,0,Intel Core i7,2.8,1,0,0,0,512.0,Nvidia,0,1,0,2.24
+HP,Notebook,15.6,8,Windows 10,2.04kg,47365.92,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.04
+Asus,Gaming,17.3,16,Windows 10,3kg,80133.12,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,3.0
+Lenovo,Gaming,15.6,8,Windows 10,3.2kg,74538.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,3.2
+HP,Ultrabook,13.3,8,Windows 10,1.32kg,74538.72,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.32
+Dell,Notebook,14,8,Windows 10,1.64kg,68184.0144,1920,1080,0,Intel Core i5,2.6,1,0,0,0,256.0,Intel,1,0,0,1.64
+HP,Notebook,15.6,4,Windows 10,1.63kg,36709.92,1366,768,0,Intel Core i3,2.0,1,0,0,0,128.0,Intel,1,0,0,1.63
+Dell,Notebook,17.3,8,Linux,2.8kg,47365.92,1920,1080,1,Intel Core i5,1.6,1,1,0,0,1152.0,AMD,0,0,1,2.8
+Lenovo,Notebook,24,8,Windows 7,2.02kg,71395.2,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,2.02
+Lenovo,Notebook,15.6,4,Windows 10,2.2kg,42570.72,1920,1080,0,Intel Core i7,2.7,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+Lenovo,Notebook,15.6,8,No OS,2.2kg,24455.52,1366,768,0,Intel Core i3,2.0,0,1,0,0,2048.0,Nvidia,0,1,0,2.2
+Dell,Notebook,15.6,4,Windows 10,2.3kg,31168.8,1920,1080,0,Intel Core i5,2.5,0,1,0,0,500.0,AMD,0,0,1,2.3
+Dell,Notebook,15.6,8,Windows 10,1.9kg,73366.56,1920,1080,0,Intel Core i5,2.8,1,0,0,0,256.0,Intel,1,0,0,1.9
+Dell,Gaming,17.3,16,Windows 10,4.42kg,160520.3856,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,4.42
+Toshiba,Notebook,15.6,8,Windows 10,2.0kg,45820.8,1920,1080,1,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,2.0
+Asus,Notebook,15.6,8,Windows 10,2kg,69210.72,3840,2160,1,Intel Core i7,2.7,1,1,0,0,1280.0,Nvidia,0,1,0,2.0
+Mediacom,Notebook,13.3,4,Windows 10,1.2kg,19660.32,1920,1080,1,Intel Celeron Quad,1.1,1,0,0,0,32.0,Intel,1,0,0,1.2
+Asus,Gaming,15.6,8,Windows 10,2.3kg,87858.72,1920,1080,1,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,2.3
+Dell,Notebook,15.6,8,Windows 10,1.93kg,72940.32,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,1.93
+Dell,Notebook,15.6,8,Windows 10,2.2kg,42486.0048,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,AMD,0,0,1,2.2
+HP,Notebook,15.6,4,Windows 10,1.86kg,21258.1872,1920,1080,0,Intel Pentium Quad,1.6,1,0,0,0,256.0,Intel,1,0,0,1.86
+HP,Gaming,17.3,12,Windows 10,2.62kg,95850.72,1920,1080,0,Intel Core i7,2.8,0,1,0,0,1024.0,Nvidia,0,1,0,2.62
+Lenovo,Notebook,14,8,Windows 10,1.87kg,45767.52,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Nvidia,0,1,0,1.87
+Dell,Ultrabook,13.3,8,Windows 10,1.2kg,74538.72,3200,1800,0,Intel Core i7,1.8,1,0,0,0,256.0,Intel,1,0,0,1.2
+Dell,Notebook,14,4,Windows 10,1.6kg,39207.1536,1920,1080,0,Intel Core i3,2.0,1,0,0,0,128.0,Intel,1,0,0,1.6
+HP,Ultrabook,13.3,8,Windows 10,1.34kg,61005.6,3200,1800,1,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.34
+Acer,Gaming,15.6,8,Linux,2.4kg,42517.44,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,2.4
+Asus,Notebook,15.6,4,Windows 10,2kg,18594.72,1366,768,0,AMD E-Series 7110,1.8,0,1,0,0,500.0,AMD,0,0,1,2.0
+HP,Notebook,15.6,4,Windows 10,2.1kg,37589.04,1920,1080,0,Intel Core i3,2.4,1,0,0,0,128.0,Intel,1,0,0,2.1
+Lenovo,Notebook,14,4,Windows 10,1.87kg,41824.8,1920,1080,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,1.87
+Lenovo,Notebook,15.6,4,No OS,2.15kg,24634.008,1920,1080,0,Intel Core i5,2.3,0,1,0,0,1024.0,Intel,1,0,0,2.15
+HP,Notebook,15.6,4,Windows 10,1.86kg,21152.16,1920,1080,0,Intel Core i3,2.0,0,1,0,0,500.0,Intel,1,0,0,1.86
+Lenovo,Notebook,15.6,8,Windows 10,1.99kg,92121.12,1920,1080,1,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.99
+Lenovo,Notebook,15.6,4,Windows 10,2.2kg,26586.72,1920,1080,0,Intel Core i3,2.0,1,0,0,0,128.0,Intel,1,0,0,2.2
+Dell,Notebook,15.6,8,Windows 10,1.9kg,59513.2272,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.9
+Dell,Gaming,17.3,16,Windows 10,4.42kg,143802.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,4.42
+HP,Notebook,17.3,8,Windows 10,2.65kg,28992.312,1600,900,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,2.65
+HP,Notebook,17.3,8,Windows 10,2.63kg,68198.4,1920,1080,0,Intel Core i7,2.7,0,1,0,0,1024.0,Nvidia,0,1,0,2.63
+Asus,Notebook,15.6,4,Linux,2kg,11934.72,1366,768,0,Intel Celeron Dual,1.1,0,1,0,0,500.0,Intel,1,0,0,2.0
+Mediacom,Notebook,13.3,4,Windows 10,1.35kg,13586.4,1920,1080,1,Intel Atom x5-Z8350,1.44,0,0,1,0,32.0,Intel,1,0,0,1.35
+Lenovo,Notebook,17.3,6,Windows 10,2.8kg,50562.72,1600,900,0,Intel Core i7,2.7,1,1,0,0,1152.0,Nvidia,0,1,0,2.8
+HP,Notebook,15.6,6,Windows 10,1.91kg,30310.992,1920,1080,1,AMD A10-Series A10-9620P,2.5,1,0,0,0,128.0,AMD,0,0,1,1.91
+Dell,Notebook,15.6,4,Windows 10,2.18kg,32921.712,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,AMD,0,0,1,2.18
+Acer,2 in 1 Convertible,11.6,4,Windows 10,1.25kg,18594.72,1920,1080,1,Intel Celeron Dual,2.0,0,0,1,0,32.0,Intel,1,0,0,1.25
+Lenovo,Notebook,15.6,4,Windows 10,2.05kg,33566.4,1920,1080,0,Intel Core i3,2.7,1,0,0,0,128.0,Intel,1,0,0,2.05
+HP,Ultrabook,13.3,16,Windows 10,1.16kg,104695.2,3200,1800,1,Intel Core M,1.2,1,0,0,0,512.0,Intel,1,0,0,1.16
+Lenovo,Notebook,17.3,8,Windows 10,3.4kg,159786.72,1920,1080,1,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,3.4
+Asus,Notebook,15.6,8,Windows 10,2.5kg,44701.92,1920,1080,0,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,2.5
+Dell,Ultrabook,13.3,8,Windows 10,1.21kg,85194.72,3840,2160,1,Intel Core i5,1.6,1,0,0,0,128.0,Intel,1,0,0,1.21
+Dell,Notebook,15.6,4,Windows 10,1.93kg,51095.52,1366,768,0,Intel Core i5,2.6,0,1,0,0,500.0,Intel,1,0,0,1.93
+Lenovo,Notebook,15.6,4,Windows 10,2.2kg,18328.32,1920,1080,0,Intel Pentium Quad,1.1,0,1,0,0,500.0,Intel,1,0,0,2.2
+Lenovo,Notebook,14,4,Windows 10,2.02kg,52747.2,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,2.02
+HP,Workstation,17.3,8,Windows 10,3.14kg,99153.5472,1600,900,0,Intel Core i5,2.8,0,1,0,0,500.0,Nvidia,0,1,0,3.14
+HP,Notebook,14,8,Windows 10,1.94kg,20725.92,1366,768,0,Intel Pentium Quad,1.6,0,1,0,0,2048.0,Intel,1,0,0,1.94
+HP,Notebook,15.6,6,Windows 10,1.95kg,34578.72,1920,1080,1,AMD A9-Series A9-9420,3.0,1,0,0,0,256.0,AMD,0,0,1,1.95
+Lenovo,Notebook,15.6,8,Windows 10,2.3kg,44222.4,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.3
+Lenovo,Notebook,15.6,4,Windows 10,2.05kg,36496.8,1920,1080,0,Intel Core i5,1.6,0,1,0,0,500.0,Intel,1,0,0,2.05
+Mediacom,Notebook,14,4,Windows 10,1.4kg,13266.72,1920,1080,0,Intel Atom x5-Z8350,1.44,1,0,0,0,32.0,Intel,1,0,0,1.4
+Toshiba,Ultrabook,14,16,Windows 10,1.24kg,99367.2,1920,1080,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.24
+Lenovo,Gaming,17.3,32,Windows 10,4.6kg,141884.64,1920,1080,1,Intel Core i7,2.7,1,1,0,0,1280.0,Nvidia,0,1,0,4.6
+MSI,Gaming,17.3,16,Windows 10,4.14kg,145401.12,1920,1080,0,Intel Core i7,2.9,1,1,0,0,1536.0,Nvidia,0,1,0,4.14
+Dell,Notebook,15.6,8,Linux,2.2kg,39907.2528,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,AMD,0,0,1,2.2
+Mediacom,Notebook,14,4,Windows 10,1.45kg,20725.92,1920,1080,1,Intel Celeron Quad,1.1,1,0,0,0,32.0,Intel,1,0,0,1.45
+Dell,Notebook,15.6,8,Windows 10,1.9kg,53733.9456,1366,768,0,Intel Core i5,2.6,0,1,0,0,500.0,Intel,1,0,0,1.9
+HP,Notebook,13.3,4,Windows 10,1.49kg,38308.32,1920,1080,0,Intel Core i3,2.4,1,0,0,0,128.0,Intel,1,0,0,1.49
+Dell,Notebook,15.6,16,Windows 10,1.93kg,81912.1392,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,1.93
+Dell,Netbook,11.6,4,Chrome OS,1.26kg,15717.6,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,16.0,Intel,1,0,0,1.26
+MSI,Gaming,17.3,16,Windows 10,4.5kg,125154.72,1920,1080,0,Intel Core i7,2.7,1,1,0,0,1152.0,Nvidia,0,1,0,4.5
+HP,Gaming,17.3,16,Windows 10,3.78kg,79813.44,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,3.78
+Lenovo,Ultrabook,14,12,Windows 10,8.4kg,89137.44,1920,1080,1,Intel Core i7,2.6,1,0,0,0,256.0,Intel,1,0,0,8.4
+Lenovo,Notebook,15.6,12,Windows 10,2.2kg,32447.52,1366,768,0,Intel Core i7,1.8,0,1,0,0,1024.0,Intel,1,0,0,2.2
+Asus,Gaming,17.3,8,Windows 10,2.73kg,94305.6,1920,1080,1,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,2.73
+Asus,2 in 1 Convertible,15.6,8,Windows 10,2.2kg,39373.92,1366,768,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,2.2
+Lenovo,Notebook,15.6,12,Windows 10,2.2kg,50562.72,1920,1080,0,AMD A12-Series 9720P,3.6,1,0,0,0,512.0,AMD,0,0,1,2.2
+Dell,2 in 1 Convertible,31.6,4,Windows 10,1.39kg,32127.84,1366,768,0,Intel Core M,1.0,1,0,0,0,128.0,Intel,1,0,0,1.39
+Samsung,Notebook,15.6,16,Windows 10,2.5kg,90522.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.5
+Lenovo,Notebook,17.3,4,No OS,2.8kg,28185.12,1920,1080,0,Intel Core i3,2.0,0,1,0,0,500.0,Intel,1,0,0,2.8
+Lenovo,Notebook,15.6,8,Windows 10,2.29kg,24455.52,1366,768,0,Intel Core i3,2.3,0,1,0,0,1024.0,Intel,1,0,0,2.29
+Lenovo,2 in 1 Convertible,13.3,8,Windows 10,1.37kg,107892.0,1920,1080,1,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.37
+Lenovo,Notebook,14,8,Windows 10,1.7kg,78534.72,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.7
+Dell,2 in 1 Convertible,12.5,8,Windows 10,1.34kg,88977.6,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.34
+Dell,Workstation,15.6,8,Windows 10,2.06kg,93932.64,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,2.06
+HP,Notebook,15.6,8,Windows 10,1.84kg,64948.32,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.84
+HP,Notebook,15.6,4,Windows 10,2.1kg,35616.6144,1366,768,0,Intel Core i3,2.4,0,1,0,0,500.0,Intel,1,0,0,2.1
+Acer,Notebook,14,4,Windows 10,1.6kg,17529.12,1920,1080,0,Intel Celeron Quad,1.1,0,0,1,0,32.0,Intel,1,0,0,1.6
+MSI,Gaming,17.3,16,Windows 10,4.14kg,117162.72,1920,1080,0,Intel Core i7,2.7,1,1,0,0,1152.0,Nvidia,0,1,0,4.14
+Dell,Notebook,15.6,4,Linux,2.18kg,24775.2,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,AMD,0,0,1,2.18
+MSI,Gaming,15.6,16,Windows 10,1.8kg,122490.72,3840,2160,0,Intel Core i7,2.8,1,1,0,0,2304.0,Nvidia,0,1,0,1.8
+Toshiba,Notebook,15.6,8,Windows 10,2.2kg,74538.72,1920,1080,1,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,2.2
+Lenovo,Notebook,15.6,6,Windows 10,2.4kg,30049.92,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,2.4
+Lenovo,2 in 1 Convertible,15.6,8,Windows 10,2kg,69210.72,1920,1080,1,Intel Core i7,2.8,1,0,0,0,256.0,Intel,1,0,0,2.0
+Acer,Notebook,14,4,Windows 10,1.6kg,18594.72,1366,768,0,Intel Pentium Quad,1.6,0,0,1,0,128.0,Intel,1,0,0,1.6
+Lenovo,Notebook,15.6,32,Windows 10,2.5kg,261018.72,3840,2160,1,Intel Xeon E3-1535M,3.1,1,0,0,0,1024.0,Nvidia,0,1,0,2.5
+Dell,Gaming,15.6,16,Windows 10,2.59kg,46833.6528,1920,1080,0,Intel Core i7,2.6,0,1,0,0,1024.0,Nvidia,0,1,0,2.59
+Dell,Notebook,15.6,4,Linux,2.18kg,23650.992,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,2.18
+Dell,Notebook,15.6,4,Linux,2.25kg,19127.52,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,2.25
+Dell,Notebook,15.6,4,Linux,1.93kg,46300.32,1366,768,0,Intel Core i5,2.6,0,1,0,0,500.0,Intel,1,0,0,1.93
+Asus,Gaming,17.3,8,Windows 10,3kg,62231.04,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,3.0
+HP,Ultrabook,15.6,8,Windows 10,1.84kg,74005.92,1920,1080,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.84
+MSI,Gaming,15.6,16,Windows 10,2.94kg,120831.5808,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.94
+Acer,2 in 1 Convertible,11.6,4,Chrome OS,1.25kg,20193.12,1366,768,1,Intel Celeron Quad,1.6,0,0,1,0,32.0,Intel,1,0,0,1.25
+HP,Notebook,14,8,Windows 10,2.31kg,59886.72,1366,768,0,Intel Core i5,2.6,1,0,0,0,256.0,Intel,1,0,0,2.31
+Lenovo,Notebook,14,8,Windows 7,1.65kg,78055.2,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.65
+Dell,Notebook,15.6,4,Windows 10,2.2kg,41345.28,1920,1080,0,Intel Core i5,1.6,0,1,0,0,1024.0,AMD,0,0,1,2.2
+Fujitsu,Notebook,15.6,8,Windows 10,2.2kg,42570.72,1366,768,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.2
+HP,Notebook,15.6,4,Windows 7,1.88kg,49656.96,1366,768,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,1.88
+Mediacom,Notebook,14,2,Windows 10,1.4kg,12733.92,1920,1080,0,Intel Atom x5-Z8350,1.44,0,0,1,0,32.0,Intel,1,0,0,1.4
+Lenovo,Notebook,15.6,4,No OS,2.2kg,24935.04,1920,1080,0,Intel Core i5,2.5,1,0,0,0,128.0,Intel,1,0,0,2.2
+Asus,2 in 1 Convertible,13.3,6,Windows 10,1.5kg,34046.4528,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,1.5
+Asus,Ultrabook,14,16,Windows 10,11.1kg,101232.0,1920,1080,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,11.1
+Dell,Gaming,15.6,16,Windows 10,2.62kg,78801.12,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.62
+Lenovo,Notebook,15.6,4,Windows 10,1.8kg,44169.12,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.8
+Lenovo,Notebook,15.6,4,Windows 10,2.2kg,30849.12,1920,1080,0,Intel Core i3,2.0,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+Asus,Notebook,15.6,8,Windows 10,2kg,21258.72,1366,768,0,Intel Celeron Dual,1.1,0,1,0,0,1024.0,Intel,1,0,0,2.0
+Asus,Notebook,15.6,8,Windows 10,1.99kg,48304.7136,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,1.99
+Dell,Ultrabook,13.3,8,Windows 10,1.23kg,99580.32,3200,1800,0,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.23
+Lenovo,Notebook,14,2,Windows 10,1.42kg,13266.72,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,32.0,Intel,1,0,0,1.42
+Lenovo,2 in 1 Convertible,13.3,8,Windows 10,1.37kg,93635.3376,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.37
+Dell,Notebook,15.6,16,Windows 10,2.06kg,127818.72,3840,2160,0,Intel Core i7,2.8,1,0,0,0,1024.0,Nvidia,0,1,0,2.06
+Lenovo,Gaming,15.6,8,Windows 10,2.5kg,59087.52,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.5
+HP,Notebook,17,8,Windows 10,2.6kg,27753.552,1600,900,0,AMD A9-Series 9420,3.0,0,1,0,0,1024.0,AMD,0,0,1,2.6
+Lenovo,Ultrabook,14,16,Windows 10,1.14kg,130536.0,1920,1080,1,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.14
+Asus,Gaming,15.6,8,No OS,2.5kg,62284.32,1920,1080,1,Intel Core i7,2.8,0,1,0,0,1024.0,Nvidia,0,1,0,2.5
+Acer,Notebook,15.6,4,Windows 10,2.4kg,23976.0,1366,768,0,Intel Core i3,2.0,0,1,0,0,500.0,Intel,1,0,0,2.4
+Lenovo,Notebook,14,4,Windows 10,1.43kg,14598.72,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,32.0,Intel,1,0,0,1.43
+Acer,Ultrabook,14,8,Windows 10,1.8kg,48964.32,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.8
+Razer,Gaming,14,16,Windows 10,1.95kg,138474.72,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,1.95
+Toshiba,Notebook,13.3,8,Windows 10,1.2kg,64628.64,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.2
+Lenovo,Ultrabook,12.5,8,Windows 10,1.36kg,84395.52,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.36
+Asus,Gaming,17.3,32,Windows 10,3.8kg,149130.72,1920,1080,1,Intel Core i7,2.7,1,0,0,0,512.0,Nvidia,0,1,0,3.8
+Acer,Gaming,15.6,8,Linux,2.4kg,37775.52,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,2.4
+Dell,Ultrabook,13.3,8,Windows 10,1.2kg,77250.672,1920,1080,0,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.2
+MSI,Gaming,15.6,8,Windows 10,2.2kg,63499.104,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.2
+HP,Notebook,15.6,4,No OS,1.86kg,19441.872,1366,768,0,Intel Core i3,2.0,0,1,0,0,500.0,Intel,1,0,0,1.86
+Toshiba,Notebook,15.6,8,Windows 10,2.0kg,56689.92,1920,1080,1,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,2.0
+Dell,Notebook,15.6,8,Windows 10,6.2kg,48964.32,1920,1080,0,Intel Core i7,1.8,1,0,0,0,256.0,AMD,0,0,1,6.2
+Dell,Notebook,15.6,16,Windows 10,2.2kg,60472.8,1920,1080,0,Intel Core i7,1.8,1,1,0,0,2304.0,AMD,0,0,1,2.2
+Lenovo,Gaming,15.6,8,Windows 10,3.31kg,63722.88,1920,1080,1,Intel Core i7,2.6,1,1,0,0,1152.0,Nvidia,0,1,0,3.31
+Dell,Gaming,17.3,32,Windows 10,4.42kg,167691.8736,3840,2160,1,Intel Core i7,2.8,1,1,0,0,1536.0,Nvidia,0,1,0,4.42
+Dell,Notebook,14,8,Windows 10,1.56kg,65481.12,1920,1080,0,Intel Core i5,2.4,1,0,0,0,256.0,Intel,1,0,0,1.56
+Lenovo,Notebook,15.6,4,Windows 10,2.2kg,22324.32,1366,768,0,Intel Celeron Dual,1.1,0,1,0,0,500.0,Intel,1,0,0,2.2
+Lenovo,Notebook,15.6,4,Windows 10,2.2kg,28504.8,1920,1080,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,2.2
+HP,Notebook,15.6,6,Windows 10,2.04kg,28717.92,1920,1080,0,Intel Core i3,2.0,0,1,0,0,1024.0,AMD,0,0,1,2.04
+MSI,Gaming,17.3,8,Windows 10,2.7kg,79215.1056,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.7
+Toshiba,Notebook,15.6,4,Windows 10,2.1kg,26533.44,1366,768,0,Intel Core i3,2.1,1,0,0,0,128.0,Intel,1,0,0,2.1
+HP,Notebook,15.6,8,Windows 10,2.1kg,39693.6,1920,1080,0,Intel Core i7,2.7,0,1,0,0,1024.0,AMD,0,0,1,2.1
+Toshiba,Notebook,15.6,8,Windows 10,2.0kg,67026.24,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.0
+Acer,Notebook,15.6,4,Linux,2.1kg,21951.36,1366,768,0,Intel Core i3,2.0,1,0,0,0,128.0,Intel,1,0,0,2.1
+Microsoft,Ultrabook,13.5,8,Windows 10 S,1.252kg,99519.048,2256,1504,0,Intel Core i7,2.8,1,0,0,0,256.0,Intel,1,0,0,1.252
+Lenovo,Notebook,15.6,8,Windows 10,1.90kg,43580.376,1920,1080,0,Intel Core i5,2.5,1,1,0,0,1152.0,AMD,0,0,1,1.9
+Lenovo,2 in 1 Convertible,13.3,8,Windows 10,1.3kg,55091.52,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.3
+Lenovo,Notebook,35.6,4,Windows 10,2.2kg,18594.72,1366,768,0,AMD E-Series E2-9000,2.2,1,0,0,0,128.0,AMD,0,0,1,2.2
+HP,2 in 1 Convertible,14,4,Windows 10,1.63kg,37242.72,1920,1080,1,Intel Core i3,2.4,1,0,0,0,128.0,Nvidia,0,1,0,1.63
+MSI,Gaming,15.6,16,Windows 10,2.4kg,68944.32,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.4
+Asus,Ultrabook,14,8,Windows 10,1.1kg,60472.8,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.1
+HP,2 in 1 Convertible,11.6,8,Chrome OS,1.4kg,26373.6,1366,768,0,Intel Celeron Dual,1.1,0,0,1,0,64.0,Intel,1,0,0,1.4
+LG,Ultrabook,15.6,8,Windows 10,1.09kg,122490.72,1920,1080,1,Intel Core i7,1.8,1,0,0,0,512.0,Intel,1,0,0,1.09
+Acer,Gaming,15.6,16,Windows 10,2.5kg,69210.72,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.5
+MSI,Gaming,15.6,8,Windows 10,2.2kg,53168.112,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.2
+Asus,Notebook,15.6,4,Windows 10,1.86kg,22324.32,1366,768,0,Intel Celeron Dual,1.1,1,0,0,0,128.0,Intel,1,0,0,1.86
+Dell,Gaming,15.6,16,Windows 10,3.21kg,109277.28,1920,1080,0,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,3.21
+HP,Notebook,17.3,4,Windows 10,2.5kg,37242.72,1920,1080,1,Intel Core i3,2.0,1,0,0,0,256.0,AMD,0,0,1,2.5
+Lenovo,2 in 1 Convertible,13.3,8,Windows 10,1.19kg,79866.72,1920,1080,1,Intel Core i7,1.8,1,0,0,0,512.0,Intel,1,0,0,1.19
+Dell,Gaming,15.6,16,Windows 10,3.49kg,149916.6,1920,1080,0,Intel Core i7,2.9,1,1,0,0,1280.0,Nvidia,0,1,0,3.49
+HP,Notebook,15.6,4,Windows 10,1.86kg,32639.8608,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,AMD,0,0,1,1.86
+Dell,Notebook,15.6,4,Windows 10,2.2kg,29073.2976,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,AMD,0,0,1,2.2
+HP,Notebook,17.3,6,Windows 10,2.65kg,30316.32,1920,1080,1,AMD A10-Series 9600P,2.4,0,1,0,0,2048.0,AMD,0,0,1,2.65
+Lenovo,Notebook,15.6,4,Windows 10,2.1kg,16943.04,1366,768,0,Intel Celeron Dual,1.6,0,1,0,0,500.0,Intel,1,0,0,2.1
+Acer,Notebook,14,4,Chrome OS,1.45kg,19980.0,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,32.0,Intel,1,0,0,1.45
+Lenovo,Notebook,14,4,Windows 10,1.7kg,37242.72,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.7
+HP,Workstation,17.3,8,Windows 10,3.14kg,101657.7072,1920,1080,0,Intel Core i7,2.8,0,1,0,0,500.0,Nvidia,0,1,0,3.14
+Lenovo,2 in 1 Convertible,14,8,Windows 10,1.42kg,137995.2,2560,1440,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.42
+Toshiba,Notebook,13.3,8,Windows 10,1.5kg,51841.44,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.5
+Acer,Netbook,11.6,4,Windows 10,1.4kg,14332.32,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,32.0,Intel,1,0,0,1.4
+Lenovo,2 in 1 Convertible,14,16,Windows 10,1.38kg,93186.72,1920,1080,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.38
+Asus,2 in 1 Convertible,12.5,4,Chrome OS,1.2kg,35644.32,1920,1080,0,Intel Core M,0.9,0,0,1,0,64.0,Intel,1,0,0,1.2
+Toshiba,Ultrabook,13.3,16,Windows 10,1.36kg,100006.56,1920,1080,0,Intel Core i7,2.5,1,0,0,0,512.0,Intel,1,0,0,1.36
+Dell,Gaming,15.6,8,Windows 10,2.56kg,43636.32,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,2.56
+Lenovo,Notebook,15.6,4,Windows 10,2.2kg,21258.72,1920,1080,0,AMD A9-Series 9420,2.9,1,0,0,0,256.0,AMD,0,0,1,2.2
+Lenovo,Notebook,15.6,8,Windows 10,2.2kg,22857.12,1366,768,0,AMD A12-Series 9720P,3.6,0,1,0,0,1024.0,AMD,0,0,1,2.2
+Lenovo,Notebook,15.6,4,Windows 10,2.1kg,33110.856,1920,1080,0,Intel Core i5,2.5,0,1,0,0,2048.0,Intel,1,0,0,2.1
+Lenovo,Notebook,15.6,4,No OS,1.90kg,23976.0,1366,768,0,Intel Core i3,2.0,0,1,0,0,500.0,Intel,1,0,0,1.9
+Dell,Notebook,15.6,8,Windows 10,2.18kg,42357.6,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.18
+Acer,2 in 1 Convertible,13.3,1,Windows 10,1.6kg,53226.72,1920,1080,1,Intel Core i5,1.6,1,0,0,0,256.0,Intel,1,0,0,1.6
+Lenovo,Workstation,15.6,16,Windows 7,2.18kg,98834.4,1920,1080,0,Intel Core i7,2.5,1,0,0,0,512.0,Nvidia,0,1,0,2.18
+Lenovo,Notebook,14,8,Windows 10,1.8kg,63456.48,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.8
+HP,Notebook,17.3,6,Windows 10,2.71kg,34898.9328,1920,1080,1,AMD A10-Series 9620P,2.5,0,1,0,0,2048.0,AMD,0,0,1,2.71
+Lenovo,Gaming,15.6,8,Windows 10,2.5kg,66546.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.5
+Dell,Notebook,14,8,Linux,1.64kg,58021.92,1920,1080,0,Intel Core i5,2.8,1,0,0,0,256.0,Nvidia,0,1,0,1.64
+Dell,Notebook,15.6,8,Linux,1.98kg,38681.28,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,1.98
+Asus,Notebook,14,4,Windows 10,1.5kg,15877.44,1920,1080,0,Intel Celeron Dual,1.1,0,0,1,0,32.0,Intel,1,0,0,1.5
+Dell,Notebook,15.6,16,Windows 10,1.93kg,76012.4448,1920,1080,0,Intel Core i5,2.6,1,0,0,0,512.0,Intel,1,0,0,1.93
+Lenovo,Notebook,14,8,Windows 10,1.87kg,45664.6896,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,1.87
+Dell,Notebook,15.6,8,Windows 10,1.9kg,62817.12,1920,1080,0,Intel Core i5,2.6,1,0,0,0,256.0,Intel,1,0,0,1.9
+Lenovo,Notebook,15.6,4,Windows 10,2.19kg,15877.44,1366,768,0,AMD A6-Series 7310,2.0,0,1,0,0,500.0,AMD,0,0,1,2.19
+Mediacom,Notebook,14,4,Windows 10,1.4kg,14119.2,1920,1200,1,Intel Atom Z8350,1.92,0,1,0,0,32.0,Intel,1,0,0,1.4
+HP,Notebook,17.3,8,Windows 10,2.63kg,63936.0,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Nvidia,0,1,0,2.63
+Lenovo,Ultrabook,14,64,Windows 10,1.17kg,89864.1792,2560,1440,1,Intel Core i7,2.5,1,0,0,0,512.0,Intel,1,0,0,1.17
+HP,2 in 1 Convertible,13.3,8,Windows 10,1.58kg,44574.048,1366,768,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.58
+Lenovo,Ultrabook,14,8,Windows 10,1.32kg,79866.72,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.32
+Dell,Gaming,17.3,32,Windows 10,4.36kg,194972.832,3840,2160,0,Intel Core i7,2.8,1,1,0,0,2048.0,Nvidia,0,1,0,4.36
+MSI,Gaming,17.3,8,Windows 10,2.7kg,71847.0144,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.7
+Lenovo,Notebook,15.6,4,No OS,1.9kg,26101.872,1366,768,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,1.9
+Dell,2 in 1 Convertible,13.3,4,Windows 10,1.71kg,34578.72,1920,1080,0,Intel Core i3,2.4,0,1,0,0,1024.0,Intel,1,0,0,1.71
+Dell,Notebook,15.6,8,Linux,2.32kg,31409.6256,1366,768,0,Intel Core i5,2.5,0,1,0,0,1024.0,AMD,0,0,1,2.32
+HP,Notebook,15.6,4,Windows 10,2.1kg,26053.92,1920,1080,0,AMD A9-Series 9420,3.0,0,1,0,0,1024.0,AMD,0,0,1,2.1
+Acer,Gaming,17.3,16,Windows 10,4.2kg,103096.8,1920,1080,1,Intel Core i7,2.6,1,1,0,0,1152.0,Nvidia,0,1,0,4.2
+Dell,Notebook,15.6,12,Windows 10,2.25kg,34578.72,1366,768,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,2.25
+HP,Notebook,15.6,6,Windows 10,2.1kg,34632.0,1920,1080,0,AMD A9-Series A9-9420,3.0,1,1,0,0,1152.0,AMD,0,0,1,2.1
+Acer,Notebook,15.6,4,Windows 10,2.4kg,29783.52,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,2.4
+Lenovo,Notebook,13.3,8,Windows 10,1.44kg,51148.8,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.44
+Lenovo,Notebook,15.6,4,Windows 10,1.85kg,41505.12,1920,1080,0,Intel Core i7,2.7,0,1,0,0,1024.0,Intel,1,0,0,1.85
+HP,Workstation,15.6,16,Windows 10,2.6kg,128884.32,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,2.6
+Dell,2 in 1 Convertible,13.3,8,Windows 10,1.55kg,35111.52,1920,1080,0,Intel Core i5,1.6,0,1,0,0,1024.0,Intel,1,0,0,1.55
+MSI,Gaming,15.6,16,Windows 10,1.8kg,111593.8944,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,1.8
+Acer,Notebook,15.6,4,Windows 10,2.4kg,21887.424,1366,768,0,Intel Core i3,2.0,0,1,0,0,500.0,Intel,1,0,0,2.4
+Dell,Notebook,15.6,8,Windows 10,2.0kg,64308.96,1920,1080,0,Intel Core i7,2.7,1,1,0,0,1152.0,Nvidia,0,1,0,2.0
+Dell,Notebook,15.6,8,Windows 10,2kg,35431.2,1366,768,0,Intel Core i3,2.0,1,0,0,0,256.0,Intel,1,0,0,2.0
+Toshiba,Notebook,14,8,Windows 10,1.25kg,81784.8,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.25
+Lenovo,2 in 1 Convertible,14,8,Windows 10,1.7kg,53226.72,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.7
+Lenovo,Workstation,15.6,16,Windows 10,2.5kg,175770.72,3840,2160,1,Intel Core i7,2.8,1,0,0,0,1024.0,Nvidia,0,1,0,2.5
+Acer,Notebook,14,2,Chrome OS,1.68kg,17582.4,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,32.0,Intel,1,0,0,1.68
+Samsung,Ultrabook,13.3,16,Windows 10,0.81kg,87858.72,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,0.81
+Dell,Notebook,14,8,Windows 10,1.6kg,60031.1088,1366,768,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.6
+HP,Workstation,17.3,16,Windows 7,3kg,233845.92,1920,1080,1,Intel Xeon E3-1535M,2.9,1,0,0,0,256.0,Nvidia,0,1,0,3.0
+Lenovo,Netbook,11.6,4,Windows 10,1.4kg,25308.0,1366,768,0,Intel Celeron Dual,1.6,1,0,0,0,128.0,Intel,1,0,0,1.4
+HP,Notebook,15.6,8,Windows 10,1.84kg,101232.0,1920,1080,0,Intel Core i5,2.4,1,0,0,0,256.0,Intel,1,0,0,1.84
+Asus,Notebook,15.6,4,No OS,2.45kg,30849.12,1366,768,0,Intel Core i5,2.3,0,1,0,0,1024.0,Nvidia,0,1,0,2.45
+Asus,Notebook,15.6,4,Windows 10,2.37kg,45282.672,1366,768,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,2.37
+Lenovo,2 in 1 Convertible,13.3,8,Windows 10,1.3kg,63882.72,3200,1800,1,Intel Core i5,1.8,1,0,0,0,256.0,Intel,1,0,0,1.3
+HP,Notebook,15.6,8,Windows 10,2.2kg,58554.72,1920,1080,1,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,2.2
+HP,Workstation,15.6,8,Windows 7,2.59kg,83170.08,1920,1080,0,Intel Core i7,2.6,1,0,0,0,256.0,Nvidia,0,1,0,2.59
+Dell,Gaming,15.6,16,Windows 10,4.42kg,152859.7872,3840,2160,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,4.42
+Acer,Notebook,15.6,4,Windows 10,2.1kg,31914.72,1366,768,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.1
+Lenovo,Gaming,15.6,8,Windows 10,2.5kg,55837.44,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.5
+Dell,Ultrabook,12.5,16,Windows 10,1.18kg,99047.52,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Intel,1,0,0,1.18
+Google,Ultrabook,12.3,8,Chrome OS,1.1kg,83063.52,2400,1600,0,Intel Core i5,1.2,1,0,0,0,256.0,Intel,1,0,0,1.1
+Asus,Ultrabook,13.3,8,Windows 10,1.2kg,60153.12,3200,1800,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.2
+Dell,Notebook,13.3,4,Windows 10,1.65kg,45234.72,1366,768,0,Intel Core i3,2.0,0,1,0,0,500.0,Intel,1,0,0,1.65
+Acer,Notebook,13.3,4,Windows 10,1.6kg,34898.4,1366,768,0,Intel Core i5,2.3,1,0,0,0,128.0,Intel,1,0,0,1.6
+Asus,Notebook,17.3,4,Windows 10,2.8kg,25059.7152,1366,768,0,Intel Pentium Quad,1.1,0,1,0,0,1024.0,Nvidia,0,1,0,2.8
+Dell,Gaming,15.6,16,Windows 10,2.72kg,58554.72,3840,2160,1,Intel Core i7,2.6,1,1,0,0,1152.0,Nvidia,0,1,0,2.72
+Samsung,Ultrabook,13.3,8,Windows 10,1.31kg,85194.72,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.31
+Acer,Notebook,15.6,4,Linux,2.1kg,15877.44,1366,768,0,Intel Pentium Quad,1.1,0,1,0,0,1024.0,Intel,1,0,0,2.1
+Dell,Notebook,15.6,16,Windows 10,2.3kg,62938.0656,1920,1080,0,Intel Core i7,2.7,0,0,0,0,0.0,AMD,0,0,1,2.3
+Samsung,2 in 1 Convertible,15,16,Windows 10,1.71kg,95850.72,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,AMD,0,0,1,1.71
+Toshiba,Notebook,14,4,Windows 10,1.75kg,54345.6,1366,768,1,Intel Core i5,2.3,1,0,0,0,128.0,Intel,1,0,0,1.75
+Dell,Gaming,15.6,8,Windows 10,2.62kg,58554.72,1920,1080,0,Intel Core i7,2.8,0,1,0,0,1024.0,Nvidia,0,1,0,2.62
+Asus,2 in 1 Convertible,15.6,12,Windows 10,2.3kg,44701.92,1920,1080,0,Intel Core i7,2.7,0,1,0,0,2048.0,Nvidia,0,1,0,2.3
+Lenovo,Notebook,15.6,16,Windows 7,2.5kg,126273.6,3840,2160,0,Intel Core i7,2.7,1,0,0,0,512.0,Nvidia,0,1,0,2.5
+Acer,Notebook,14,4,Windows 10,1.8kg,33886.08,1920,1080,1,Intel Core i3,2.4,1,0,0,0,128.0,Intel,1,0,0,1.8
+Razer,Gaming,14,16,Windows 10,1.95kg,154458.72,1920,1080,0,Intel Core i7,2.8,1,0,0,0,512.0,Nvidia,0,1,0,1.95
+Asus,Notebook,15.6,8,Windows 10,2kg,31003.632,1920,1080,0,Intel Pentium Dual,1.1,1,0,0,0,128.0,Intel,1,0,0,2.0
+Dell,Gaming,17.3,32,Windows 10,4.42kg,191211.264,1920,1080,1,Intel Core i7,2.8,1,1,0,0,2048.0,Nvidia,0,1,0,4.42
+Asus,Gaming,17.3,16,Windows 10,4.3kg,125208.0,1920,1080,1,Intel Core i7,2.6,1,1,0,0,1280.0,Nvidia,0,1,0,4.3
+Toshiba,Ultrabook,14,16,Windows 10,1.47kg,93985.92,1920,1080,1,Intel Core i7,2.6,1,0,0,0,512.0,Nvidia,0,1,0,1.47
+Lenovo,Notebook,15.6,8,No OS,2.2kg,17529.12,1366,768,0,Intel Celeron Quad,1.6,0,1,0,0,1024.0,Intel,1,0,0,2.2
+Lenovo,Ultrabook,14,16,Windows 10,1.7kg,122490.72,1920,1080,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.7
+MSI,Gaming,14,16,Windows 10,1.6kg,100752.48,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,1.6
+MSI,Gaming,15.6,8,Windows 10,2.2kg,58021.92,1920,1080,0,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,2.2
+Lenovo,Gaming,15.6,4,Windows 10,2.4kg,53226.72,1920,1080,1,Intel Core i7,2.8,0,1,0,0,1024.0,Nvidia,0,1,0,2.4
+Acer,Gaming,17.3,16,Windows 10,4.2kg,122490.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,4.2
+Dell,Gaming,15.6,8,Windows 10,2.62kg,52480.8,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.62
+Asus,Gaming,15.6,8,Windows 10,2.24kg,71341.92,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.24
+Vero,Notebook,14,4,Windows 10,1.22kg,10810.512,1920,1080,0,Intel Celeron Dual,1.1,0,0,1,0,32.0,Intel,1,0,0,1.22
+Lenovo,2 in 1 Convertible,13.3,8,Windows 10,1.37kg,104961.6,1920,1080,1,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.37
+Lenovo,2 in 1 Convertible,15.6,8,Windows 10,2.08kg,51095.52,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,AMD,0,0,1,2.08
+Apple,Ultrabook,12,8,Mac OS X,0.920kg,62071.2,2304,1440,1,Intel Core M,1.2,0,0,1,0,512.0,Intel,1,0,0,0.92
+Lenovo,2 in 1 Convertible,14,8,Windows 10,1.42kg,124142.4,2560,1440,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.42
+Asus,Notebook,14,4,Windows 10,1.63kg,15930.72,1366,768,0,Intel Celeron Dual,1.1,0,0,1,0,32.0,Intel,1,0,0,1.63
+Dell,Notebook,15.6,8,Windows 10,1.95kg,43156.8,1366,768,0,Intel Core i5,2.5,1,0,0,0,128.0,Intel,1,0,0,1.95
+Lenovo,2 in 1 Convertible,13.9,8,Windows 10,1.38kg,71874.72,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.38
+Dell,Notebook,15.6,8,Windows 10,2kg,39373.92,1920,1080,0,Intel Core i3,2.0,1,0,0,0,256.0,AMD,0,0,1,2.0
+HP,Workstation,15.6,8,Windows 10,3.14kg,110017.872,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,3.14
+Asus,Notebook,15.6,8,Windows 10,2.37kg,58554.72,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.37
+Dell,Ultrabook,13.3,8,Windows 10,1.29kg,79866.72,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.29
+Dell,Notebook,15.6,8,Windows 10,2.06kg,93186.72,3840,2160,0,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.06
+Dell,Netbook,11.6,4,Windows 10,1.63kg,39640.32,1366,768,0,Intel Pentium Quad,1.1,1,0,0,0,128.0,Intel,1,0,0,1.63
+HP,Netbook,12.5,8,Windows 10,1.26kg,74005.92,1366,768,0,Intel Core i5,2.6,1,0,0,0,256.0,Intel,1,0,0,1.26
+Toshiba,Notebook,15.6,4,Windows 10,2.1kg,41558.4,1366,768,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,2.1
+HP,Notebook,15.6,8,Windows 10,2.04kg,33513.12,1366,768,0,AMD A12-Series 9700P,2.5,0,1,0,0,2048.0,AMD,0,0,1,2.04
+Dell,Gaming,15.6,16,Windows 10,2.62kg,89457.12,3840,2160,0,Intel Core i7,2.8,1,0,0,0,512.0,Nvidia,0,1,0,2.62
+Lenovo,Notebook,15.6,4,Windows 10,2.4kg,32447.52,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,2.4
+HP,Gaming,17.3,12,Windows 10,3.74kg,93186.72,1920,1080,1,Intel Core i7,2.8,0,1,0,0,1024.0,AMD,0,0,1,3.74
+MSI,Gaming,17.3,16,Windows 10,2.9kg,128671.2,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1536.0,Nvidia,0,1,0,2.9
+Samsung,Ultrabook,13.3,8,Windows 10,0.81kg,79866.72,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,0.81
+Dell,Notebook,15.6,8,Windows 10,1.98kg,51202.08,1920,1080,0,Intel Core i7,2.7,0,1,0,0,1024.0,Nvidia,0,1,0,1.98
+Dell,Notebook,15.6,8,Windows 10,2.18kg,42081.0768,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,AMD,0,0,1,2.18
+Lenovo,Ultrabook,14,8,Windows 10,1.32kg,99047.52,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.32
+Razer,Ultrabook,12.5,16,Windows 10,1.29kg,95850.72,3840,2160,1,Intel Core i7,2.5,1,0,0,0,512.0,Intel,1,0,0,1.29
+HP,Netbook,11.6,4,Chrome OS,1.23kg,20512.8,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,16.0,Intel,1,0,0,1.23
+Dell,Gaming,17.3,16,Windows 10,4.36kg,133467.4656,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,4.36
+Dell,Notebook,14,4,Windows 10,1.76kg,40226.4,1366,768,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,1.76
+Lenovo,Notebook,15.6,4,Windows 10,2.1kg,26101.872,1366,768,0,Intel Core i3,2.0,0,1,0,0,500.0,Intel,1,0,0,2.1
+Toshiba,Ultrabook,14,4,Windows 10,1.25kg,58075.2,1366,768,0,Intel Core i5,2.5,1,0,0,0,128.0,Intel,1,0,0,1.25
+Lenovo,Ultrabook,14,8,Windows 10,1.13kg,133146.72,1920,1080,1,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.13
+MSI,Gaming,15.6,8,Windows 10,2.4kg,63882.72,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.4
+Lenovo,Ultrabook,14,8,Windows 10,1.13kg,99900.0,1920,1080,1,Intel Core i5,2.5,0,0,1,0,256.0,Intel,1,0,0,1.13
+Toshiba,Notebook,14,4,Windows 10,1.75kg,26586.72,1366,768,0,Intel Pentium Dual,2.1,1,0,0,0,128.0,Intel,1,0,0,1.75
+Asus,2 in 1 Convertible,13.3,8,Windows 10,1.1kg,72354.24,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.1
+Dell,Notebook,14,4,Windows 10,1.76kg,31168.8,1366,768,0,Intel Core i3,2.0,0,1,0,0,500.0,Intel,1,0,0,1.76
+Acer,Netbook,11.6,4,Chrome OS,1.35kg,18914.4,1366,768,1,Intel Celeron Dual,1.6,0,0,1,0,32.0,Intel,1,0,0,1.35
+Acer,Notebook,14,8,Windows 10,1.5kg,32980.32,1920,1080,1,Intel Core i3,2.4,1,0,0,0,128.0,Intel,1,0,0,1.5
+Razer,Gaming,17.3,32,Windows 10,3.49kg,292986.72,3840,2160,0,Intel Core i7,2.9,1,0,0,0,512.0,Nvidia,0,1,0,3.49
+Lenovo,Ultrabook,14,16,Windows 10,1.1kg,111834.72,2560,1440,1,Intel Core i7,2.6,1,0,0,0,512.0,Intel,1,0,0,1.1
+Asus,Notebook,15.6,4,Linux,2.1kg,27652.32,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,2.1
+Lenovo,Notebook,14,8,Windows 10,1.7kg,63190.08,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.7
+Lenovo,Notebook,14,8,Windows 10,1.32kg,87912.0,1920,1080,1,Intel Core i5,2.6,1,0,0,0,256.0,Intel,1,0,0,1.32
+Dell,Gaming,15.6,16,Windows 10,3.21kg,147832.2864,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,3.21
+Asus,Gaming,17.3,16,Windows 10,2.9kg,128884.32,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.9
+Toshiba,Notebook,15.6,4,Windows 10,2.0kg,35644.32,1366,768,0,Intel Core i3,2.4,0,1,0,0,500.0,Intel,1,0,0,2.0
+Lenovo,Notebook,14,4,Chrome OS,1.5kg,17316.0,1366,768,0,Intel Celeron Quad,1.6,0,0,1,0,16.0,Intel,1,0,0,1.5
+Asus,Notebook,15.6,8,Windows 10,2.3kg,31435.2,1920,1080,0,Intel Core i5,2.5,0,1,0,0,128.0,Intel,1,0,0,2.3
+Asus,Gaming,17.3,16,Windows 10,2.73kg,95850.72,1920,1080,0,Intel Core i7,2.6,1,1,0,0,1536.0,Nvidia,0,1,0,2.73
+Dell,Gaming,17.3,32,Windows 10,4.42kg,163723.5792,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1536.0,Nvidia,0,1,0,4.42
+HP,Notebook,17.3,8,Windows 10,2.63kg,48484.8,1600,900,0,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,2.63
+Dell,Notebook,15.6,8,Windows 10,2.18kg,38041.3872,1366,768,0,Intel Core i5,2.5,1,0,0,0,128.0,Intel,1,0,0,2.18
+HP,Ultrabook,14,8,Windows 7,1.54kg,99633.6,1920,1080,0,Intel Core i7,2.5,1,0,0,0,512.0,Intel,1,0,0,1.54
+Dell,Notebook,15.6,4,Windows 10,2.18kg,39373.92,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,AMD,0,0,1,2.18
+HP,2 in 1 Convertible,11.6,4,Chrome OS,1.4kg,32767.2,1366,768,0,Intel Celeron Dual,1.1,0,0,1,0,32.0,Intel,1,0,0,1.4
+Asus,Ultrabook,13.3,8,Windows 10,1.45kg,54665.28,1920,1080,1,Intel Core i5,2.3,1,0,0,0,512.0,Nvidia,0,1,0,1.45
+HP,2 in 1 Convertible,13.3,8,Windows 10,1.28kg,121318.56,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.28
+HP,Ultrabook,14,8,Windows 10,1.54kg,78215.04,1920,1080,0,Intel Core i7,2.5,1,0,0,0,512.0,Intel,1,0,0,1.54
+HP,Notebook,15.6,4,No OS,1.86kg,15930.72,1366,768,0,Intel Celeron Dual,1.6,1,0,0,0,128.0,Intel,1,0,0,1.86
+Asus,Gaming,15.6,16,Windows 10,2.1kg,101178.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.1
+Dell,Notebook,17.3,8,Linux,2.83kg,46087.2,1920,1080,0,Intel Core i7,2.7,0,1,0,0,1024.0,AMD,0,0,1,2.83
+Lenovo,Ultrabook,14,8,Windows 10,1.96kg,101391.84,1920,1080,1,Intel Core i7,2.8,1,0,0,0,256.0,Nvidia,0,1,0,1.96
+Asus,Notebook,15.6,8,Windows 10,2.3kg,41931.36,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Nvidia,0,1,0,2.3
+Dell,Notebook,15.6,8,Windows 10,1.9kg,50349.6,1920,1080,0,Intel Core i5,2.5,1,0,0,0,128.0,Intel,1,0,0,1.9
+Asus,Notebook,15.6,4,Windows 10,2kg,23922.72,1366,768,0,Intel Pentium Quad,1.1,0,1,0,0,1024.0,Intel,1,0,0,2.0
+HP,2 in 1 Convertible,13.3,8,Windows 10,1.28kg,136343.52,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Intel,1,0,0,1.28
+Dell,Notebook,13.3,8,Windows 10,1.62kg,34578.72,1920,1080,0,Intel Core i5,2.3,0,1,0,0,1024.0,Intel,1,0,0,1.62
+Lenovo,Notebook,15.6,4,No OS,2.2kg,24988.32,1920,1080,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,2.2
+Lenovo,Notebook,15.6,8,Windows 10,2.3kg,45323.1648,1920,1080,1,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,2.3
+HP,Notebook,15.6,8,Windows 10,1.84kg,71874.72,1920,1080,0,Intel Core i5,2.6,1,0,0,0,256.0,AMD,0,0,1,1.84
+Toshiba,Notebook,13.3,4,Windows 10,1.05kg,68464.8,1920,1080,0,Intel Core i5,2.5,1,0,0,0,128.0,Intel,1,0,0,1.05
+Lenovo,Gaming,15.6,8,No OS,2.5kg,54185.76,1920,1080,1,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,2.5
+Dell,Ultrabook,13.3,16,Windows 10,1.29kg,119347.2,3200,1800,0,Intel Core i7,2.5,1,0,0,0,512.0,Intel,1,0,0,1.29
+HP,Notebook,15.6,4,Windows 10,2.07kg,48484.8,1920,1080,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,2.07
+Toshiba,Ultrabook,13.3,8,Windows 10,1.2kg,58341.6,1366,768,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.2
+Lenovo,2 in 1 Convertible,13.3,8,Windows 10,1.37kg,103896.0,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.37
+Acer,Notebook,14,8,Windows 10,1.56kg,48058.56,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.56
+Dell,Workstation,15.6,8,Windows 10,2.23kg,94731.84,1920,1080,0,Intel Core i7,2.8,0,1,0,0,1024.0,Nvidia,0,1,0,2.23
+Lenovo,Notebook,15.6,4,Windows 10,2.38kg,56210.4,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,2.38
+Lenovo,Notebook,15.6,4,No OS,2.2kg,25521.12,1920,1080,0,Intel Core i3,2.0,0,1,0,0,1024.0,AMD,0,0,1,2.2
+Toshiba,Notebook,15.6,8,Windows 10,2.0kg,73952.64,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,2.0
+Lenovo,Notebook,13.3,4,Windows 10,1.44kg,39160.8,1920,1080,1,Intel Core i3,2.4,1,0,0,0,180.0,Intel,1,0,0,1.44
+Samsung,Ultrabook,15,16,Windows 10,1.23kg,98514.72,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Nvidia,0,1,0,1.23
+Dell,Ultrabook,12.5,8,Windows 10,1.6kg,90043.2,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Intel,1,0,0,1.6
+Asus,Notebook,15.6,4,Linux,2kg,21258.1872,1366,768,0,Intel Pentium Quad,1.1,0,1,0,0,1024.0,Intel,1,0,0,2.0
+Xiaomi,Ultrabook,13.3,8,Windows 10,1.28kg,49816.8,1920,1080,1,Intel Core i5,2.3,1,0,0,0,256.0,Nvidia,0,1,0,1.28
+Dell,Notebook,15.6,4,Windows 10,2.18kg,48618.0,1920,1080,0,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,2.18
+HP,Notebook,15.6,4,Windows 10,2.04kg,44701.92,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.04
+HP,2 in 1 Convertible,13.3,4,Windows 10,1.28kg,90576.0,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.28
+HP,2 in 1 Convertible,15.6,4,Windows 10,2.3kg,36486.144,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,2.3
+Asus,Notebook,14.1,4,Windows 10,1.65kg,18541.44,1366,768,0,Intel Celeron Dual,1.1,0,0,1,0,32.0,Intel,1,0,0,1.65
+Lenovo,Notebook,15.6,8,Windows 10,2.2kg,35644.32,1920,1080,1,Intel Core i7,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+Dell,Notebook,15.6,4,Windows 10,2.2kg,19660.32,1366,768,0,Intel Pentium Quad,1.6,0,1,0,0,500.0,Intel,1,0,0,2.2
+HP,2 in 1 Convertible,13.3,4,Windows 10,1.28kg,95850.72,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.28
+Dell,Notebook,15.6,4,Linux,2.18kg,24279.696,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,AMD,0,0,1,2.18
+Asus,Gaming,17.3,12,Windows 10,2.2kg,72988.272,1920,1080,0,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,2.2
+Acer,Netbook,11.6,4,Chrome OS,1.25kg,15824.16,1366,768,1,Intel Celeron Dual,1.6,0,0,1,0,32.0,Intel,1,0,0,1.25
+Lenovo,Notebook,17.3,4,Windows 10,2.8kg,20193.12,1600,900,0,AMD A4-Series 7210,2.2,0,1,0,0,500.0,AMD,0,0,1,2.8
+HP,Notebook,14,4,Windows 10,1.95kg,67399.2,1920,1080,0,Intel Core i5,2.5,1,0,0,0,128.0,Intel,1,0,0,1.95
+HP,2 in 1 Convertible,13.3,16,Windows 10,1.42kg,74538.72,3200,1800,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.42
+Samsung,Ultrabook,15,8,Windows 10,1.17kg,90522.72,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.17
+Lenovo,Ultrabook,14,8,Windows 10,1.32kg,95850.72,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.32
+MSI,Gaming,17.3,16,Windows 10,2.43kg,141138.72,3840,2160,1,Intel Core i7,2.6,1,1,0,0,2560.0,Nvidia,0,1,0,2.43
+Toshiba,Notebook,13.3,8,Windows 10,1.05kg,78588.0,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.05
+Dell,Gaming,15.6,8,Linux,2.62kg,49497.12,1920,1080,0,Intel Core i7,2.8,0,1,0,0,1024.0,Nvidia,0,1,0,2.62
+HP,Notebook,15.6,8,Windows 10,2.04kg,47952.0,1920,1080,0,Intel Core i7,2.7,0,1,0,0,1024.0,Nvidia,0,1,0,2.04
+Dell,Notebook,15.6,4,Windows 10,2.18kg,32713.92,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,AMD,0,0,1,2.18
+Dell,Notebook,15.6,8,Windows 10,1.9kg,49816.8,1920,1080,0,Intel Core i5,2.6,0,1,0,0,500.0,Intel,1,0,0,1.9
+Dell,2 in 1 Convertible,13.3,8,Windows 10,1.24kg,107257.968,3200,1800,0,Intel Core i7,1.3,1,0,0,0,512.0,Intel,1,0,0,1.24
+Asus,Gaming,17.3,32,Windows 10,3.58kg,68145.12,1920,1080,1,Intel Core i7,2.7,1,0,0,0,512.0,Nvidia,0,1,0,3.58
+Dell,2 in 1 Convertible,13.3,16,Windows 10,1.22kg,87858.72,1920,1080,0,Intel Core i7,1.3,1,0,0,0,256.0,Intel,1,0,0,1.22
+Lenovo,Ultrabook,14,8,Windows 10,1.13kg,109170.72,1920,1080,1,Intel Core i7,2.7,0,0,1,0,256.0,Intel,1,0,0,1.13
+Lenovo,Notebook,15.6,8,Windows 10,1.95kg,104588.1072,1920,1080,1,Intel Core i5,2.5,1,0,0,0,512.0,Intel,1,0,0,1.95
+LG,Ultrabook,15.6,16,Windows 10,1.08kg,111834.72,1920,1080,1,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.08
+HP,Netbook,12.5,8,Windows 10,1.26kg,79014.24,1920,1080,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.26
+Acer,Notebook,15.6,4,Chrome OS,2.20kg,19127.52,1920,1080,1,Intel Celeron Dual,1.5,0,0,1,0,16.0,Intel,1,0,0,2.2
+Lenovo,Notebook,15.6,8,Windows 10,2.6kg,42037.92,1920,1080,1,Intel Core i5,2.3,1,1,0,0,1152.0,Nvidia,0,1,0,2.6
+LG,Ultrabook,14,8,Windows 10,0.98kg,101178.72,1920,1080,1,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,0.98
+Dell,Notebook,14,8,Windows 10,1.6kg,64202.4,1920,1080,0,Intel Core i5,2.8,1,0,0,0,256.0,Intel,1,0,0,1.6
+HP,Ultrabook,12.5,8,Windows 10,1.09kg,165168.0,3840,2160,0,Intel Core M,1.2,1,0,0,0,240.0,Intel,1,0,0,1.09
+Lenovo,Notebook,15.6,6,Windows 10,2.2kg,42037.92,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Nvidia,0,1,0,2.2
+HP,Notebook,15.6,8,Windows 10,2.04kg,54291.7872,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Nvidia,0,1,0,2.04
+Acer,Notebook,15.6,4,Windows 10,2.4kg,26586.72,1920,1080,0,Intel Core i3,2.4,0,1,0,0,1024.0,Intel,1,0,0,2.4
+Lenovo,Notebook,13.3,4,Windows 10,1.44kg,46939.68,1920,1080,0,Intel Core i5,2.5,1,0,0,0,128.0,Intel,1,0,0,1.44
+HP,Notebook,13.3,8,Windows 10,1.49kg,51148.8,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.49
+MSI,Gaming,17.3,16,Windows 10,2.7kg,85194.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.7
+Dell,Gaming,15.6,16,Windows 10,2.6kg,71874.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.6
+MSI,Gaming,15.6,8,Windows 10,2.2kg,59668.8048,1920,1080,0,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,2.2
+Dell,Notebook,15.6,4,Windows 10,2.18kg,36496.2672,1366,768,0,Intel Core i5,2.5,0,1,0,0,1024.0,AMD,0,0,1,2.18
+HP,Ultrabook,15.6,8,Windows 10,1.84kg,69103.6272,1920,1080,0,Intel Core i7,2.5,1,0,0,0,256.0,AMD,0,0,1,1.84
+Lenovo,2 in 1 Convertible,13.3,8,Windows 10,1.37kg,97236.0,1920,1080,1,Intel Core i5,2.5,1,0,0,0,512.0,Intel,1,0,0,1.37
+Dell,Notebook,15.6,4,Windows 10,1.95kg,38889.072,1366,768,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,1.95
+Lenovo,Ultrabook,12.5,8,Windows 10,1.36kg,87912.0,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.36
+HP,Notebook,15.6,8,Windows 10,2.31kg,62071.2,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,2.31
+Dell,Notebook,15.6,4,Windows 10,2.18kg,37725.4368,1366,768,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,2.18
+HP,Notebook,14,4,Windows 10,1.95kg,61218.72,1366,768,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,1.95
+Lenovo,Notebook,15.6,4,Windows 10,2.2kg,16463.52,1366,768,0,Intel Pentium Quad,1.1,0,1,0,0,1024.0,Intel,1,0,0,2.2
+HP,Ultrabook,12.5,4,Windows 10,1.26kg,84129.12,1920,1080,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,1.26
+HP,Notebook,15.6,4,No OS,1.86kg,15392.592,1366,768,0,Intel Celeron Dual,1.6,0,1,0,0,1024.0,Intel,1,0,0,1.86
+Lenovo,2 in 1 Convertible,13.3,16,Windows 10,1.3kg,95850.72,3200,1800,1,Intel Core i7,2.2,1,0,0,0,1024.0,Intel,1,0,0,1.3
+Toshiba,Notebook,14,4,Windows 10,1.47kg,58874.4,1920,1080,1,Intel Core i5,2.3,1,0,0,0,128.0,Intel,1,0,0,1.47
+HP,Netbook,12.5,8,Windows 10,1.26kg,88924.32,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.26
+Dell,Notebook,15.6,4,Windows 10,2.18kg,29762.208,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,2.18
+MSI,Gaming,15.6,8,Windows 10,2.2kg,63882.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.2
+Dell,Gaming,17.3,16,Windows 10,4.36kg,146946.24,2560,1440,0,Intel Core i7,2.7,1,1,0,0,1536.0,Nvidia,0,1,0,4.36
+HP,Gaming,17.3,8,Windows 10,2.75kg,74538.72,1920,1080,1,Intel Core i5,2.3,1,1,0,0,1152.0,Nvidia,0,1,0,2.75
+Asus,Notebook,17.3,4,Windows 10,2.8kg,28238.4,1600,900,0,Intel Pentium Quad,1.6,0,1,0,0,1024.0,Nvidia,0,1,0,2.8
+Acer,Notebook,15.6,4,Windows 10,2.23kg,32980.32,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,2.23
+Toshiba,Notebook,15.6,8,Windows 10,2.2kg,59620.32,1366,768,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,2.2
+Lenovo,2 in 1 Convertible,11.3,8,Windows 10,1.1kg,69210.72,1920,1080,1,Intel Core M,1.2,1,0,0,0,256.0,Intel,1,0,0,1.1
+Lenovo,Gaming,15.6,16,Windows 10,2.5kg,53226.72,1920,1080,1,AMD FX 8800P,2.1,1,1,0,0,1536.0,AMD,0,0,1,2.5
+Dell,Ultrabook,12.5,8,Windows 10,1.36kg,78438.816,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.36
+Lenovo,Notebook,15.6,8,No OS,2.2kg,36496.8,1920,1080,0,Intel Core i7,2.7,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+Dell,Notebook,17.3,4,Windows 10,2.36kg,35111.52,1600,900,0,Intel Core i3,2.0,0,1,0,0,1024.0,AMD,0,0,1,2.36
+Acer,Notebook,14,4,Chrome OS,1.68kg,18594.72,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,32.0,Intel,1,0,0,1.68
+HP,Workstation,15.6,8,Windows 10,2.0kg,119826.72,1920,1080,1,Intel Core i7,2.7,1,0,0,0,8.0,Nvidia,0,1,0,2.0
+Dell,Ultrabook,14,8,Windows 10,1.36kg,94572.0,1920,1080,0,Intel Core i7,2.8,1,0,0,0,256.0,Intel,1,0,0,1.36
+Toshiba,Notebook,13.3,8,Windows 7,1.2kg,77788.8,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.2
+Asus,2 in 1 Convertible,12.5,8,Chrome OS,1.2kg,61751.52,1920,1080,0,Intel Core M,1.2,0,0,1,0,64.0,Intel,1,0,0,1.2
+Lenovo,Ultrabook,14,8,Windows 10,1.7kg,79333.3872,1920,1080,1,Intel Core i7,2.6,1,0,0,0,256.0,Intel,1,0,0,1.7
+Dell,Gaming,17.3,16,Windows 10,4.36kg,168045.12,3840,2160,1,Intel Core i7,2.8,1,1,0,0,1536.0,Nvidia,0,1,0,4.36
+Dell,2 in 1 Convertible,13.3,8,Windows 10,1.24kg,101178.72,1920,1080,0,Intel Core i5,1.2,1,0,0,0,256.0,Intel,1,0,0,1.24
+HP,2 in 1 Convertible,11.6,4,Windows 10,1.45kg,41292.0,1366,768,0,Intel Pentium Quad,1.1,1,0,0,0,256.0,Intel,1,0,0,1.45
+Dell,Ultrabook,13.3,8,Windows 10,1.3kg,67559.04,3200,1800,0,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.3
+Acer,2 in 1 Convertible,11.6,4,Chrome OS,1.25kg,20725.92,1366,768,1,Intel Celeron Dual,1.6,0,0,1,0,32.0,Intel,1,0,0,1.25
+Toshiba,Notebook,13.3,8,Windows 10,1.2kg,81784.8,1920,1080,0,Intel Core i5,2.4,1,0,0,0,256.0,Intel,1,0,0,1.2
+Lenovo,Ultrabook,12.5,8,Windows 10,1.36kg,93772.8,1920,1080,1,Intel Core i5,2.6,1,0,0,0,256.0,Intel,1,0,0,1.36
+Acer,Notebook,15.6,12,Windows 10,2.4kg,53759.52,1920,1080,0,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,2.4
+Toshiba,Ultrabook,12.5,8,Windows 10,1.1kg,95371.2,1920,1080,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.1
+HP,Notebook,15.6,8,Windows 10,2.04kg,45101.52,1366,768,0,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,2.04
+Dell,Notebook,15.6,4,Linux,2.25kg,24808.2336,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,AMD,0,0,1,2.25
+Dell,Notebook,15.6,4,Windows 10,1.9kg,43956.0,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,1.9
+HP,Notebook,15.6,4,Windows 10,2.04kg,36496.8,1920,1080,0,Intel Core i3,2.4,0,1,0,0,500.0,Intel,1,0,0,2.04
+Dell,Gaming,17.3,32,Windows 10,4.42kg,167778.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,4.42
+Lenovo,Notebook,15.6,6,Windows 10,2.4kg,37029.6,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.4
+Dell,2 in 1 Convertible,13.3,16,Windows 10,1.22kg,101178.72,3200,1800,0,Intel Core i7,1.3,1,0,0,0,512.0,Intel,1,0,0,1.22
+Dell,Ultrabook,14,8,Windows 10,1.5kg,104587.5744,2560,1440,0,Intel Core i7,2.6,1,0,0,0,256.0,Intel,1,0,0,1.5
+Dell,Gaming,17.3,32,Windows 10,4.42kg,149184.0,1920,1080,0,Intel Core i7,2.6,1,1,0,0,1280.0,Nvidia,0,1,0,4.42
+Toshiba,Notebook,14,8,Windows 10,1.95kg,62870.4,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.95
+Asus,Gaming,17.3,16,Windows 10,2.73kg,109218.672,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.73
+HP,Notebook,15.6,8,Windows 10,2.04kg,52161.12,1920,1080,1,Intel Core i5,2.7,1,1,0,0,1152.0,Nvidia,0,1,0,2.04
+Lenovo,Notebook,14,4,Windows 7,1.70kg,53386.56,1366,768,0,Intel Core i5,2.3,0,0,0,1,508.0,Intel,1,0,0,1.7
+Asus,2 in 1 Convertible,15.6,16,Windows 10,2.3kg,95850.72,3840,2160,0,Intel Core i7,2.7,1,1,0,0,2560.0,Nvidia,0,1,0,2.3
+Asus,Gaming,17.3,16,Windows 10,2.99kg,93186.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.99
+Dell,2 in 1 Convertible,15.6,12,Windows 10,2.19kg,69210.72,1920,1080,1,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,2.19
+Toshiba,Notebook,13.3,4,Windows 7,1.2kg,63669.6,1920,1080,0,Intel Core i5,2.3,1,0,0,0,128.0,Intel,1,0,0,1.2
+Lenovo,Notebook,15.6,6,Windows 10,2.2kg,29250.72,1920,1080,0,AMD A12-Series 9720P,3.6,1,0,0,0,256.0,AMD,0,0,1,2.2
+Fujitsu,Notebook,15.6,4,Windows 10,2.3kg,34578.72,1366,768,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,2.3
+Toshiba,Notebook,14,4,Windows 10,1.75kg,48751.2,1366,768,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,1.75
+Dell,Notebook,15.6,4,Windows 10,2.25kg,31914.72,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,AMD,0,0,1,2.25
+HP,Notebook,15.6,8,Windows 10,2.04kg,42943.68,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,2.04
+Lenovo,Gaming,15.6,8,Windows 10,2.5kg,63349.92,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.5
+Dell,Notebook,15.6,8,Windows 10,2.36kg,39906.72,1366,768,0,Intel Core i7,2.7,0,1,0,0,1024.0,AMD,0,0,1,2.36
+Dell,Notebook,14,8,Windows 10,1.6kg,59620.32,1920,1080,0,Intel Core i5,2.5,1,0,0,0,128.0,Intel,1,0,0,1.6
+HP,Netbook,12.5,8,Windows 10,0.97kg,101658.24,1920,1080,0,Intel Core M,1.2,1,0,0,0,512.0,Intel,1,0,0,0.97
+HP,Notebook,15.6,4,Windows 10,2.1kg,26586.72,1920,1080,0,Intel Core i3,2.0,1,1,0,0,1152.0,AMD,0,0,1,2.1
+Lenovo,Notebook,15.6,4,No OS,1.9kg,14418.6336,1366,768,0,Intel Celeron Dual,1.1,1,0,0,0,128.0,Intel,1,0,0,1.9
+Lenovo,Notebook,15.6,8,Windows 10,2.3kg,71874.72,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,2.3
+Asus,Notebook,13.3,8,Windows 10,1.4kg,61272.0,3200,1800,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.4
+HP,Ultrabook,13.3,8,Windows 10,1.11kg,71874.72,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.11
+Acer,Notebook,15.6,4,Windows 10,2.4kg,20246.4,1366,768,0,Intel Pentium Quad,1.1,0,1,0,0,500.0,Intel,1,0,0,2.4
+Asus,Gaming,15.6,16,Windows 10,2.5kg,95850.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.5
+HP,Ultrabook,14,8,Windows 10,1.48kg,111301.92,1920,1080,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.48
+Acer,Gaming,15.6,8,Windows 10,2.7kg,67132.8,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.7
+HP,Notebook,13.3,8,Windows 10,1.34kg,63349.92,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.34
+Dell,Notebook,15.6,4,Windows 10,2.18kg,29144.16,1366,768,0,Intel Core i3,2.4,1,0,0,0,128.0,Intel,1,0,0,2.18
+HP,Notebook,14,4,Windows 10,1.64kg,41505.12,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,1.64
+Toshiba,Notebook,13.3,4,Windows 10,1.2kg,63669.6,1920,1080,0,Intel Core i5,2.3,1,0,0,0,128.0,Intel,1,0,0,1.2
+HP,Notebook,14,4,Windows 10,1.48kg,58607.4672,1366,768,0,Intel Core i5,2.4,1,0,0,0,256.0,Intel,1,0,0,1.48
+HP,Notebook,14,4,Windows 10,1.95kg,64202.4,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.95
+HP,Ultrabook,14,8,Windows 7,1.43kg,77202.72,1920,1080,0,Intel Core i7,2.6,1,0,0,0,256.0,Intel,1,0,0,1.43
+HP,Notebook,14,8,Windows 10,1.64kg,55904.5728,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,1.64
+HP,Notebook,14,4,Windows 10,1.64kg,36443.52,1366,768,0,Intel Core i3,2.4,0,1,0,0,500.0,Intel,1,0,0,1.64
+Dell,Gaming,15.6,8,Windows 10,2.65kg,50562.72,1920,1080,0,Intel Core i5,2.5,0,0,0,1,1024.0,Nvidia,0,1,0,2.65
+HP,Ultrabook,12.5,4,Windows 10,1.26kg,81997.92,1920,1080,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,1.26
+HP,Notebook,14,4,Windows 10,1.48kg,84715.2,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.48
+HP,Ultrabook,14,8,Windows 10,1.54kg,100550.5488,1920,1080,0,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.54
+HP,Notebook,13.3,4,Windows 10,1.49kg,42624.0,1366,768,0,Intel Core i3,2.4,0,1,0,0,500.0,Intel,1,0,0,1.49
+Toshiba,Notebook,13.3,8,Windows 10,1.5kg,64468.8,1366,768,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.5
+HP,Notebook,15.6,4,Windows 10,2.04kg,41025.0672,1366,768,0,Intel Core i3,2.4,1,0,0,0,256.0,Intel,1,0,0,2.04
+Lenovo,Notebook,17.3,16,Windows 7,2.4kg,158135.04,3840,2160,1,Intel Core i7,2.7,1,0,0,0,512.0,Nvidia,0,1,0,2.4
+Toshiba,Notebook,14,8,Windows 10,1.47kg,79387.2,1920,1080,1,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.47
+HP,Notebook,14,8,Windows 10,1.43kg,118761.12,1920,1080,0,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.43
+Dell,2 in 1 Convertible,15.6,4,Windows 10,2.08kg,42410.3472,1920,1080,1,Intel Core i3,2.3,0,1,0,0,1024.0,Intel,1,0,0,2.08
+Toshiba,Ultrabook,13.3,8,Windows 10,1.2kg,84715.2,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.2
+HP,Notebook,13.3,8,Windows 10,1.11kg,61218.72,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.11
+HP,Notebook,14,8,Windows 10,1.64kg,63159.7104,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Nvidia,0,1,0,1.64
+Dell,Notebook,15.6,8,Windows 10,2.09kg,55754.3232,1920,1080,0,Intel Core i5,2.4,0,1,0,0,500.0,Intel,1,0,0,2.09
+HP,Ultrabook,12.5,4,Windows 10,1.26kg,83063.52,1366,768,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.26
+HP,Notebook,14,4,Windows 10,2.31kg,63349.92,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,2.31
+HP,Notebook,14,4,Windows 10,1.95kg,56476.8,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,1.95
+Dell,Ultrabook,13.3,8,Windows 10,1.29kg,86526.72,3200,1800,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.29
+HP,Notebook,17.3,8,Windows 10,2.63kg,57542.4,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.63
+HP,Notebook,14,4,Windows 10,1.64kg,51841.44,1366,768,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.64
+Acer,Notebook,15.6,6,Windows 10,2.1kg,21791.52,1366,768,0,AMD A9-Series 9420,3.0,0,1,0,0,1024.0,AMD,0,0,1,2.1
+MSI,Gaming,17.3,8,Windows 10,2.7kg,63499.104,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.7
+HP,Notebook,14,8,Windows 7,1.95kg,63669.6,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.95
+HP,Notebook,15.6,8,Windows 10,1.84kg,65480.5872,1920,1080,0,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.84
+HP,Ultrabook,12.5,8,Windows 10,1.26kg,71874.72,1920,1080,0,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.26
+HP,Notebook,15.6,4,Windows 10,2.04kg,39533.76,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,2.04
+Toshiba,Ultrabook,14,8,Windows 10,1.47kg,91908.0,1920,1080,1,Intel Core i7,2.6,1,0,0,0,256.0,Intel,1,0,0,1.47
+Dell,Notebook,15.6,8,Windows 7,2.09kg,56633.976,1920,1080,0,Intel Core i5,2.4,1,0,0,0,256.0,Intel,1,0,0,2.09
+HP,Notebook,14,8,Windows 10,1.64kg,53839.9728,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.64
+Lenovo,2 in 1 Convertible,15.6,4,Windows 10,1.8kg,45128.16,1920,1080,1,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.8
+Vero,Notebook,14,2,Windows 10,1.45kg,11231.424,1366,768,0,Intel Atom X5-Z8350,1.44,0,0,1,0,32.0,Intel,1,0,0,1.45
+Toshiba,Notebook,15.6,16,Windows 10,2.4kg,75924.0,1920,1080,1,Intel Core i7,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.4
+Lenovo,Notebook,15.6,8,Windows 10,2.3kg,55922.688,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,2.3
+HP,Notebook,14,4,Windows 10,1.54kg,53280.0,1920,1080,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,1.54
+HP,Notebook,15.6,8,Windows 10,1.84kg,112065.9552,1920,1080,0,Intel Core i5,2.4,1,1,0,0,756.0,Intel,1,0,0,1.84
+HP,Notebook,14,8,Windows 7,1.43kg,78268.32,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.43
+MSI,Gaming,17.3,16,Windows 10,3.78kg,82351.6992,1920,1080,1,Intel Core i7,2.7,1,1,0,0,1280.0,Nvidia,0,1,0,3.78
+Lenovo,Gaming,17.3,16,Windows 10,4.6kg,122010.6672,1920,1080,1,Intel Core i7,2.6,1,1,0,0,1152.0,Nvidia,0,1,0,4.6
+Asus,Netbook,11.6,4,Chrome OS,1.2kg,15339.312,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,16.0,Intel,1,0,0,1.2
+Lenovo,Notebook,14,16,Windows 7,1.1kg,139593.6,2560,1440,1,Intel Core i7,2.6,1,0,0,0,256.0,Intel,1,0,0,1.1
+HP,Notebook,15.6,8,Windows 10,1.91kg,52161.12,1920,1080,1,Intel Core i7,2.7,0,1,0,0,1024.0,Nvidia,0,1,0,1.91
+Dell,2 in 1 Convertible,15.6,8,Windows 10,2.3kg,58288.32,1920,1080,1,Intel Core i5,2.7,1,0,0,0,256.0,Intel,1,0,0,2.3
+HP,Notebook,15.6,4,Windows 10,2.04kg,52161.12,1366,768,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.04
+Dell,Ultrabook,13.3,16,Windows 10,1.2kg,120093.12,3200,1800,0,Intel Core i7,2.7,1,0,0,0,1024.0,Intel,1,0,0,1.2
+HP,Notebook,15.6,4,Windows 10,2.31kg,37570.392,1366,768,0,Intel Core i3,2.3,0,1,0,0,500.0,Intel,1,0,0,2.31
+HP,Notebook,15.6,4,No OS,1.96kg,26586.72,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,1.96
+Acer,Notebook,15.6,8,Windows 10,2.4kg,23922.72,1366,768,0,AMD A8-Series 7410,2.2,0,1,0,0,1024.0,AMD,0,0,1,2.4
+Dell,2 in 1 Convertible,13.3,12,Windows 10,1.6kg,69210.72,1920,1080,1,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.6
+MSI,Gaming,15.6,16,Windows 10,2.94kg,96916.32,1920,1080,0,Intel Core i7,2.6,1,1,0,0,1280.0,Nvidia,0,1,0,2.94
+Asus,Gaming,17.3,16,No OS,4kg,53173.44,1920,1080,1,Intel Core i7,2.6,0,1,0,0,1024.0,Nvidia,0,1,0,4.0
+Dell,Notebook,15.6,4,Windows 10,2.25kg,29783.52,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,2.25
+Dell,Notebook,15.6,16,Windows 10,2.32kg,52746.6672,1920,1080,0,Intel Core i7,2.7,0,1,0,0,2048.0,AMD,0,0,1,2.32
+MSI,Gaming,15.6,16,Windows 10,1.8kg,102777.12,1920,1080,0,Intel Core i7,2.6,1,1,0,0,1280.0,Nvidia,0,1,0,1.8
+Dell,Ultrabook,13.3,8,Windows 10,1.29kg,77682.24,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.29
+Asus,Gaming,17.3,64,Windows 10,3.58kg,211788.0,1920,1080,1,Intel Core i7,2.7,1,0,0,0,1024.0,Nvidia,0,1,0,3.58
+Dell,2 in 1 Convertible,13.3,8,Windows 10,1.62kg,42517.9728,1920,1080,0,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.62
+Dell,Gaming,15.6,16,Windows 10,3.21kg,70809.12,3840,2160,0,Intel Core i7,2.6,1,1,0,0,1280.0,Nvidia,0,1,0,3.21
+Apple,Ultrabook,12,8,Mac OS X,0.920kg,69264.0,2304,1440,1,Intel Core M,1.1,0,0,1,0,256.0,Intel,1,0,0,0.92
+Dell,Notebook,15.6,4,Windows 10,2.06kg,25679.8944,1366,768,0,Intel Core i3,2.3,0,1,0,0,500.0,Intel,1,0,0,2.06
+HP,Notebook,15.6,4,Windows 10,2.31kg,63882.72,1366,768,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,2.31
+HP,Ultrabook,12.5,8,Windows 7,1.26kg,63882.72,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.26
+HP,Notebook,13.3,8,Windows 10,1.49kg,58075.2,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.49
+Lenovo,Ultrabook,12.5,8,Windows 10,1.3kg,91294.7472,1920,1080,1,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.3
+Lenovo,Notebook,17.3,8,Windows 10,3.0kg,35111.52,1600,900,0,Intel Core i5,2.3,0,1,0,0,1024.0,AMD,0,0,1,3.0
+Lenovo,Notebook,15.6,4,Windows 10,2.3kg,52054.56,1920,1080,1,Intel Core i5,2.3,0,1,0,0,1024.0,Nvidia,0,1,0,2.3
+MSI,Gaming,17.3,16,Windows 10,3.78kg,133146.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,3.78
+Lenovo,Notebook,15.6,4,Windows 10,2.1kg,28771.2,1366,768,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,2.1
+HP,Notebook,15.6,4,Windows 7,2.31kg,50083.2,1920,1080,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,2.31
+Lenovo,Ultrabook,12.5,8,Windows 10,0.99kg,74538.72,2560,1440,1,Intel Core M,1.2,1,0,0,0,512.0,Intel,1,0,0,0.99
+Lenovo,Gaming,17.3,32,Windows 10,4.6kg,172627.2,1920,1080,1,Intel Core i7,2.7,1,0,0,1,1536.0,Nvidia,0,1,0,4.6
+Lenovo,2 in 1 Convertible,10.1,4,Windows 10,0.69kg,34433.2656,1920,1200,1,Intel Atom x5-Z8550,1.44,0,0,1,0,64.0,Intel,1,0,0,0.69
+HP,Ultrabook,13.3,16,Windows 10,1.3kg,109170.72,3840,2160,1,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.3
+Dell,Notebook,15.6,8,Windows 10,2.18kg,39960.0,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.18
+HP,Notebook,14,4,Windows 7,1.54kg,54931.1472,1920,1080,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,1.54
+HP,Workstation,15.6,8,Windows 7,1.9kg,79653.6,1920,1080,0,Intel Core i7,2.5,1,0,0,0,256.0,AMD,0,0,1,1.9
+Lenovo,Notebook,14,8,Windows 7,1.7kg,63882.72,1920,1080,0,Intel Core i5,2.3,1,0,0,0,180.0,Intel,1,0,0,1.7
+HP,Notebook,13.3,4,Chrome OS,1.29kg,32767.2,3200,1800,0,Intel Pentium Dual,1.5,0,0,1,0,32.0,Intel,1,0,0,1.29
+Acer,Notebook,15.6,4,Windows 10,2.4kg,20619.36,1366,768,0,AMD A8-Series 7410,2.2,0,1,0,0,500.0,AMD,0,0,1,2.4
+Dell,Notebook,15.6,4,Linux,2.2kg,20965.1472,1366,768,0,Intel Pentium Quad,1.6,0,1,0,0,500.0,Intel,1,0,0,2.2
+HP,Notebook,15.6,4,No OS,1.86kg,18434.3472,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,1.86
+Asus,Gaming,17.3,8,Windows 10,2.7kg,85194.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.7
+Dell,Ultrabook,13.3,4,Windows 10,1.4kg,43601.688,1920,1080,1,Intel Core i5,1.6,1,0,0,0,256.0,AMD,0,0,1,1.4
+HP,Netbook,12.5,4,Windows 7,2.4kg,85194.72,1366,768,0,Intel Core i5,2.3,1,0,0,0,128.0,Intel,1,0,0,2.4
+Acer,Notebook,15.6,8,Windows 10,2.4kg,42570.72,1920,1080,0,Intel Core i5,2.5,1,1,0,0,1280.0,Nvidia,0,1,0,2.4
+Dell,Notebook,15.6,8,Windows 10,2.36kg,34035.264,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,AMD,0,0,1,2.36
+MSI,Gaming,17.3,8,Windows 10,2.6kg,85194.72,1920,1080,0,Intel Core i7,2.6,1,0,0,0,256.0,Nvidia,0,1,0,2.6
+HP,Notebook,15.6,4,Windows 10,1.96kg,26640.0,1366,768,0,Intel Pentium Quad,1.6,0,1,0,0,1024.0,Intel,1,0,0,1.96
+Asus,Gaming,17.3,16,Windows 10,4.3kg,122490.72,1920,1080,1,Intel Core i7,2.6,1,1,0,0,1152.0,Nvidia,0,1,0,4.3
+Dell,Ultrabook,12.5,4,Windows 7,1.5kg,60480.792,1366,768,0,Intel Core i3,2.3,0,1,0,0,500.0,Intel,1,0,0,1.5
+Dell,Ultrabook,12.5,4,Windows 7,1.5kg,62176.1616,1366,768,0,Intel Core i3,2.3,1,0,0,0,128.0,Intel,1,0,0,1.5
+Acer,Notebook,15.6,4,Chrome OS,2.20kg,11135.52,1366,768,0,Intel Celeron Dual,1.5,1,0,0,0,16.0,Intel,1,0,0,2.2
+HP,Workstation,17.3,8,Windows 7,3.0kg,154458.72,1920,1080,1,Intel Core i7,2.6,0,1,0,0,1024.0,AMD,0,0,1,3.0
+Lenovo,Gaming,15.6,16,Windows 10,2.4kg,63882.72,1920,1080,0,Intel Core i7,2.8,1,0,0,0,512.0,Nvidia,0,1,0,2.4
+Dell,Ultrabook,12.5,8,Windows 7,1.5kg,75289.968,1366,768,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.5
+MSI,Gaming,17.3,8,Windows 10,2.9kg,80516.2032,1920,1080,0,Intel Core i7,2.6,1,1,0,0,1152.0,Nvidia,0,1,0,2.9
+Lenovo,2 in 1 Convertible,15.6,4,Windows 10,2.1kg,46193.76,1920,1080,1,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,2.1
+HP,Notebook,15.6,4,Windows 10,2.1kg,21205.44,1920,1080,0,AMD A6-Series 9220,2.5,0,1,0,0,1024.0,AMD,0,0,1,2.1
+Asus,Gaming,15.6,16,Windows 10,2.59kg,71341.92,1920,1080,1,Intel Core i7,2.6,1,1,0,0,1152.0,Nvidia,0,1,0,2.59
+HP,Notebook,13.3,8,Windows 10,1.16kg,90522.72,3200,1800,0,Intel Core M,1.1,1,0,0,0,256.0,Intel,1,0,0,1.16
+Dell,Notebook,15.6,4,Windows 7,2.24kg,40980.312,1366,768,0,Intel Core i5,2.3,0,1,0,0,500.0,AMD,0,0,1,2.24
+Lenovo,Notebook,15.6,4,Windows 10,2.1kg,22857.12,1366,768,0,Intel Core i3,2.0,1,0,0,0,128.0,Intel,1,0,0,2.1
+HP,Ultrabook,13.3,8,Windows 10,1.16kg,104908.32,1920,1080,0,Intel Core i7,2.5,1,0,0,0,512.0,Intel,1,0,0,1.16
+Lenovo,2 in 1 Convertible,10.1,4,Android,0.69kg,29250.72,1920,1200,1,Intel Atom x5-Z8550,1.44,0,0,1,0,64.0,Intel,1,0,0,0.69
+Dell,Ultrabook,13.3,8,Windows 10,1.23kg,73473.12,1920,1080,0,Intel Core i7,2.4,1,0,0,0,256.0,Intel,1,0,0,1.23
+Lenovo,Gaming,17.3,16,Windows 10,4.6kg,146519.4672,1920,1080,1,Intel Core i7,2.7,1,0,0,1,1280.0,Nvidia,0,1,0,4.6
+Razer,Ultrabook,12.5,8,Windows 10,1.25kg,54825.12,3840,2160,0,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.25
+Toshiba,Ultrabook,13.3,16,Windows 10,1.05kg,118601.28,1920,1080,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.05
+Asus,Gaming,17.3,8,Windows 10,3.52kg,69929.4672,1920,1080,0,Intel Core i7,2.6,1,1,0,0,1152.0,Nvidia,0,1,0,3.52
+Vero,Notebook,13.3,4,Windows 10,1.35kg,10442.88,1920,1080,0,Intel Atom X5-Z8350,1.44,0,0,1,0,32.0,Intel,1,0,0,1.35
+HP,Notebook,13.3,8,Windows 10,1.16kg,90043.2,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.16
+HP,Notebook,14,8,Windows 7,1.43kg,80612.64,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.43
+Dell,Notebook,15.6,4,Linux,2.09kg,27899.0064,1366,768,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,2.09
+Asus,Notebook,15.6,4,Windows 10,2kg,23176.8,1366,768,0,Intel Core i3,2.4,0,1,0,0,1024.0,Intel,1,0,0,2.0
+Lenovo,2 in 1 Convertible,14,8,Windows 10,1.8kg,88924.32,1920,1080,1,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.8
+Lenovo,2 in 1 Convertible,10.1,4,Windows 10,0.69kg,25521.12,1920,1200,1,Intel Atom x5-Z8550,1.44,0,0,1,0,64.0,Intel,1,0,0,0.69
+HP,Ultrabook,12.5,8,Windows 7,1.26kg,100965.6,1366,768,0,Intel Core i5,2.4,1,0,0,0,256.0,Intel,1,0,0,1.26
+Lenovo,Gaming,15.6,8,No OS,2.4kg,52693.92,1920,1080,1,Intel Core i5,2.5,1,1,0,0,1152.0,Nvidia,0,1,0,2.4
+HP,Gaming,17.3,8,Windows 10,3.35kg,60153.12,1920,1080,1,Intel Core i5,2.3,1,1,0,0,1152.0,Nvidia,0,1,0,3.35
+HP,Notebook,15.6,8,Windows 10,2.04kg,33513.12,1366,768,0,Intel Core i7,2.7,0,1,0,0,2048.0,Intel,1,0,0,2.04
+Lenovo,2 in 1 Convertible,14,8,Windows 7,1.8kg,109244.2464,1920,1080,1,Intel Core i7,2.6,1,0,0,0,512.0,Nvidia,0,1,0,1.8
+Asus,Notebook,14,4,Windows 10,1.5kg,14811.84,1366,768,0,Intel Celeron Dual,1.1,0,0,1,0,32.0,Intel,1,0,0,1.5
+HP,Ultrabook,15.6,8,Windows 10,1.84kg,40066.56,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.84
+Acer,Notebook,15.6,4,Windows 10,2.23kg,32820.48,1920,1080,0,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,2.23
+Lenovo,Notebook,15.6,16,Windows 10,2.5kg,58554.72,1920,1080,0,Intel Core i7,2.5,0,0,0,1,1024.0,AMD,0,0,1,2.5
+HP,Workstation,17.3,8,Windows 7,3kg,210424.032,1920,1080,1,Intel Core i7,2.6,1,0,0,0,256.0,Nvidia,0,1,0,3.0
+Dell,Notebook,15.6,8,Windows 10,2.5kg,41771.52,1366,768,0,Intel Core i5,2.5,0,1,0,0,1024.0,AMD,0,0,1,2.5
+MSI,Gaming,17.3,16,Windows 10,3.78kg,127818.72,1920,1080,0,Intel Core i7,2.7,1,1,0,0,1280.0,Nvidia,0,1,0,3.78
+HP,Ultrabook,15.6,8,Windows 7,1.88kg,115709.2416,1920,1080,0,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.88
+Lenovo,2 in 1 Convertible,14,16,Windows 10,2.8kg,130003.2,2560,1440,1,Intel Core i7,2.6,1,0,0,0,512.0,Intel,1,0,0,2.8
+MSI,Gaming,15.6,8,Windows 10,2.4kg,60888.384,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.4
+HP,2 in 1 Convertible,13.3,8,Windows 10,1.48kg,86793.12,1920,1080,0,Intel Core i5,2.4,1,0,0,0,256.0,Intel,1,0,0,1.48
+HP,Workstation,15.6,8,Windows 7,2.59kg,118761.12,1920,1080,1,Intel Core i7,2.6,1,0,0,0,256.0,Nvidia,0,1,0,2.59
+HP,2 in 1 Convertible,13.3,8,Windows 10,1.48kg,95850.72,2560,1440,0,Intel Core i7,2.6,1,0,0,0,256.0,Intel,1,0,0,1.48
+HP,Workstation,15.6,8,Windows 7,2.0kg,101178.72,1920,1080,0,Intel Core i7,2.6,1,0,0,0,256.0,Nvidia,0,1,0,2.0
+HP,Ultrabook,12.5,8,Windows 7,1.26kg,122381.496,1920,1080,0,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.26
+Dell,Notebook,15.6,8,Windows 10,2.18kg,53807.472,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Nvidia,0,1,0,2.18
+HP,Notebook,15.6,8,Windows 7,1.88kg,84129.12,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.88
+Lenovo,2 in 1 Convertible,14,8,Windows 10,1.27kg,124621.92,2560,1440,1,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.27
+Lenovo,Notebook,15.6,4,No OS,1.9kg,18061.92,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,1.9
+HP,Notebook,15.6,4,Windows 10,1.86kg,15824.16,1366,768,0,AMD E-Series 7110,1.8,0,1,0,0,500.0,AMD,0,0,1,1.86
+Lenovo,Notebook,15.6,8,No OS,2.32kg,31914.72,1920,1080,0,Intel Core i5,2.3,0,1,0,0,1024.0,AMD,0,0,1,2.32
+Dell,Gaming,15.6,8,Windows 10,2.62kg,63882.72,1920,1080,0,Intel Core i7,2.8,0,1,0,0,1024.0,Nvidia,0,1,0,2.62
+Dell,Notebook,15.6,8,Windows 10,2.04kg,119916.2304,3840,2160,1,Intel Core i5,2.3,1,0,0,0,256.0,Nvidia,0,1,0,2.04
+HP,Notebook,15.6,4,Windows 10,1.91kg,25515.2592,1920,1080,0,AMD A6-Series A6-9220,2.5,1,0,0,0,256.0,AMD,0,0,1,1.91
+MSI,Gaming,17.3,16,Windows 10,2.7kg,79536.384,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.7
+Lenovo,Ultrabook,14,12,Windows 7,1.4kg,122490.72,1920,1080,0,Intel Core i7,2.6,1,0,0,0,512.0,Intel,1,0,0,1.4
+Lenovo,Notebook,15.6,8,Windows 10,2.5kg,42010.7472,1920,1080,0,Intel Core i5,2.3,0,0,0,1,1024.0,AMD,0,0,1,2.5
+HP,2 in 1 Convertible,13.3,8,Windows 10,1.48kg,108744.48,2560,1440,0,Intel Core i7,2.6,1,0,0,0,512.0,Intel,1,0,0,1.48
+Lenovo,Ultrabook,14,8,Windows 7,1.7kg,79866.72,1920,1080,0,Intel Core i7,2.6,1,0,0,0,256.0,Intel,1,0,0,1.7
+MSI,Gaming,14,16,Windows 10,1.7kg,94252.32,1920,1080,0,Intel Core i7,2.6,1,1,0,0,1280.0,Nvidia,0,1,0,1.7
+HP,Gaming,15.6,8,Windows 10,2.62kg,47898.72,1920,1080,1,Intel Core i7,2.8,0,1,0,0,1024.0,Nvidia,0,1,0,2.62
+Lenovo,Notebook,15.6,8,Windows 10,2.2kg,24455.52,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,2.2
+HP,Notebook,15.6,4,No OS,2.1kg,25414.0272,1366,768,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,2.1
+Dell,Gaming,15.6,8,Windows 10,2.62kg,79813.44,3840,2160,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.62
+Lenovo,Notebook,15.6,8,Windows 10,1.95kg,74059.2,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.95
+Lenovo,Notebook,15.6,4,Windows 10,2.2kg,24935.04,1920,1080,0,Intel Core i3,2.0,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+HP,Notebook,14,2,Windows 10,1.44kg,13266.72,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,32.0,Intel,1,0,0,1.44
+MSI,Gaming,15.6,8,Windows 10,2.2kg,44701.92,1920,1080,1,Intel Core i7,2.7,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+HP,Notebook,15.6,8,Windows 10,1.96kg,36177.12,1920,1080,0,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.96
+HP,Notebook,15.6,16,Windows 10,2.1kg,61751.52,1920,1080,0,Intel Core i7,1.8,1,0,0,0,512.0,Intel,1,0,0,2.1
+Asus,Notebook,15.6,4,Windows 10,2.2kg,19660.32,1366,768,0,Intel Celeron Dual,1.6,0,1,0,0,500.0,Intel,1,0,0,2.2
+Lenovo,Notebook,15.6,4,No OS,2.1kg,21205.44,1366,768,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,2.1
+Lenovo,Notebook,15.6,8,No OS,2.2kg,37775.52,1920,1080,0,Intel Core i7,2.7,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+Asus,Notebook,14,4,Windows 10,2kg,40972.32,1920,1080,0,Intel Core i3,2.4,1,0,0,0,256.0,Intel,1,0,0,2.0
+Lenovo,Notebook,15.6,4,Windows 7,2.32kg,43956.0,1920,1080,0,Intel Core i7,2.5,0,0,0,1,1024.0,Intel,1,0,0,2.32
+Lenovo,Gaming,15.6,16,Windows 10,3.31kg,69530.4,1920,1080,1,Intel Core i7,2.6,1,0,0,0,512.0,Nvidia,0,1,0,3.31
+MSI,Gaming,15.6,16,Windows 10,1.91kg,114731.5536,1920,1080,0,Intel Core i7,2.6,1,1,0,0,1152.0,Nvidia,0,1,0,1.91
+HP,Notebook,15.6,4,Windows 10,2.07kg,34632.0,1366,768,0,Intel Core i3,2.3,0,1,0,0,500.0,Intel,1,0,0,2.07
+Lenovo,2 in 1 Convertible,14,8,Windows 10,1.36kg,87219.36,2560,1440,1,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.36
+Lenovo,Ultrabook,15.6,6,Windows 10,1.54kg,44275.68,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Nvidia,0,1,0,1.54
+Dell,Notebook,15.6,8,Linux,1.98kg,47686.1328,1920,1080,0,Intel Core i7,2.7,1,0,0,0,256.0,Nvidia,0,1,0,1.98
+Acer,Notebook,15.6,4,Windows 10,2.1kg,17742.24,1366,768,0,Intel Celeron Dual,2.0,0,1,0,0,500.0,Intel,1,0,0,2.1
+HP,Notebook,15.6,6,Windows 10,2.18kg,42570.72,1920,1080,1,Intel Core i7,2.6,0,1,0,0,1024.0,Nvidia,0,1,0,2.18
+Asus,Gaming,15.6,8,Windows 10,2.591kg,48431.52,1920,1080,1,Intel Core i7,2.6,1,1,0,0,1280.0,Nvidia,0,1,0,2.591
+Dell,2 in 1 Convertible,15.6,16,Windows 10,2.09kg,62817.12,1920,1080,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,2.09
+Acer,Notebook,15.6,4,Windows 10,2.23kg,36816.48,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,Nvidia,0,1,0,2.23
+Dell,Ultrabook,13.3,8,Linux,1.23kg,58554.72,3200,1800,0,Intel Core i5,2.4,1,0,0,0,256.0,Intel,1,0,0,1.23
+Acer,Gaming,17.3,16,Windows 10,4.2kg,138474.72,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,4.2
+Lenovo,Gaming,15.6,8,Windows 10,2.4kg,43636.32,1920,1080,1,Intel Core i5,2.5,0,1,0,0,1024.0,Nvidia,0,1,0,2.4
+Samsung,2 in 1 Convertible,12.3,4,Chrome OS,1.15kg,35111.52,2400,1600,1,Samsung Cortex A72&A53,2.0,0,0,1,0,32.0,Other,0,0,0,1.15
+HP,Notebook,15.6,4,Windows 10,1.86kg,25840.8,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,1.86
+Apple,Ultrabook,12,8,Mac OS X,0.920kg,61964.64,2304,1440,1,Intel Core M,1.1,0,0,1,0,256.0,Intel,1,0,0,0.92
+Dell,2 in 1 Convertible,13.3,8,Windows 10,1.6kg,63882.72,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.6
+HP,Notebook,15.6,12,Windows 10,2.21kg,70702.56,1920,1080,1,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.21
+Lenovo,Notebook,15.6,4,No OS,1.9kg,19607.04,1366,768,0,Intel Core i3,2.0,0,1,0,0,1024.0,AMD,0,0,1,1.9
+Asus,Gaming,17.3,16,Windows 10,4.3kg,114552.0,1920,1080,1,Intel Core i7,2.6,1,1,0,0,1536.0,Nvidia,0,1,0,4.3
+Acer,Notebook,15.6,4,Linux,2.1kg,14492.16,1366,768,0,Intel Celeron Dual,2.0,0,1,0,0,1024.0,Intel,1,0,0,2.1
+MSI,Gaming,17.3,16,Windows 10,2.43kg,109165.392,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.43
+Dell,Notebook,15.6,4,Windows 10,2.3kg,26586.72,1366,768,0,Intel Core i3,2.0,1,0,0,0,128.0,AMD,0,0,1,2.3
+Lenovo,Notebook,15.6,8,No OS,2.2kg,33513.12,1366,768,0,Intel Core i7,2.5,0,1,0,0,500.0,Nvidia,0,1,0,2.2
+Dell,Ultrabook,13.3,16,Windows 10,1.2kg,142790.4,3200,1800,0,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.2
+Asus,Gaming,15.6,8,Windows 10,2.2kg,62284.32,1920,1080,0,Intel Core i7,2.6,0,1,0,0,1024.0,Nvidia,0,1,0,2.2
+Dell,Notebook,15.6,8,Windows 10,2.36kg,47365.92,1920,1080,0,Intel Core i5,2.5,1,0,0,0,256.0,AMD,0,0,1,2.36
+HP,Notebook,15.6,8,Windows 10,1.91kg,30849.12,1366,768,0,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,1.91
+Lenovo,Notebook,15.6,4,Windows 10,2.2kg,15930.72,1366,768,0,AMD E-Series 9000,2.2,0,1,0,0,500.0,AMD,0,0,1,2.2
+Acer,Notebook,17.3,8,Windows 10,3.3kg,33513.12,1600,900,0,Intel Core i3,2.0,0,1,0,0,1024.0,Nvidia,0,1,0,3.3
+Asus,Gaming,15.6,16,Windows 10,2.2kg,130482.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.2
+Apple,Ultrabook,12,8,Mac OS X,0.920kg,68145.12,2304,1440,1,Intel Core M,1.2,0,0,1,0,512.0,Intel,1,0,0,0.92
+Asus,Notebook,15.6,16,Windows 10,2.2kg,93186.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.2
+MSI,Gaming,17.3,16,Windows 10,2.43kg,103842.1872,1920,1080,1,Intel Core i7,2.6,1,1,0,0,1280.0,Nvidia,0,1,0,2.43
+Dell,2 in 1 Convertible,15.6,8,Windows 10,2.191kg,53226.72,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.191
+Asus,Gaming,17.3,16,Windows 10,2.9kg,103842.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.9
+Acer,Netbook,11.6,2,Chrome OS,1.3kg,9270.72,1366,768,0,Intel Celeron Dual,1.5,1,0,0,0,32.0,Intel,1,0,0,1.3
+Acer,Notebook,17.3,4,Windows 10,3.3kg,31861.44,1600,900,0,Intel Core i3,2.0,0,1,0,0,1024.0,Nvidia,0,1,0,3.3
+Lenovo,Notebook,17.3,8,No OS,2.8kg,28717.92,1600,900,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,2.8
+Lenovo,Gaming,15.6,8,Windows 10,2.6kg,67772.16,1920,1080,1,Intel Core i7,2.6,1,1,0,0,1152.0,Nvidia,0,1,0,2.6
+Acer,2 in 1 Convertible,14,8,Windows 10,1.2kg,61218.72,1920,1080,1,Intel Core i7,1.3,1,0,0,0,256.0,Intel,1,0,0,1.2
+Lenovo,Notebook,15.6,8,Windows 10,2.3kg,81465.12,1920,1080,1,Intel Core i7,2.6,1,0,0,0,256.0,Intel,1,0,0,2.3
+MSI,Gaming,15.6,8,Windows 10,2.2kg,78647.1408,1920,1080,0,Intel Core i7,2.6,1,1,0,0,1152.0,Nvidia,0,1,0,2.2
+HP,Notebook,15.6,6,Windows 10,2.1kg,28185.12,1920,1080,0,AMD A12-Series 9720P,2.7,0,1,0,0,1024.0,AMD,0,0,1,2.1
+Dell,Ultrabook,12.5,8,Windows 7,1.26kg,91288.3536,1920,1080,0,Intel Core i5,2.4,1,0,0,0,256.0,Intel,1,0,0,1.26
+Dell,2 in 1 Convertible,15,4,Windows 10,2.08kg,27119.52,1920,1080,0,Intel Core i3,2.4,0,1,0,0,500.0,Intel,1,0,0,2.08
+Asus,Notebook,15.6,4,Windows 10,2.65kg,16463.52,1366,768,0,Intel Pentium Quad,1.6,0,1,0,0,1024.0,Intel,1,0,0,2.65
+Dell,Ultrabook,13.3,8,Windows 10,1.29kg,78694.56,3200,1800,0,Intel Core i7,2.7,1,0,0,0,256.0,Intel,1,0,0,1.29
+Dell,Notebook,15.6,4,Linux,2.18kg,27804.7008,1366,768,0,Intel Core i5,2.5,0,1,0,0,1024.0,Intel,1,0,0,2.18
+Lenovo,Gaming,15.6,16,Windows 10,2.6kg,54825.12,1920,1080,1,Intel Core i7,2.6,1,1,0,0,1152.0,Nvidia,0,1,0,2.6
+MSI,Gaming,15.6,8,Windows 10,2.2kg,61218.72,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1152.0,Nvidia,0,1,0,2.2
+Lenovo,Netbook,12.5,16,Windows 10,1.3kg,87912.0,1920,1080,1,Intel Core i7,2.5,1,0,0,0,512.0,Intel,1,0,0,1.3
+Razer,Gaming,14,16,Windows 10,1.95kg,186426.72,1920,1080,0,Intel Core i7,2.8,1,0,0,0,1024.0,Nvidia,0,1,0,1.95
+Dell,Notebook,15.6,8,Windows 10,2.3kg,24988.8528,1366,768,0,Intel Core i3,2.4,0,1,0,0,1024.0,Intel,1,0,0,2.3
+MSI,Gaming,17.3,16,Windows 10,2.7kg,85141.44,1920,1080,0,Intel Core i7,2.8,1,1,0,0,1280.0,Nvidia,0,1,0,2.7
+Apple,Ultrabook,11.6,4,Mac OS X,1.08kg,51095.52,1366,768,0,Intel Core i5,1.6,0,0,1,0,256.0,Intel,1,0,0,1.08
+HP,Notebook,15.6,4,Windows 10,2.1kg,25467.84,1920,1080,0,Intel Core i3,2.0,0,1,0,0,1024.0,Intel,1,0,0,2.1
+HP,Ultrabook,14,8,Windows 7,1.54kg,117119.5632,2560,1440,0,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.54
+Dell,Notebook,15.6,4,Windows 7,2.24kg,39267.36,1366,768,0,Intel Core i5,2.3,0,1,0,0,500.0,Intel,1,0,0,2.24
+MSI,Gaming,15.6,8,Windows 10,2.3kg,62284.32,1920,1080,0,Intel Core i7,2.6,1,1,0,0,1152.0,Nvidia,0,1,0,2.3
+Lenovo,Notebook,13.3,16,Windows 10,1.4kg,79866.72,1920,1080,1,Intel Core i7,2.7,1,0,0,0,512.0,Intel,1,0,0,1.4
+Lenovo,Notebook,15.6,6,Windows 10,2.2kg,31838.5296,1920,1080,0,AMD A12-Series 9720P,3.6,1,0,0,0,256.0,AMD,0,0,1,2.2
+Asus,Ultrabook,13.3,8,Windows 10,1.45kg,68198.4,1920,1080,0,Intel Core i7,2.5,1,0,0,0,256.0,Intel,1,0,0,1.45
+Acer,Notebook,15.6,4,Linux,2.4kg,19276.704,1366,768,0,Intel Core i3,2.0,0,1,0,0,500.0,Intel,1,0,0,2.4
+Dell,2 in 1 Convertible,17.3,16,Windows 10,2.77kg,95850.72,1920,1080,0,Intel Core i7,2.7,1,0,0,0,512.0,Nvidia,0,1,0,2.77
+HP,Notebook,14,4,Windows 7,1.54kg,58607.4672,1920,1080,0,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.54
+Dell,Notebook,14,4,Windows 10,1.6kg,46620.0,1366,768,0,Intel Core i5,2.5,0,1,0,0,500.0,Intel,1,0,0,1.6
+Asus,Gaming,15.6,16,Windows 10,2.34kg,123876.0,1920,1080,1,Intel Core i7,2.6,1,1,0,0,1280.0,Nvidia,0,1,0,2.34
+Lenovo,Notebook,15.6,8,No OS,2.3kg,30529.44,1920,1080,1,Intel Core i5,2.5,1,0,0,0,256.0,Intel,1,0,0,2.3
+Dell,2 in 1 Convertible,13.3,8,Windows 10,1.24kg,96596.64,3200,1800,0,Intel Core i5,1.2,1,0,0,0,256.0,Intel,1,0,0,1.24
+Dell,Notebook,15.6,4,Linux,2.2kg,17262.72,1366,768,0,Intel Pentium Quad,1.6,0,1,0,0,500.0,Intel,1,0,0,2.2
+HP,Notebook,15.6,4,Windows 10,1.86kg,21258.72,1366,768,0,AMD A6-Series 9220,2.5,0,1,0,0,500.0,AMD,0,0,1,1.86
+Lenovo,Notebook,15.6,6,Windows 10,2.4kg,30316.32,1920,1080,0,Intel Core i3,2.3,1,0,0,0,128.0,Nvidia,0,1,0,2.4
+Lenovo,Notebook,14,8,Windows 10,1.9kg,57116.16,1920,1080,1,Intel Core i5,2.3,1,0,0,0,256.0,Intel,1,0,0,1.9
+Dell,Notebook,15.6,4,Windows 10,2.2kg,23655.7872,1366,768,0,Intel Pentium Quad,1.6,0,1,0,0,500.0,Intel,1,0,0,2.2
+Asus,Notebook,15.6,4,Windows 10,2kg,18061.92,1366,768,0,Intel Celeron Dual,1.1,0,1,0,0,1024.0,Intel,1,0,0,2.0
+Asus,Gaming,17.3,16,Windows 10,4.0kg,101232.0,1920,1080,1,Intel Core i7,2.6,1,1,0,0,1152.0,Nvidia,0,1,0,4.0
+Dell,Notebook,15.6,4,Windows 10,2.29kg,26107.2,1366,768,0,Intel Core i3,2.0,0,1,0,0,500.0,Intel,1,0,0,2.29
+Lenovo,Notebook,15.6,8,Windows 7,2.32kg,47685.6,1920,1080,0,Intel Core i7,2.5,0,0,0,1,1024.0,AMD,0,0,1,2.32
+MSI,Gaming,15.6,8,Windows 10,2.4kg,65481.12,1920,1080,0,Intel Core i7,2.6,1,1,0,0,1152.0,Nvidia,0,1,0,2.4
+Lenovo,2 in 1 Convertible,14,4,Windows 10,1.8kg,44382.7728,1920,1080,0,Intel Core i5,2.3,1,0,0,0,128.0,Intel,1,0,0,1.8
+Asus,Ultrabook,13.3,8,Windows 10,1.2kg,38841.12,1920,1080,1,Intel Core M,0.9,1,0,0,0,512.0,Intel,1,0,0,1.2
+Dell,Notebook,15.6,6,Windows 10,2.3kg,24455.52,1366,768,0,Intel Core i3,2.4,0,1,0,0,1024.0,Intel,1,0,0,2.3
+Acer,Notebook,15.6,4,Linux,2.4kg,15397.92,1366,768,0,Intel Celeron Dual,1.6,0,1,0,0,500.0,Intel,1,0,0,2.4
+Dell,Notebook,15.6,2,Windows 10,2.20kg,20193.12,1366,768,0,Intel Celeron Dual,1.6,0,1,0,0,500.0,Intel,1,0,0,2.2
+Lenovo,Notebook,15.6,8,Windows 10,2.6kg,47898.72,1920,1080,1,Intel Core i7,2.6,0,1,0,0,1024.0,Nvidia,0,1,0,2.6
+HP,Notebook,15.6,6,Windows 10,2.04kg,29303.4672,1920,1080,0,AMD A9-Series 9410,2.9,0,0,0,1,1024.0,AMD,0,0,1,2.04
+Dell,Notebook,15.6,8,Linux,2.3kg,42943.1472,1366,768,0,Intel Core i7,2.7,0,1,0,0,1024.0,AMD,0,0,1,2.3
+HP,Netbook,11.6,2,Windows 10,1.17kg,11135.52,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,32.0,Intel,1,0,0,1.17
+Asus,Notebook,15.6,4,Windows 10,2.2kg,38378.6496,1366,768,0,Intel Core i7,2.5,0,1,0,0,500.0,Nvidia,0,1,0,2.2
+Lenovo,2 in 1 Convertible,14,4,Windows 10,1.8kg,33992.64,1920,1080,1,Intel Core i7,2.5,1,0,0,0,128.0,Intel,1,0,0,1.8
+Lenovo,2 in 1 Convertible,13.3,16,Windows 10,1.3kg,79866.72,3200,1800,1,Intel Core i7,2.5,1,0,0,0,512.0,Intel,1,0,0,1.3
+Lenovo,Notebook,14,2,Windows 10,1.5kg,12201.12,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,64.0,Intel,1,0,0,1.5
+HP,Notebook,15.6,6,Windows 10,2.19kg,40705.92,1366,768,0,Intel Core i7,2.5,0,1,0,0,1024.0,AMD,0,0,1,2.19
+Asus,Notebook,15.6,4,Windows 10,2.2kg,19660.32,1366,768,0,Intel Celeron Dual,1.6,0,1,0,0,500.0,Intel,1,0,0,2.2
+Asus,Ultrabook,13.3,8,Windows 10,1.2kg,38841.12,1920,1080,1,Intel Core M,0.9,1,0,0,0,512.0,Intel,1,0,0,1.2
+Dell,Notebook,15.6,6,Windows 10,2.3kg,24455.52,1366,768,0,Intel Core i3,2.4,0,1,0,0,1024.0,Intel,1,0,0,2.3
+Acer,Notebook,15.6,4,Linux,2.4kg,15397.92,1366,768,0,Intel Celeron Dual,1.6,0,1,0,0,500.0,Intel,1,0,0,2.4
+Dell,Notebook,15.6,2,Windows 10,2.20kg,20193.12,1366,768,0,Intel Celeron Dual,1.6,0,1,0,0,500.0,Intel,1,0,0,2.2
+Lenovo,Notebook,15.6,8,Windows 10,2.6kg,47898.72,1920,1080,1,Intel Core i7,2.6,0,1,0,0,1024.0,Nvidia,0,1,0,2.6
+HP,Notebook,15.6,6,Windows 10,2.04kg,29303.4672,1920,1080,0,AMD A9-Series 9410,2.9,0,0,0,1,1024.0,AMD,0,0,1,2.04
+Dell,Notebook,15.6,8,Linux,2.3kg,42943.1472,1366,768,0,Intel Core i7,2.7,0,1,0,0,1024.0,AMD,0,0,1,2.3
+HP,Netbook,11.6,2,Windows 10,1.17kg,11135.52,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,32.0,Intel,1,0,0,1.17
+Asus,Notebook,15.6,4,Windows 10,2.2kg,38378.6496,1366,768,0,Intel Core i7,2.5,0,1,0,0,500.0,Nvidia,0,1,0,2.2
+Lenovo,2 in 1 Convertible,14,4,Windows 10,1.8kg,33992.64,1920,1080,1,Intel Core i7,2.5,1,0,0,0,128.0,Intel,1,0,0,1.8
+Lenovo,2 in 1 Convertible,13.3,16,Windows 10,1.3kg,79866.72,3200,1800,1,Intel Core i7,2.5,1,0,0,0,512.0,Intel,1,0,0,1.3
+Lenovo,Notebook,14,2,Windows 10,1.5kg,12201.12,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,64.0,Intel,1,0,0,1.5
+HP,Notebook,15.6,6,Windows 10,2.19kg,40705.92,1366,768,0,Intel Core i7,2.5,0,1,0,0,1024.0,AMD,0,0,1,2.19
+Asus,Notebook,15.6,4,Windows 10,2.2kg,19660.32,1366,768,0,Intel Celeron Dual,1.6,0,1,0,0,500.0,Intel,1,0,0,2.2
+Asus,Ultrabook,13.3,8,Windows 10,1.2kg,38841.12,1920,1080,1,Intel Core M,0.9,1,0,0,0,512.0,Intel,1,0,0,1.2
+Dell,Notebook,15.6,6,Windows 10,2.3kg,24455.52,1366,768,0,Intel Core i3,2.4,0,1,0,0,1024.0,Intel,1,0,0,2.3
+Acer,Notebook,15.6,4,Linux,2.4kg,15397.92,1366,768,0,Intel Celeron Dual,1.6,0,1,0,0,500.0,Intel,1,0,0,2.4
+Dell,Notebook,15.6,2,Windows 10,2.20kg,20193.12,1366,768,0,Intel Celeron Dual,1.6,0,1,0,0,500.0,Intel,1,0,0,2.2
+Lenovo,Notebook,15.6,8,Windows 10,2.6kg,47898.72,1920,1080,1,Intel Core i7,2.6,0,1,0,0,1024.0,Nvidia,0,1,0,2.6
+HP,Notebook,15.6,6,Windows 10,2.04kg,29303.4672,1920,1080,0,AMD A9-Series 9410,2.9,0,0,0,1,1024.0,AMD,0,0,1,2.04
+Dell,Notebook,15.6,8,Linux,2.3kg,42943.1472,1366,768,0,Intel Core i7,2.7,0,1,0,0,1024.0,AMD,0,0,1,2.3
+HP,Netbook,11.6,2,Windows 10,1.17kg,11135.52,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,32.0,Intel,1,0,0,1.17
+Asus,Notebook,15.6,4,Windows 10,2.2kg,38378.6496,1366,768,0,Intel Core i7,2.5,0,1,0,0,500.0,Nvidia,0,1,0,2.2
+Lenovo,2 in 1 Convertible,14,4,Windows 10,1.8kg,33992.64,1920,1080,1,Intel Core i7,2.5,1,0,0,0,128.0,Intel,1,0,0,1.8
+Lenovo,2 in 1 Convertible,13.3,16,Windows 10,1.3kg,79866.72,3200,1800,1,Intel Core i7,2.5,1,0,0,0,512.0,Intel,1,0,0,1.3
+Lenovo,Notebook,14,2,Windows 10,1.5kg,12201.12,1366,768,0,Intel Celeron Dual,1.6,0,0,1,0,64.0,Intel,1,0,0,1.5
+HP,Notebook,15.6,6,Windows 10,2.19kg,40705.92,1366,768,0,Intel Core i7,2.5,0,1,0,0,1024.0,AMD,0,0,1,2.19
+Asus,Notebook,15.6,4,Windows 10,2.2kg,19660.32,1366,768,0,Intel Celeron Dual,1.6,0,1,0,0,500.0,Intel,1,0,0,2.2

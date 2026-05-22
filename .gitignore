@@ -20,6 +20,7 @@ data/raw/*
 !data/raw/raw_data_sample.csv
 !data/raw/.gitkeep
 data/processed/*
+!data/processed/cleaned_data_sample.csv
 !data/processed/.gitkeep
 
 # Quarto & Rendu

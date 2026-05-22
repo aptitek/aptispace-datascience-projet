@@ -2,6 +2,7 @@ import joblib
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+import numpy as np
 
 INR_TO_EUR = 0.0089
 
@@ -49,9 +50,10 @@ df = load_data()
 def load_model():
     model = joblib.load("models/random_forest_price_model.pkl")
     model_features = joblib.load("models/model_features.pkl")
-    return model, model_features
+    label_encoders = joblib.load("models/label_encoders.pkl")
+    return model, model_features, label_encoders
 
-model, model_features = load_model()
+model, model_features, label_encoders = load_model()
 
 with st.sidebar.expander("Filtres d’exploration", expanded=True):
     selected_companies = st.multiselect(
@@ -73,254 +75,324 @@ df_filtered = df[
 
 # Partie 1 : indicateurs clés
 with tab_market:
-  st.header("Vue d’ensemble du marché")
-  st.markdown("<br><br>", unsafe_allow_html=True)
+    st.header("Vue d’ensemble du marché")
+    st.markdown("<br><br>", unsafe_allow_html=True)
 
-  col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3, col4 = st.columns(4)
 
-  col1.metric("Nombre de laptops", len(df_filtered))
-  col2.metric("Prix moyen", f"{df_filtered['Price_EUR'].mean():,.0f} €")
-  col3.metric("Prix médian", f"{df_filtered['Price_EUR'].median():,.0f} €")
-  col4.metric("Prix max", f"{df_filtered['Price_EUR'].max():,.0f} €")
+    col1.metric("Nombre de laptops", len(df_filtered))
+    col2.metric("Prix moyen", f"{df_filtered['Price_EUR'].mean():,.0f} €")
+    col3.metric("Prix médian", f"{df_filtered['Price_EUR'].median():,.0f} €")
+    col4.metric("Prix max", f"{df_filtered['Price_EUR'].max():,.0f} €")
 
-  st.markdown("<br><br>", unsafe_allow_html=True)
+    st.markdown("<br><br>", unsafe_allow_html=True)
 
-  st.markdown("""
-  Ces indicateurs donnent une première vision du marché étudié : volume de données,
-  niveau moyen des prix et amplitude des valeurs observées.
-  """)
+    st.markdown("""
+    Ces indicateurs donnent une première vision du marché étudié : volume de données,
+    niveau moyen des prix et amplitude des valeurs observées.
+    """)
 
 # Partie 2 : 
 with tab_analysis:
-  st.header("1. Segments de marché : les modèles premium se démarquent")
+    st.header("1. Segments de marché : les modèles premium se démarquent")
 
-  st.info(
-      "Les Workstations et les modèles Gaming se positionnent sur les prix les plus élevés. "
-      "Les Netbooks et Notebooks restent les segments les plus accessibles."
-  )
-
-
-  type_order = (
-      df_filtered
-      .groupby("TypeName")["Price_EUR"]
-      .median()
-      .sort_values(ascending=False)
-      .index
-      .tolist()
-  )
-
-  fig_box_type = px.box(
-      df_filtered,
-      x="TypeName",
-      y="Price_EUR",
-      color="TypeName",
-      category_orders={"TypeName": type_order},
-      title="Distribution des prix par segment",
-      labels={
-          "TypeName": "Type d’ordinateur",
-          "Price_EUR": "Prix (€)"
-      }
-  )
-
-  fig_box_type.update_layout(
-      xaxis_tickangle=-30,
-      showlegend=False,
-      height=520,
-      margin=dict(l=20, r=20, t=60, b=80)
-  )
-
-  st.plotly_chart(fig_box_type, use_container_width=True)
+    st.info(
+        "Les Workstations et les modèles Gaming se positionnent sur les prix les plus élevés. "
+        "Les Netbooks et Notebooks restent les segments les plus accessibles."
+    )
 
 
-  #  graphique descriptif
-  st.header("2. La marque influence fortement le positionnement prix")
+    type_order = (
+        df_filtered
+        .groupby("TypeName")["Price_EUR"]
+        .median()
+        .sort_values(ascending=False)
+        .index
+        .tolist()
+    )
 
-  price_by_company = (
-      df_filtered
-      .groupby("Company", as_index=False)["Price_EUR"]
-      .mean()
-      .sort_values(by="Price_EUR", ascending=False)
-  )
+    fig_box_type = px.box(
+        df_filtered,
+        x="TypeName",
+        y="Price_EUR",
+        color="TypeName",
+        category_orders={"TypeName": type_order},
+        title="Distribution des prix par segment",
+        labels={
+            "TypeName": "Type d’ordinateur",
+            "Price_EUR": "Prix (€)"
+        }
+    )
 
-  fig_company = px.bar(
-      price_by_company,
-      x="Company",
-      y="Price_EUR",
-      title="Prix moyen des laptops par marque",
-      labels={
-          "Company": "Marque",
-          "Price_EUR": "Prix moyen",
-      },
-  )
+    fig_box_type.update_layout(
+        xaxis_tickangle=-30,
+        showlegend=False,
+        height=520,
+        margin=dict(l=20, r=20, t=60, b=80)
+    )
 
-  st.plotly_chart(fig_company, width='stretch')
+    st.plotly_chart(fig_box_type, use_container_width=True)
 
-  #  graphique descriptif
-  st.header("3. Certaines caractéristiques techniques expliquent mieux les écarts de prix")
 
-  available_features = [
-      "Ram",
-      "Cpu_Frequence_GHz",
-      "Res_Width",
-      "Res_Height",
-      "Inches",
-  ]
+    #  graphique descriptif
+    st.header("2. La marque influence fortement le positionnement prix")
 
-  available_features = [col for col in available_features if col in df.columns]
+    price_by_company = (
+        df_filtered
+        .groupby("Company", as_index=False)["Price_EUR"]
+        .mean()
+        .sort_values(by="Price_EUR", ascending=False)
+    )
 
-  selected_feature = st.selectbox(
-      "Choisir une caractéristique à comparer avec le prix",
-      available_features,
-  )
+    fig_company = px.bar(
+        price_by_company,
+        x="Company",
+        y="Price_EUR",
+        title="Prix moyen des laptops par marque",
+        labels={
+            "Company": "Marque",
+            "Price_EUR": "Prix moyen",
+        },
+    )
 
-  hover_columns = [
-      col for col in ["Company", "TypeName", "Cpu_Gamme", "has_ssd"]
-      if col in df_filtered.columns
-  ]
+    st.plotly_chart(fig_company, width='stretch')
 
-  fig_scatter = px.scatter(
-      df_filtered,
-      x=selected_feature,
-      y="Price_EUR",
-      color="Company",
-      hover_data=hover_columns,
-      title=f"Relation entre {selected_feature} et le prix",
-      labels={
-          selected_feature: selected_feature,
-          "Price_EUR": "Prix",
-          "Company": "Marque",
-      },
-  )
+    #  graphique descriptif
+    st.header("3. Certaines caractéristiques techniques expliquent mieux les écarts de prix")
 
-  st.plotly_chart(fig_scatter, width='stretch')
+    available_features = [
+        "Ram",
+        "Cpu_Frequence_GHz",
+        "Res_Width",
+        "Res_Height",
+        "Inches",
+    ]
 
-  st.markdown("""
-  Cette partie permet de comprendre les tendances présentes dans les données.
-  Elle justifie l’intérêt d’un modèle prédictif : le prix n’est pas aléatoire,
-  il dépend de plusieurs caractéristiques techniques et commerciales.
-  """)
+    available_features = [col for col in available_features if col in df.columns]
 
-# Partie 3 : simulateur de prédiction
+    selected_feature = st.selectbox(
+        "Choisir une caractéristique à comparer avec le prix",
+        available_features,
+    )
+
+    hover_columns = [
+        col for col in ["Company", "TypeName", "Cpu_Gamme", "has_ssd"]
+        if col in df_filtered.columns
+    ]
+
+    fig_scatter = px.scatter(
+        df_filtered,
+        x=selected_feature,
+        y="Price_EUR",
+        color="Company",
+        hover_data=hover_columns,
+        title=f"Relation entre {selected_feature} et le prix",
+        labels={
+            selected_feature: selected_feature,
+            "Price_EUR": "Prix",
+            "Company": "Marque",
+        },
+    )
+
+    st.plotly_chart(fig_scatter, width='stretch')
+
+    st.markdown("""
+    Cette partie permet de comprendre les tendances présentes dans les données.
+    Elle justifie l’intérêt d’un modèle prédictif : le prix n’est pas aléatoire,
+    il dépend de plusieurs caractéristiques techniques et commerciales.
+    """)
+
+    # Partie 3 : simulateur de prédiction
 with tab_prediction:
-  st.header("Simulateur de prix")
+    st.header("Simulateur de prix")
 
-  st.markdown("""
-  Saisissez les caractéristiques d’un laptop pour obtenir une estimation automatique du prix.
-  """)
+    st.markdown("""
+    Saisissez les caractéristiques d’un laptop pour obtenir une estimation automatique du prix.
+    """)
 
-  col_left, col_right = st.columns(2)
+    col_left, col_right = st.columns(2)
 
-  with col_left:
-      company = st.selectbox(
-          "Marque",
-          options=sorted(df["Company"].dropna().unique()),
-      )
+    with col_left:
+        company = st.selectbox(
+            "Marque",
+            options=sorted(df["Company"].dropna().astype(str).unique()),
+        )
 
-      type_name = st.selectbox(
-          "Type de laptop",
-          options=sorted(df["TypeName"].dropna().unique()),
-      )
+        type_name = st.selectbox(
+            "Type de laptop",
+            options=sorted(df["TypeName"].dropna().astype(str).unique()),
+        )
 
-      cpu_gamme = st.selectbox(
-          "Gamme CPU",
-          options=sorted(df["Cpu_Gamme"].dropna().unique()) if "Cpu_Gamme" in df.columns else ["Unknown"],
-      )
+        op_sys = st.selectbox(
+            "Système d’exploitation",
+            options=sorted(df["OpSys"].dropna().astype(str).unique()),
+        )
 
-      ram = st.number_input(
-          "RAM en Go",
-          min_value=2,
-          max_value=64,
-          value=8,
-          step=2,
-      )
+        cpu_gamme = st.selectbox(
+            "Gamme CPU",
+            options=sorted(df["Cpu_Gamme"].dropna().astype(str).unique()),
+        )
 
-  with col_right:
-      inches = st.number_input(
-          "Taille écran en pouces",
-          min_value=10.0,
-          max_value=20.0,
-          value=15.6,
-          step=0.1,
-      )
+        ram = st.number_input(
+            "RAM en Go",
+            min_value=2,
+            max_value=64,
+            value=8,
+            step=2,
+        )
 
-      cpu_freq = st.number_input(
-          "Fréquence CPU en GHz",
-          min_value=0.5,
-          max_value=5.0,
-          value=2.5,
-          step=0.1,
-      )
+        total_memory_gb = st.number_input(
+            "Stockage total en Go",
+            min_value=32,
+            max_value=4000,
+            value=512,
+            step=32,
+        )
 
-      res_width = st.number_input(
-          "Résolution largeur",
-          min_value=800,
-          max_value=4000,
-          value=1920,
-          step=100,
-      )
+    with col_right:
+        inches = st.number_input(
+            "Taille écran en pouces",
+            min_value=10.0,
+            max_value=20.0,
+            value=15.6,
+            step=0.1,
+        )
 
-      res_height = st.number_input(
-          "Résolution hauteur",
-          min_value=600,
-          max_value=2500,
-          value=1080,
-          step=100,
-      )
+        weight_kg = st.number_input(
+            "Poids en kg",
+            min_value=0.5,
+            max_value=5.0,
+            value=2.0,
+            step=0.1,
+        )
 
-  has_ssd_label = st.radio(
-      "Présence d’un SSD",
-      options=["Oui", "Non"],
-      horizontal=True,
-  )
+        cpu_freq = st.number_input(
+            "Fréquence CPU en GHz",
+            min_value=0.5,
+            max_value=5.0,
+            value=2.5,
+            step=0.1,
+        )
 
-  has_ssd = 1 if has_ssd_label == "Oui" else 0
+        res_width = st.number_input(
+            "Résolution largeur",
+            min_value=800,
+            max_value=4000,
+            value=1920,
+            step=100,
+        )
 
-  # Construction de la ligne utilisateur
-  input_data = pd.DataFrame([{
-      "Company": company,
-      "TypeName": type_name,
-      "Cpu_Gamme": cpu_gamme,
-      "Ram": ram,
-      "Inches": inches,
-      "Cpu_Frequence_GHz": cpu_freq,
-      "Res_Width": res_width,
-      "Res_Height": res_height,
-      "has_ssd": has_ssd,
-  }])
+        res_height = st.number_input(
+            "Résolution hauteur",
+            min_value=600,
+            max_value=2500,
+            value=1080,
+            step=100,
+        )
+    st.markdown("### Options techniques")
 
-  # Encodage des variables catégorielles
-  input_encoded = pd.get_dummies(input_data)
+    col_a, col_b, col_c, col_d = st.columns(4)
 
-  # Alignement avec les colonnes du modèle
-  input_encoded = input_encoded.reindex(columns=model_features, fill_value=0)
+    with col_a:
+        has_ssd_label = st.radio(
+            "SSD",
+            options=["Oui", "Non"],
+            horizontal=True,
+        )
 
-  if st.button("Estimer le prix"):
-      # Le modèle prédit en roupies car il a été entraîné sur Price
-      predicted_price_inr = model.predict(input_encoded)[0]
+    with col_b:
+        has_hdd_label = st.radio(
+            "HDD",
+            options=["Oui", "Non"],
+            horizontal=True,
+        )
 
-      # Conversion en euros pour l'affichage
-      predicted_price_eur = predicted_price_inr * INR_TO_EUR
+    with col_c:
+        is_ips_label = st.radio(
+            "Écran IPS",
+            options=["Oui", "Non"],
+            horizontal=True,
+        )
 
-      # Fourchette indicative basée sur l'erreur moyenne du modèle
-      lower_price_eur = max(0, predicted_price_eur - MAE_EUR)
-      upper_price_eur = predicted_price_eur + MAE_EUR
+    with col_d:
+        gpu_brand = st.selectbox(
+            "GPU",
+            options=["Intel", "Nvidia", "AMD", "Autre"],
+        )
 
-      st.success(f"Prix estimé : {predicted_price_eur:,.0f} €")
+    has_ssd = 1 if has_ssd_label == "Oui" else 0
+    has_hdd = 1 if has_hdd_label == "Oui" else 0
+    is_ips = 1 if is_ips_label == "Oui" else 0
 
-      st.info(
-          f"Fourchette indicative : entre {lower_price_eur:,.0f} € "
-          f"et {upper_price_eur:,.0f} €"
-      )
+    has_intel_gpu = 1 if gpu_brand == "Intel" else 0
+    has_nvidia_gpu = 1 if gpu_brand == "Nvidia" else 0
+    has_amd_gpu = 1 if gpu_brand == "AMD" else 0
 
-      st.caption(
-          f"Cette fourchette est basée sur l'erreur moyenne du modèle "
-          f"MAE ≈ {MAE_EUR:,.0f} €, soit {MAE_INR:,.0f} ₹."
-      )
+    # Construction de la ligne utilisateur
+    input_data = pd.DataFrame([{
+        "Company": company,
+        "TypeName": type_name,
+        "OpSys": op_sys,
+        "Cpu_Gamme": cpu_gamme,
+        "Inches": inches,
+        "Ram": ram,
+        "Cpu_Frequence_GHz": cpu_freq,
+        "weight_kg": weight_kg,
+        "total_memory_gb": total_memory_gb,
+        "Res_Width": res_width,
+        "Res_Height": res_height,
+        "has_ssd": has_ssd,
+        "has_hdd": has_hdd,
+        "has_intel_gpu": has_intel_gpu,
+        "has_nvidia_gpu": has_nvidia_gpu,
+        "has_amd_gpu": has_amd_gpu,
+        "Is_IPS": is_ips,
+    }])
 
-      st.markdown("""
-  Le modèle fournit une estimation du prix, mais cette valeur reste une prédiction.
-  Pour communiquer cette incertitude, le dashboard affiche également une fourchette indicative basée sur l'erreur moyenne observée lors de l'évaluation du modèle.
-      """)
+    input_encoded = input_data.copy()
+
+    for col, encoder in label_encoders.items():
+        if col in input_encoded.columns:
+            encoded_values = encoder.transform(input_encoded[col].astype(str))
+            input_encoded[f"{col}_enc"] = np.asarray(encoded_values, dtype=np.int64)
+
+    input_encoded = input_encoded.drop(
+        columns=list(label_encoders.keys()),
+        errors="ignore"
+    )
+
+    input_encoded = input_encoded.reindex(
+        columns=model_features,
+        fill_value=0
+    )
+
+    if st.button("Estimer le prix"):
+        # Le modèle prédit en roupies car il a été entraîné sur Price
+        predicted_price_inr = model.predict(input_encoded)[0]
+
+        # Conversion en euros pour l'affichage
+        predicted_price_eur = predicted_price_inr * INR_TO_EUR
+
+        # Fourchette indicative basée sur l'erreur moyenne du modèle
+        lower_price_eur = max(0, predicted_price_eur - MAE_EUR)
+        upper_price_eur = predicted_price_eur + MAE_EUR
+
+        st.success(f"Prix estimé : {predicted_price_eur:,.0f} €")
+
+        st.info(
+            f"Fourchette indicative : entre {lower_price_eur:,.0f} € "
+            f"et {upper_price_eur:,.0f} €"
+        )
+
+        st.caption(
+            f"Cette fourchette est basée sur l'erreur moyenne du modèle "
+            f"MAE ≈ {MAE_EUR:,.0f} €."
+        )
+
+        st.markdown("""
+    Le modèle fournit une estimation du prix, mais cette valeur reste une prédiction.
+    Pour communiquer cette incertitude, le dashboard affiche également une fourchette indicative basée sur l'erreur moyenne observée lors de l'évaluation du modèle.
+        """)
 
 # Conclusion
 with tab_conclusion:
