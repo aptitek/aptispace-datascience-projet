@@ -5,9 +5,15 @@ Demeuni, Étudiant(e) 3 : Aurélie Demure
 
 ### Dashboard interactif
 
-Le dashboard est disponible dans le fichier `dashboard.py`.
+Le dashboard est visible sur ce lien : 
 
-Pour le lancer localement, il faut se placer à la racine du projet puis exécuter :
+```bash
+https://data-science-project-v8hxwnzwhtiperpwernkvr.streamlit.app/
+```
+
+Si le lien ne fonctionne pas, vous pouvez visualiser le dashboard localement.
+
+Pour le lancer il faut se placer à la racine du projet puis exécuter :
 
 ```bash
 pip install requirements.txt
